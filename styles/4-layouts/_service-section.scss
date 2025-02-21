@@ -1,0 +1,267 @@
+.service-section {
+    @include screen(lg) {
+        position: relative;
+        isolation: isolate;
+        padding-top: clamp(3.75rem, 6.5vw, 7.5rem);
+        overflow: hidden;
+    }
+
+    &::after {
+        @include screen(lg) {
+            content: '';
+            width: 50%;
+            max-width: 745px;
+            position: absolute;
+            inset-block: 0;
+            inset-inline-start: 50%;
+            transform-origin: right;
+            background-image: url(/images/it-solutions-service.jpg);
+            background-size: cover;
+            background-position: right center;
+            background-repeat: no-repeat;
+            z-index: 0;
+        }
+
+        @include screen(xxl) {
+            width: 1320px;
+            transform: translateX(-50%);
+            max-width: unset;
+            background-size: 50% 100%;
+        }
+    }
+
+    &__content {
+        padding-top: clamp(3.75rem, 6.5vw, 7.5rem);
+
+        @include screen(lg) {
+            padding-bottom: clamp(3.75rem, 6.5vw, 7.5rem);
+        }
+    }
+}
+
+.ai-service-section {
+    @include screen(lg) {
+        position: relative;
+        isolation: isolate;
+        padding-top: clamp(3.75rem, 6.5vw, 7.5rem);
+        overflow: hidden;
+    }
+
+    &::after {
+        @include screen(lg) {
+            content: '';
+            width: 50%;
+            max-width: 745px;
+            position: absolute;
+            inset-block: 0;
+            inset-inline-start: 50%;
+            transform-origin: right;
+            background-image: url(/images/ai.jpg);
+            background-size: cover;
+            background-position: right center;
+            background-repeat: no-repeat;
+            z-index: 0;
+        }
+
+        @include screen(xxl) {
+            width: 1320px;
+            transform: translateX(-50%);
+            max-width: unset;
+            background-size: 50% 100%;
+        }
+    }
+
+    &__content {
+        padding-top: clamp(3.75rem, 6.5vw, 7.5rem);
+
+        @include screen(lg) {
+            padding-bottom: clamp(3.75rem, 6.5vw, 7.5rem);
+        }
+    }
+}
+
+.field-service-section {
+    @include screen(lg) {
+        position: relative;
+        isolation: isolate;
+        padding-top: clamp(3.75rem, 6.5vw, 7.5rem);
+        overflow: hidden;
+    }
+
+    &::after {
+        @include screen(lg) {
+            content: '';
+            width: 50%;
+            max-width: 745px;
+            position: absolute;
+            inset-block: 0;
+            inset-inline-start: 50%;
+            transform-origin: right;
+            background-image: url(/images/technician.jpg);
+            background-size: cover;
+            background-position: right center;
+            background-repeat: no-repeat;
+            z-index: 0;
+        }
+
+        @include screen(xxl) {
+            width: 1320px;
+            transform: translateX(-50%);
+            max-width: unset;
+            background-size: 50% 100%;
+        }
+    }
+
+    &__content {
+        padding-top: clamp(3.75rem, 6.5vw, 7.5rem);
+
+        @include screen(lg) {
+            padding-bottom: clamp(3.75rem, 6.5vw, 7.5rem);
+        }
+    }
+}
+
+.cloud-service-section {
+    @include screen(lg) {
+        position: relative;
+        isolation: isolate;
+        padding-top: clamp(3.75rem, 6.5vw, 7.5rem);
+        overflow: hidden;
+    }
+
+    &::after {
+        @include screen(lg) {
+            content: '';
+            width: 50%;
+            max-width: 745px;
+            position: absolute;
+            inset-block: 0;
+            inset-inline-start: 50%;
+            transform-origin: right;
+            background-image: url(/images/cloud-services.jpg);
+            background-size: cover;
+            background-position: right center;
+            background-repeat: no-repeat;
+            z-index: 0;
+        }
+
+        @include screen(xxl) {
+            width: 1320px;
+            transform: translateX(-50%);
+            max-width: unset;
+            background-size: 50% 100%;
+        }
+    }
+
+    &__content {
+        padding-top: clamp(3.75rem, 6.5vw, 7.5rem);
+
+        @include screen(lg) {
+            padding-bottom: clamp(3.75rem, 6.5vw, 7.5rem);
+        }
+    }
+}
+
+
+.aichatbot-service-section {
+    @include screen(lg) {
+        position: relative;
+        isolation: isolate;
+        padding-top: clamp(3.75rem, 6.5vw, 7.5rem);
+        overflow: hidden;
+    }
+
+    &::after {
+        @include screen(lg) {
+            content: '';
+            width: 50%;
+            max-width: 745px;
+            position: absolute;
+            inset-block: 0;
+            inset-inline-start: 50%;
+            transform-origin: right;
+            background-image: url(/images/aichatbot.jpg);
+            background-size: cover;
+            background-position: right center;
+            background-repeat: no-repeat;
+            z-index: 0;
+        }
+
+        @include screen(xxl) {
+            width: 1320px;
+            transform: translateX(-50%);
+            max-width: unset;
+            background-size: 50% 100%;
+        }
+    }
+
+    &__content {
+        padding-top: clamp(3.75rem, 6.5vw, 7.5rem);
+
+        @include screen(lg) {
+            padding-bottom: clamp(3.75rem, 6.5vw, 7.5rem);
+        }
+    }
+}
+
+
+.custom-solutions-service-section {
+    @include screen(lg) {
+        position: relative;
+        isolation: isolate;
+        padding-top: clamp(3.75rem, 6.5vw, 7.5rem);
+        overflow: hidden;
+    }
+
+    &::after {
+        @include screen(lg) {
+            content: '';
+            width: 50%;
+            max-width: 745px;
+            position: absolute;
+            inset-block: 0;
+            inset-inline-start: 50%;
+            transform-origin: right;
+            background-image: url(/images/solutions.jpg);
+            background-size: cover;
+            background-position: right center;
+            background-repeat: no-repeat;
+            z-index: 0;
+        }
+
+        @include screen(xxl) {
+            width: 1320px;
+            transform: translateX(-50%);
+            max-width: unset;
+            background-size: 50% 100%;
+        }
+    }
+
+    &__content {
+        padding-top: clamp(3.75rem, 6.5vw, 7.5rem);
+
+        @include screen(lg) {
+            padding-bottom: clamp(3.75rem, 6.5vw, 7.5rem);
+        }
+    }
+}
+
+
+
+[dir="rtl"] {
+    .service-section {
+        &::after {
+            @include screen(lg) {
+                transform: translateX(0);
+            }
+
+            @include screen(xl) {
+                transform: translateX(0) scale(1.2);
+            }
+
+            @include screen(xxl) {
+                transform: translateX(0) scale(1.3);
+            }
+        }
+    }
+}
