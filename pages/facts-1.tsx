@@ -20,7 +20,7 @@ const facts_1 = () => {
   }, []);
   return (
     <>
-      <Navbar rtlurl="/rtl/facts-1" />
+      <Navbar rtlurl="/" />
       <section className="banner-section section--sm">
         <div className="container">
           <div className="row">

@@ -29,7 +29,7 @@ const About = () => {
                       <div className="section__gap-bottom pb-lg-0">
                         <span className="d-block h5 lh-1 fw-semibold clr-base">
                           {" "}
-                          Boost Business Efficiency with Expert Field Tech Solutions{" "}
+                          Boost Sales & Efficiency with Our Smart POS Solutions{" "}
                         </span>
                         <h2 className="mt-5 mb-5">
                           {" "}
@@ -37,8 +37,8 @@ const About = () => {
                         </h2>
                         <p className="mb-8 max-text-60">
                           {" "}
-                          uzisystem guarantees seamless field operations with meticulous attention to detail, ensuring smooth system performance. Our innovative Minified Technology protects client databases 
-                          and builds secure firewalls on-site, safeguarding your business infrastructure.{" "}
+                          CODEDEXIT Ltd guarantees seamless sales operations with precision and efficiency, ensuring a smooth and hassle-free POS experience. Our advanced technology secures transactions,
+                           protects customer data, and optimizes business performance for unstoppable growth.{" "}
                         </p>
                         <Link
                           href="about-us"

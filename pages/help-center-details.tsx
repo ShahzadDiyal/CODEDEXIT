@@ -10,7 +10,7 @@ const help_center_details = () => {
   }, []);
   return (
     <>
-      <Navbar rtlurl="/rtl/help-center-details" />
+      <Navbar rtlurl />
       {/* Banner */}
       <section className="banner-section section--sm">
         <div className="container">

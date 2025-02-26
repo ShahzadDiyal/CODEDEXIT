@@ -29,7 +29,7 @@ const about_us = () => {
       },[])
       return (
     <>
-      <Navbar rtlurl="/rtl/about-us"/>
+      <Navbar rtlurl={"/"}/>
       {/* Banner Section */}
       <section className="banner-section section--sm">
         <div className="container">

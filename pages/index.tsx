@@ -1,56 +1,73 @@
 import Head from "next/head";
-import Navbar from "@/components/Navbar";
-import Hero from "@/components/Hero";
-import Service from "@/components/Service";
-import About from "@/components/About";
-import Team from "@/components/Team";
-import Footer from "@/components/Footer";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 
-export default function Home() {
+import About from "@/components/About";
+import Consult from "@/components/Consult";
+import Footer from "@/components/Footer";
+import Hero from "@/components/Hero";
+import Navbar from "@/components/Navbar";
+import Products from "@/components/Products";
+import Service from "@/components/Service";
+import Team from "@/components/Team";
+import Testimonial from "@/components/Testimonial";
+import News from "@/components/News";
+import Career from "@/components/Career";
+
+const HomePage = () => {
   const [scrolled, setScrolled] = useState(false);
 
+  const heroRef = useRef(null);
+  const productRef = useRef(null);
+  const serviceRef = useRef(null);
+  const aboutRef = useRef(null);
+  const teamRef = useRef(null);
+  const newsRef = useRef(null);
+  const careerRef = useRef(null);
+  const testimonialRef = useRef(null);
+  const contactRef = useRef(null);
+
   useEffect(() => {
-    document.addEventListener("scroll", () => {
-      if (window.scrollY > 100) {
-        setScrolled(true);
-      } else {
-        setScrolled(false);
-      }
-    });
+    document.documentElement.setAttribute("dir", "ltr");
+
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 100);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-  const backtoTop = () => {
+
+  const backToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
+
   return (
     <>
       <Head>
-        <title>Itechex - IT Solution & Services HTML Template</title>
-        <meta name="description" content="IT Solution & Services HTML Template" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <title>Coded Exit Ltd.</title>
       </Head>
-      <>
-        <div
-          onClick={backtoTop}
-          className={`back-to-top ${scrolled ? "d-block" : "d-none"}`}>
-          <span className="back-top">
-            <span className="material-symbols-outlined mat-icon fw-300 d-grid">
-              {" "}
-              keyboard_double_arrow_up{" "}
-            </span>
-          </span>
-        </div>
 
-        <Navbar rtlurl="/rtl/service" />
-        <Hero />
-        <Service />
-        <About />
-        <Team />
-        <Footer />
-      </>
+      <div onClick={backToTop} className={`back-to-top ${scrolled ? "d-block" : "d-none"}`}>
+        <span className="back-top">
+          <span className="material-symbols-outlined mat-icon fw-300">keyboard_double_arrow_up</span>
+        </span>
+      </div>
+
+      <Navbar scrollToSection={(ref) => ref.current?.scrollIntoView({ behavior: "smooth" })} sections={{
+        heroRef, productRef, serviceRef, aboutRef, teamRef, newsRef, careerRef, testimonialRef, contactRef
+      }} rtlurl/>
+
+      <section ref={heroRef}><Hero /></section>
+      <section ref={productRef}><Products /></section>
+      <section ref={serviceRef}><Service /></section>
+      <section ref={aboutRef}><About /></section>
+      <section ref={teamRef}><Team /></section>
+      <section ref={newsRef}><News /></section>
+      <section ref={careerRef}><Career /></section>
+      <section ref={testimonialRef}><Testimonial /></section>
+      <Footer />
     </>
   );
-}
+};
 
-Home.getLayout = function getLayout(page: React.ComponentType<any>) { return <>{page}</>; };
+export default HomePage;

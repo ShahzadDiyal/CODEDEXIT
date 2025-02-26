@@ -15,7 +15,7 @@ const Team = () => {
               <div className="col-md-9 col-lg-8 col-xxl-7">
                 <span className="d-block h5 lh-1 fw-semibold clr-base text-center">
                   {" "}
-                  We have Large No of Expert Team Member{" "}
+                  Our Team{" "}
                 </span>
                 <h2 className="mt-5 mb-5 text-center">
                   {" "}
@@ -36,16 +36,16 @@ const Team = () => {
               <div className="team-card-1 text-center">
                 <div className="team-card-1__img mx-auto">
                   <img
-                    src="/images/team-5.png"
+                    src="/images/rizwanzamanpic.jpg"
                     alt="image"
                     className="team-card-1__img-is"
                   />
                 </div>
                 <div className="team-card-1__body mt-10">
-                  <h5 className="text-center"> Bessie Cooper </h5>
+                  <h5 className="text-center"> Rizwan Zaman </h5>
                   <p className="text-center mt-1 mb-4 clr-accent">
                     {" "}
-                    IT Manager{" "}
+                   Software Engineer{" "}
                   </p>
                   <ul className="list list-xs list-row justify-content-center">
                     <li>
@@ -84,16 +84,16 @@ const Team = () => {
               <div className="team-card-1 text-center">
                 <div className="team-card-1__img mx-auto">
                   <img
-                    src="/images/team-6.png"
+                    src="/images/shahzad.png"
                     alt="image"
                     className="team-card-1__img-is"
                   />
                 </div>
                 <div className="team-card-1__body mt-10">
-                  <h5 className="text-center"> Jerome Bell </h5>
+                  <h5 className="text-center"> Shahzad Diyal </h5>
                   <p className="text-center mt-1 mb-4 clr-accent">
                     {" "}
-                    Service Manager{" "}
+                   Frontend Engineer{" "}
                   </p>
                   <ul className="list list-xs list-row justify-content-center">
                     <li>
@@ -132,16 +132,16 @@ const Team = () => {
               <div className="team-card-1 text-center">
                 <div className="team-card-1__img mx-auto">
                   <img
-                    src="/images/team-7.png"
+                    src="/images/kamran-qa.jpg"
                     alt="image"
                     className="team-card-1__img-is"
                   />
                 </div>
                 <div className="team-card-1__body mt-10">
-                  <h5 className="text-center"> Emma stone </h5>
+                  <h5 className="text-center">Kamran Khan</h5>
                   <p className="text-center mt-1 mb-4 clr-accent">
                     {" "}
-                    Managing Director{" "}
+                    QA Expert{" "}
                   </p>
                   <ul className="list list-xs list-row justify-content-center">
                     <li>

@@ -138,7 +138,7 @@ const faq = () => {
   }, []);
   return (
     <>
-      <Navbar rtlurl="/rtl/faq-1" />
+      <Navbar rtlurl="/rtl/faq" />
       {/* Banner Section */}
       <section className="banner-section section--sm">
         <div className="container">

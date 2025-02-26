@@ -76,18 +76,7 @@ const Mobilemenu = () => {
                   Home
                 </Link>
                 <ul className={`list mobile-menu__sub ${activeMenu == 'Home' && 'd-block'}`}>
-                  {/* <li>
-                    <Link href="/" className="mobile-menu__sub-link" onClick={openMobileMenu}>
-                      {" "}
-                      Home 1{" "}
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/home-2" className="mobile-menu__sub-link" onClick={openMobileMenu}>
-                      {" "}
-                      Home 2{" "}
-                    </Link>
-                  </li> */}
+                  
                   <li>
                     <Link href="/home-3" className="mobile-menu__sub-link" onClick={openMobileMenu}>
                       {" "}

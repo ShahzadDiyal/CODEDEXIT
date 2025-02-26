@@ -10,7 +10,7 @@ const coming_soon = () => {
   return (
     <>
       {/* Navbar */}
-      <Navbar rtlurl="/rtl/coming-soon" />
+      <Navbar rtlurl=""/>
       {/* Banner Section */}
       <section className="banner-section section--sm">
         <div className="container">

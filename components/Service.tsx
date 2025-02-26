@@ -11,14 +11,13 @@ const Service = () => {
                 {" "}
                 We Provide the following services{" "}
               </span>
-              <h2 className="mt-5 mb-5 text-center">
+              <h3 className="mt-5 mb-5 text-center">
                 {" "}
-                For your future prosperity, we provide world-class IT services.{" "}
-              </h2>
+                World-Class POS Services for Growth{" "}
+              </h3>
               <p className="text-center mx-auto t-short-para">
                 {" "}
-                We Offer Trusted, Professional IT Service & Technology Solution.
-                Let's Make Your Dream Business Link reality{" "}
+                Empowering retail, restaurants, and service industries with cutting-edge technology. Let’s turn your business vision into reality!{" "}
               </p>
             </div>
           </div>
@@ -29,7 +28,7 @@ const Service = () => {
           <div className="col-md-6 col-lg-4">
             <div className="service-card service-card--1">
               <div className="icon-box icon-box--md circle bg-danger flex-shrink-0">
-                <img src="/images/icon-2.png" alt="image" />
+                <img src="/images/customization.png" alt="image" />
               </div>
               <div className="flex-grow-1">
                 <h5 className="mb-2">Custom POS </h5>
@@ -53,7 +52,7 @@ const Service = () => {
           <div className="col-md-6 col-lg-4">
             <div className="service-card service-card--1">
               <div className="icon-box icon-box--md circle bg-success flex-shrink-0">
-                <img src="/images/icon-3.png" alt="image" />
+                <img src="/images/connection.png" alt="image" />
               </div>
               <div className="flex-grow-1">
                 <h5 className="mb-2">POS Integration </h5>
@@ -77,7 +76,7 @@ const Service = () => {
           <div className="col-md-6 col-lg-4">
             <div className="service-card service-card--1">
               <div className="icon-box icon-box--md circle bg-warning flex-shrink-0">
-                <img src="/images/icon-4.png" alt="image" />
+                <img src="/images/cloud-computing.png" alt="image" />
               </div>
               <div className="flex-grow-1">
                 <h5 className="mb-2">Cloud-Based POS</h5>

@@ -11,14 +11,14 @@
                   {" "}
                   Our POS Products{" "}
                 </span>
-                <h2 className="mt-5 mb-5 text-center">
+                <h3 className="mt-5 mb-5 text-center">
                   {" "}
                   Trusted & Professional POS Solutions{" "}
-                </h2>
+                </h3>
                 <p className="text-center mx-auto t-short-para">
                   {" "}
-                  Take your business to the next level with our advanced POS systems designed for retail, restaurants, and
-                  service industries. Let’s turn your dream business into reality!{" "}
+                  Designed for retail, restaurants, and service industries, our advanced POS system streamlines operations, boosts
+                   efficiency, and drives growth. Transform your vision into success today!{" "}
                 </p>
               </div>
             </div>
@@ -57,7 +57,7 @@
             <div className="col-md-6 col-lg-4">
               <div className="service-card service-card--1">
                 <div className="icon-box icon-box--md circle bg-success flex-shrink-0">
-                  <img src="/images/icon-3.png" alt="image" />
+                  <img src="/images/lamp.png" alt="image" />
                 </div>
                 <div className="flex-grow-1">
                   <h5 className="mb-2">Lightspeed POS</h5>
@@ -119,7 +119,7 @@
                     <span className="bttn__arrow"> Contact Us </span>
                   </Link>
                   <Link
-                    href="contact-us"
+                    href="#"
                     className="bttn bttn--stroke-outline bttn-md bttn-pill fw-md flex-shrink-0 align-items-center">
                     <span className="bttn__arrow"> More Products </span>
                   </Link>

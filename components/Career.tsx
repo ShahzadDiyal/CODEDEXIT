@@ -10,14 +10,15 @@ const Careers = () => {
   }, []);
 
   return (
-    <div className={`section ${theme === "dark" ? "bg-gray-900 text-white" : "bg-white text-gray-900"}`} style={{backgroundColor:"#ececec",paddingTop:"0px"}} >
+    <div className={`section ${theme === "dark" ? "bg-gray-900 text-white" : "bg-white text-gray-900"}`}  >
       <div className="container mx-auto p-5" style={{}}>
         <div className="mt-10 text-center">
-          <h2 className="text-2xl font-bold text-primary">Our Careers</h2>
-          <p className="mt-2 mb-6 text-black">Be a part of a dynamic team where we Design, Develop, and Deploy Innovative Solutions that Transform Businesses.</p>
+          <h2 className="text-2xl font-bold">Our Careers</h2>
+          
+          <p className="mt-2 mb-6 text-primary" style={{color:"#4d2eff"}}>{" "} Be a part of a dynamic team where we Design, Develop, and Deploy Innovative Solutions that Transform Businesses.{" "}</p>
           <div className="flex justify-center">
             <div>
-              <img src="https://mfsys.ca/wp-content/uploads/2019/06/career-img.jpg" alt="Life at MFSYS" className="rounded-lg shadow-md" style={{width:"100%"}}/>
+              <img src="/images/ourcareer.jpg" alt="Life at MFSYS" className="rounded-lg shadow-md" style={{width:"100%"}}/>
             </div>
           </div>
         </div>

@@ -46,15 +46,15 @@ const Hero = () => {
                 <div className="hero-slider-1__item">
                   <span className="d-block h4 fw-semibold clr-accent mb-5">
                     {" "}
-                    Point of Sale{" "}
+                    Sell Smarter, Grow Faster!{" "}
                   </span>
-                  <h3 className="clr-light mb-5">
+                  <h2 className="clr-light mb-5">
                     {" "}
-                    Smart Tools to Streamline Your Point of Sale Operations{" "}
-                  </h3>
+                    Next-Gen POS for a Hassle-Free Retail Experience{" "}
+                  </h2>
                   <p className="t-short-para clr-light xl-text mb-10">
                     {" "}
-                    Our primary objective is to be the leading global provider of Point of sale solutions.{" "}
+                    From checkout to analytics, take full control and maximize efficiency.{" "}
                   </p>
                   <div className="group group-sm-row align-items-start align-items-sm-center">
                     <Link
@@ -101,16 +101,16 @@ const Hero = () => {
                 <div className="hero-slider-1__item">
                   <span className="d-block h4 fw-semibold clr-accent mb-5">
                     {" "}
-                    AI & Chatbot{" "}
+                    Elevate Your Business with Smart POS{" "}
                   </span>
                   <h2 className="clr-light mb-5">
                     {" "}
-                    AI and chatbots enhance business through intelligent support.{" "}
+                    Fast, Secure & Scalable – The Ultimate Sales Solution.{" "}
                   </h2>
                   <p className="t-short-para clr-light xl-text mb-10">
                     {" "}
-                    Our primary objective is to become the leading global provider of AI & Chatbot solutions.{" "}
-                  </p>
+                    Seamlessly process transactions, track inventory, and manage customers with ease.{" "}
+                  </p>  
                   <div className="group group-sm-row align-items-start align-items-sm-center">
                     <Link
                       href="contact-us"
@@ -156,15 +156,15 @@ const Hero = () => {
                 <div className="hero-slider-1__item">
                   <span className="d-block h4 fw-semibold clr-accent mb-5">
                     {" "}
-                    Cloud Services{" "}
+                    The Future of POS is Here{" "}
                   </span>
                   <h2 className="clr-light mb-5">
                     {" "}
-                    Cloud solutions enhance business flexibility and efficiency.{" "}
+                    Empower Your Business with a Smart & Seamless Point of Sale System.{" "}
                   </h2>
                   <p className="t-short-para clr-light xl-text mb-10">
                     {" "}
-                    Our primary objective is to be the most trusted global provider of Cloud Services.{" "}
+                    Effortlessly manage sales, inventory, and customers—all in one powerful platform.{" "}
                   </p>
                   <div className="group group-sm-row align-items-start align-items-sm-center">
                     <Link
