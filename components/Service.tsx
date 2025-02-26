@@ -26,41 +26,16 @@ const Service = () => {
       </div>
       <div className="container">
         <div className="row g-3 g-xxl-4 justify-content-center">
-          {/* <div className="col-md-6 col-lg-4">
-            <div className="service-card service-card--1">
-              <div className="icon-box icon-box--md circle bg-base flex-shrink-0">
-                <img src="/images/icon-1.png" alt="image" />
-              </div>
-              <div className="flex-grow-1">
-                <h5 className="mb-2">IT Solution</h5>
-                <p className="mb-5">
-                  {" "}
-                  We offer the most responsive, innovative, and functional IT solutions to enterprises and
-                   businesses worldwide, ensuring efficiency, growth, and success.{" "}
-                </p>
-                <Link
-                  href="it-solutions-service"
-                  className="t-link t-link--base fw-md">
-                  {" "}
-                  Discover Now{" "}
-                  <span className="material-symbols-outlined mat-icon fw-200">
-                    {" "}
-                    trending_flat{" "}
-                  </span>
-                </Link>
-              </div>
-            </div>
-          </div> */}
           <div className="col-md-6 col-lg-4">
             <div className="service-card service-card--1">
               <div className="icon-box icon-box--md circle bg-danger flex-shrink-0">
                 <img src="/images/icon-2.png" alt="image" />
               </div>
               <div className="flex-grow-1">
-                <h5 className="mb-2">Field Services</h5>
+                <h5 className="mb-2">Custom POS </h5>
                 <p className="mb-5">
                   {" "}
-                  We provide the most responsive and efficient Field Service Management solutions to enterprises and businesses worldwide.{" "}
+                  Tailor-made Point of Sale solutions designed to fit your business needs, including inventory tracking, billing.{" "}
                 </p>
                 <Link
                   href="field-service-management"
@@ -81,11 +56,10 @@ const Service = () => {
                 <img src="/images/icon-3.png" alt="image" />
               </div>
               <div className="flex-grow-1">
-                <h5 className="mb-2">Cloud Solutions</h5>
+                <h5 className="mb-2">POS Integration </h5>
                 <p className="mb-5">
                   {" "}
-                  We deliver the most reliable and scalable Cloud Solutions to enterprises and businesses 
-                  worldwide for seamless digital transformation.{" "}
+                  Seamless integration with payment gateways, accounting software, and CRM systems, along with 24/7 support for smooth operations.{" "}
                 </p>
                 <Link
                   href="cloud-solutions-service"
@@ -106,11 +80,10 @@ const Service = () => {
                 <img src="/images/icon-4.png" alt="image" />
               </div>
               <div className="flex-grow-1">
-                <h5 className="mb-2">Artificial Intelligence</h5>
+                <h5 className="mb-2">Cloud-Based POS</h5>
                 <p className="mb-5">
                   {" "}
-                  We deliver the most intelligent and innovative AI solutions to enterprises
-                   and businesses worldwide for enhanced efficiency and growth.{" "}
+                  Access your business data anytime, anywhere with our secure cloud-based POS systems, ensuring real-time insights.{" "}
                 </p>
                 <Link
                   href="artificial-intelligence-service"
@@ -125,56 +98,7 @@ const Service = () => {
               </div>
             </div>
           </div>
-          {/* <div className="col-md-6 col-lg-4">
-            <div className="service-card service-card--1">
-              <div className="icon-box icon-box--md circle bg-info flex-shrink-0">
-                <img src="/images/icon-5.png" alt="image" />
-              </div>
-              <div className="flex-grow-1">
-                <h5 className="mb-2">AI & Chatbot</h5>
-                <p className="mb-5">
-                  {" "}
-                  We deliver the most intelligent and efficient AI & Chatbot solutions, 
-                  enhancing automation and customer engagement for businesses worldwide.{" "}
-                </p>
-                <Link
-                  href="ai-and-chatbot-service"
-                  className="t-link t-link--base fw-md">
-                  {" "}
-                  Discover Now{" "}
-                  <span className="material-symbols-outlined mat-icon fw-200">
-                    {" "}
-                    trending_flat{" "}
-                  </span>
-                </Link>
-              </div>
-            </div>
-          </div> */}
-          {/* <div className="col-md-6 col-lg-4">
-            <div className="service-card service-card--1">
-              <div className="icon-box icon-box--md circle bg-secondary flex-shrink-0">
-                <img src="/images/icon-6.png" alt="image" />
-              </div>
-              <div className="flex-grow-1">
-                <h5 className="mb-2">Custom Solutions</h5>
-                <p className="mb-5">
-                  {" "}
-                  We deliver the most innovative and scalable custom solutions, empowering enterprises and businesses
-                   worldwide with efficiency, flexibility, and success.{" "}
-                </p>
-                <Link
-                  href="custom-solutions-service"
-                  className="t-link t-link--base fw-md">
-                  {" "}
-                  Discover Now{" "}
-                  <span className="material-symbols-outlined mat-icon fw-200">
-                    {" "}
-                    trending_flat{" "}
-                  </span>
-                </Link>
-              </div>
-            </div>
-          </div> */}
+          
         </div>
       </div>
       <div className="section__gap-top">
@@ -192,6 +116,11 @@ const Service = () => {
                   href="contact-us"
                   className="bttn bttn--stroke-outline bttn-md bttn-pill fw-md flex-shrink-0 align-items-center">
                   <span className="bttn__arrow"> Contact Us </span>
+                </Link>
+                <Link
+                  href="services"
+                  className="bttn bttn--stroke-outline bttn-md bttn-pill fw-md flex-shrink-0 align-items-center">
+                  <span className="bttn__arrow"> More Services </span>
                 </Link>
               </div>
             </div>

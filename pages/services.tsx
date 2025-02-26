@@ -4,7 +4,7 @@ import Service from "@/components/Service";
 import Navbar from "@/components/Navbar";
 import { useEffect } from 'react';
 import Footer from "@/components/Footer";
-import Testimonail from "@/components/Testimonail";
+import Testimonail from "@/components/Testimonial";
 
 const service = () => {
   useEffect(() => {

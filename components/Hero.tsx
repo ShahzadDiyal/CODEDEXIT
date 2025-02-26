@@ -39,22 +39,22 @@ const Hero = () => {
       <SwiperSlide>
         <div
           className="swiper-slide hero-slider-1__slide hero-slider-1__slide-1"
-          style={{ backgroundImage: "url(/images/hero-slider-1-bg.png)" }}>
+          style={{ backgroundImage: "url(/images/hero-slider-1-bg.jpg)" }}>
           <div className="container">
             <div className="row">
               <div className="col-lg-10 col-xl-7 col-xxl-8">
                 <div className="hero-slider-1__item">
                   <span className="d-block h4 fw-semibold clr-accent mb-5">
                     {" "}
-                    Field Service Management{" "}
+                    Point of Sale{" "}
                   </span>
-                  <h2 className="clr-light mb-5">
+                  <h3 className="clr-light mb-5">
                     {" "}
-                    Smart tools to streamline your field operations{" "}
-                  </h2>
+                    Smart Tools to Streamline Your Point of Sale Operations{" "}
+                  </h3>
                   <p className="t-short-para clr-light xl-text mb-10">
                     {" "}
-                    Our primary objective is to be the leading global provider of Field Service Management solutions.{" "}
+                    Our primary objective is to be the leading global provider of Point of sale solutions.{" "}
                   </p>
                   <div className="group group-sm-row align-items-start align-items-sm-center">
                     <Link

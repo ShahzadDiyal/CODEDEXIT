@@ -1,9 +1,4 @@
-import {
-  FaFacebookF,
-  FaTwitter,
-  FaInstagram,
-  FaLinkedinIn,
-} from "react-icons/fa";
+
 import Mobilemenu from "./Mobilemenu";
 import { useTheme } from "next-themes";
 import Link from "next/link";
