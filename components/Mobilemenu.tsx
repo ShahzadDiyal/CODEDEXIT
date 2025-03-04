@@ -29,7 +29,7 @@ const Mobilemenu = () => {
         <div className="mobile-menu__head">
           <Link href="/" className="mobile-menu__logo">
             <img
-              src="/images/logo-light.png"
+              src="/.png"
               alt="image"
               className="mobile-menu__logo-img"
             />
@@ -70,28 +70,48 @@ const Mobilemenu = () => {
           <div className="mobile-menu__center">
             <ul className="list mobile-menu__list">
               <li className={`${activeMenu =='Home' &&'is-active'}`}>
-                <Link href="#" className="mobile-menu__link has-sub"
+                <Link href="/" className="mobile-menu__link "
                 onClick={clickHandler}
                 >
                   Home
                 </Link>
-                <ul className={`list mobile-menu__sub ${activeMenu == 'Home' && 'd-block'}`}>
-                  
-                  <li>
-                    <Link href="/home-3" className="mobile-menu__sub-link" onClick={openMobileMenu}>
-                      {" "}
-                      Home 3{" "}
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/home-4" className="mobile-menu__sub-link" onClick={openMobileMenu}>
-                      {" "}
-                      Home 4{" "}
-                    </Link>
-                  </li>
-                </ul>
               </li>
-              <li className={`${activeMenu =='Blog' &&'is-active'}`}>
+              <li className={`${activeMenu =='Home' &&'is-active'}`}>
+                <Link href="/all-Pos-Features" className="mobile-menu__link "
+                onClick={clickHandler}
+                >
+                  Features
+                </Link>
+              </li>
+              <li className={`${activeMenu =='Home' &&'is-active'}`}>
+                <Link href="/services" className="mobile-menu__link "
+                onClick={clickHandler}
+                >
+                  Services
+                </Link>
+              </li>
+              <li className={`${activeMenu =='Home' &&'is-active'}`}>
+                <Link href="/about-us" className="mobile-menu__link "
+                onClick={clickHandler}
+                >
+                  About Us
+                </Link>
+              </li>
+              <li className={`${activeMenu =='Home' &&'is-active'}`}>
+                <Link href="/blog" className="mobile-menu__link "
+                onClick={clickHandler}
+                >
+                  Blog
+                </Link>
+              </li>
+              <li className={`${activeMenu =='Home' &&'is-active'}`}>
+                <Link href="/contact-us" className="mobile-menu__link "
+                onClick={clickHandler}
+                >
+                  Contact Us
+                </Link>
+              </li>
+              {/* <li className={`${activeMenu =='Blog' &&'is-active'}`}>
                 <Link href="#" onClick={clickHandler} className="mobile-menu__link has-sub">
                   Blog
                 </Link>
@@ -113,8 +133,8 @@ const Mobilemenu = () => {
                     </Link>
                   </li>
                 </ul>
-              </li>
-              <li className={`${activeMenu =='Service' &&'is-active'}`}>
+              </li> */}
+              {/* <li className={`${activeMenu =='Service' &&'is-active'}`}>
                 <Link href="#" onClick={clickHandler} className="mobile-menu__link has-sub">
                   Service
                 </Link>
@@ -134,14 +154,14 @@ const Mobilemenu = () => {
                     </Link>
                   </li>
                 </ul>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <Link href="contact-us" className="mobile-menu__link">
                   {" "}
                   Contact Us{" "}
                 </Link>
-              </li>
-              <li className={`${activeMenu =='Pages' &&'is-active'}`}>
+              </li> */}
+              {/* <li className={`${activeMenu =='Pages' &&'is-active'}`}>
                 <Link href="#" onClick={clickHandler} className="mobile-menu__link has-sub">
                   Pages
                 </Link>
@@ -267,10 +287,10 @@ const Mobilemenu = () => {
                     </Link>
                   </li>
                 </ul>
-              </li>
+              </li> */}
             </ul>
           </div>
-          <div className="mobile-menu__end">
+          {/* <div className="mobile-menu__end">
             <div className="search-bar pill">
               <input
                 type="text"
@@ -408,7 +428,7 @@ const Mobilemenu = () => {
                 </Link>
               </li>
             </ul>
-          </div>
+          </div> */}
         </div>
       </nav>
     );

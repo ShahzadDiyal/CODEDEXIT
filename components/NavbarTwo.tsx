@@ -33,19 +33,19 @@ const NavbarTwo = ({ rtlurl }) => {
                 <div className="container">
                   <div className="row">
                     <div className="col-12">
-                      <div className="mobile-header__content">
+                    <div className="mobile-header__content">
                         <a href="#" className="logo">
                           <img
-                            src="/images/uzis.jpg"
+                            src="/images/UZI-systems-Logo1.png"
                             alt="Coded Exit Ltd."
                             className="logo__img logo__dark"
-                            style={{ width: "250px", height: "40px" }}
+                            style={{ width: "260px", height: "100px", marginTop: "-30px" }}
                           />
                           <img
-                            src="/images/uzi.jpg"
+                            src="/images/UZI-systems-Logo2.png"
                             alt="Coded Exit Ltd."
                             className="logo__img logo__light"
-                            style={{ width: "250px", height: "40px" }}
+                            style={{ width: "260px", height: "100px", marginTop: "-30px" }}
                           />
                         </a>
                         <button
