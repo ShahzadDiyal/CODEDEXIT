@@ -3,7 +3,7 @@ import { useTheme } from "next-themes";
 import Link from "next/link";
 import { useState, useEffect } from "react";
 
-const Navbar = ({ scrollToSection, sections,rtlurl }) => {
+const NavbarTwo = ({ rtlurl }) => {
   const [mounted, setMounted] = useState(false);
   const { theme, setTheme } = useTheme();
   const inactiveTheme = theme === "light" ? "dark" : "light";
@@ -24,7 +24,7 @@ const Navbar = ({ scrollToSection, sections,rtlurl }) => {
     <>
       <Mobilemenu />
 
-      <header className="header header--2  sticky-navbar">
+      <header className="header header--2 sticky-navbar">
         <div className="container">
           <div className="row">
             <div className="col-12">
@@ -36,16 +36,16 @@ const Navbar = ({ scrollToSection, sections,rtlurl }) => {
                       <div className="mobile-header__content">
                         <a href="#" className="logo">
                           <img
-                            src="/images/UZI-systems-Logo1.png"
+                            src="/images/uzis.jpg"
                             alt="Coded Exit Ltd."
                             className="logo__img logo__dark"
-                            style={{ width: "260px", height: "100px", marginTop: "-30px" }}
+                            style={{ width: "250px", height: "40px" }}
                           />
                           <img
-                            src="/images/UZI-systems-Logo2.png"
+                            src="/images/uzi.jpg"
                             alt="Coded Exit Ltd."
                             className="logo__img logo__light"
-                            style={{ width: "260px", height: "100px", marginTop: "-30px" }}
+                            style={{ width: "250px", height: "40px" }}
                           />
                         </a>
                         <button
@@ -83,105 +83,51 @@ const Navbar = ({ scrollToSection, sections,rtlurl }) => {
                 <ul className="list primary-menu__list">
                   <li>
                     <a
-                      href="#hero"
+                      href="/"
                       className="primary-menu__link"
-                      onClick={(e) => {
-                        e.preventDefault();
-                        scrollToSection(sections.heroRef);
-                      }}
                     >
                       Home
                     </a>
                   </li>
                   <li>
                     <a
-                      href="#products"
+                      href="all-Pos-Features"
                       className="primary-menu__link"
-                      onClick={(e) => {
-                        e.preventDefault();
-                        scrollToSection(sections.productRef);
-                      }}
                     >
                       Features
                     </a>
                   </li>
                   <li>
                     <a
-                      href="#services"
+                      href="services"
                       className="primary-menu__link"
-                      onClick={(e) => {
-                        e.preventDefault();
-                        scrollToSection(sections.serviceRef);
-                      }}
                     >
                       Services
                     </a>
                   </li>
                   <li>
                     <a
-                      href="#about"
+                      href="about-us"
                       className="primary-menu__link"
-                      onClick={(e) => {
-                        e.preventDefault();
-                        scrollToSection(sections.aboutRef);
-                      }}
                     >
                       About
                     </a>
                   </li>
+
                   <li>
                     <a
-                      href="#team"
+                      href="blog"
                       className="primary-menu__link"
-                      onClick={(e) => {
-                        e.preventDefault();
-                        scrollToSection(sections.teamRef);
-                      }}
                     >
-                      Team
+                      Blogs
                     </a>
                   </li>
-                  <li>
-                    <a
-                      href="#news"
-                      className="primary-menu__link"
-                      onClick={(e) => {
-                        e.preventDefault();
-                        scrollToSection(sections.newsRef);
-                      }}
-                    >
-                      News
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="#career"
-                      className="primary-menu__link"
-                      onClick={(e) => {
-                        e.preventDefault();
-                        scrollToSection(sections.careerRef);
-                      }}
-                    >
-                      Career
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="#testimonial"
-                      className="primary-menu__link"
-                      onClick={(e) => {
-                        e.preventDefault();
-                        scrollToSection(sections.testimonialRef);
-                      }}
-                    >
-                      Testimonials
-                    </a>
-                  </li>
+
+
                   <Link
                     href="contact-us"
-              
                     className="bttn bttn--stroke-outline bttn-md bttn-pill fw-md flex-shrink-0 align-items-center">
-                          Contact Us
+                    Contact Us
                   </Link>
                   <li>
                     <button className="dark-mode-toggle" onClick={() => setTheme(inactiveTheme)}>
@@ -206,4 +152,4 @@ const Navbar = ({ scrollToSection, sections,rtlurl }) => {
   );
 };
 
-export default Navbar;
+export default NavbarTwo;

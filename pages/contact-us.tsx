@@ -1,4 +1,4 @@
-import Navbar from "@/components/Navbar";
+import Navbar from "@/components/NavbarTwo";
 import Testimonial from "@/components/Testimonial";
 import Footer from "@/components/Footer";
 import Link from "next/link";
@@ -56,7 +56,7 @@ const contact_us = () => {
   }, []);
   return (
     <>
-      <Navbar rtlurl="/rtl/contact-us" />
+      <Navbar rtlurl="/rtl/contact-us"/>
       {/* Banner */}
       <section className="banner-section section--sm">
         <div className="container">

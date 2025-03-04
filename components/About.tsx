@@ -52,7 +52,7 @@ const About = () => {
                       <div className="about-img">
                         <div className="about-img__content about-img__content-xl">
                           <img
-                            src="/images/about-img-2.png"
+                            src="/images/make-sale.png"
                             alt="image"
                             className="about-img__is"
                           />

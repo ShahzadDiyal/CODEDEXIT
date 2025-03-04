@@ -1,5 +1,7 @@
 import Link from "next/link";
 
+
+
 const Service = () => {
   return (
     <div className="section">
@@ -7,9 +9,9 @@ const Service = () => {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-md-10 col-xl-8">
-              <span className="d-block h5 lh-1 fw-semibold clr-base text-center">
+              <span className="d-block h5 lh-1 fw-semibold clr-base text-center" style={{border:"1px solid",padding:"10px",borderRadius:"10px",width:"20%",justifySelf:"center"}}>
                 {" "}
-                We Provide the following services{" "}
+                Our Services{" "}
               </span>
               <h3 className="mt-5 mb-5 text-center">
                 {" "}
@@ -31,10 +33,10 @@ const Service = () => {
                 <img src="/images/customization.png" alt="image" />
               </div>
               <div className="flex-grow-1">
-                <h5 className="mb-2">Custom POS </h5>
+                <h5 className="mb-2">Installation & Setup </h5>
                 <p className="mb-5">
                   {" "}
-                  Tailor-made Point of Sale solutions designed to fit your business needs, including inventory tracking, billing.{" "}
+                  Complete deployment of the POS system, covering software and hardware setup, configuration, data migration, user training, and initial support to ensure a seamless and efficient start for businesses with minimal disruptions.{" "}
                 </p>
                 <Link
                   href="field-service-management"
@@ -55,10 +57,10 @@ const Service = () => {
                 <img src="/images/connection.png" alt="image" />
               </div>
               <div className="flex-grow-1">
-                <h5 className="mb-2">POS Integration </h5>
+                <h5 className="mb-2">Technical Support & Maintenance </h5>
                 <p className="mb-5">
                   {" "}
-                  Seamless integration with payment gateways, accounting software, and CRM systems, along with 24/7 support for smooth operations.{" "}
+                  24/7 customer support, troubleshooting, and regular software updates to keep the system running smoothly, minimizing downtime and ensuring business continuity.{" "}
                 </p>
                 <Link
                   href="cloud-solutions-service"
@@ -79,10 +81,10 @@ const Service = () => {
                 <img src="/images/cloud-computing.png" alt="image" />
               </div>
               <div className="flex-grow-1">
-                <h5 className="mb-2">Cloud-Based POS</h5>
+                <h5 className="mb-2">Customization & Integration</h5>
                 <p className="mb-5">
                   {" "}
-                  Access your business data anytime, anywhere with our secure cloud-based POS systems, ensuring real-time insights.{" "}
+                  Tailoring the POS to fit specific business needs, including integrating with third-party tools like accounting software, e-commerce platforms, and payment gateways for enhanced efficiency.{" "}
                 </p>
                 <Link
                   href="artificial-intelligence-service"

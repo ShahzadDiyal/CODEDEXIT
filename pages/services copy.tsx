@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Technologies from "@/components/Technologies";
 import Service from "@/components/Service";
-import Navbar from "@/components/Navbar";
+import Navbar from "@/components/NavbarTwo";
 import { useEffect } from 'react';
 import Footer from "@/components/Footer";
 import Testimonail from "@/components/Testimonial";

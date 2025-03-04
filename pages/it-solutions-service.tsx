@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Feedback_3 from "@/components/Feedback_3";
 import CoreValue from "@/components/CoreValue";
-import Navbar from "@/components/Navbar";
+import Navbar from "@/components/NavbarTwo";
 import { useEffect } from 'react';
 import Footer from "@/components/Footer";
 

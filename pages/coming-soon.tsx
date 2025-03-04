@@ -1,4 +1,4 @@
-import Navbar from "@/components/Navbar";
+import Navbar from "@/components/NavbarTwo";
 import Footer from "@/components/Footer";
 import Link from "next/link";
 import { useEffect } from 'react';
@@ -56,7 +56,7 @@ const coming_soon = () => {
                 </h2>
                 <p className="mb-8 max-text-50">
                   {" "}
-                  Itechex is coming soon. Fill in your email to receive a
+                  Coded Exit ltd is coming soon. Fill in your email to receive a
                   notification email (and special promo) when we launch.{" "}
                 </p>
                 <div className="newsletter-2 bg-light max-text-50 rounded-pill">

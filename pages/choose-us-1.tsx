@@ -1,5 +1,5 @@
 import Companies from "@/components/Companies";
-import Navbar from "@/components/Navbar";
+import Navbar from "@/components/NavbarTwo";
 import About from "@/components/About";
 import Consult from "@/components/Consult";
 import Footer from "@/components/Footer";

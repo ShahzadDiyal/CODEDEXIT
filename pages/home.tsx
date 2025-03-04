@@ -6,17 +6,16 @@ import Consult from "@/components/Consult";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
-import Products from "@/components/Products";
+import Products from "@/components/OurPosFeatures";
 import Service from "@/components/Service";
 import Team from "@/components/Team";
 import Testimonial from "@/components/Testimonial";
 import News from "@/components/News";
 import Career from "@/components/Career";
+import Features from "@/components/Features";
+import OurPosFeatures from "@/components/OurPosFeatures";
 
 const HomePage = () => {
-  const [scrolled, setScrolled] = useState(false);
-
-  const heroRef = useRef(null);
   const productRef = useRef(null);
   const serviceRef = useRef(null);
   const aboutRef = useRef(null);
@@ -25,21 +24,9 @@ const HomePage = () => {
   const careerRef = useRef(null);
   const testimonialRef = useRef(null);
 
-
   useEffect(() => {
     document.documentElement.setAttribute("dir", "ltr");
-
-    const handleScroll = () => {
-      setScrolled(window.scrollY > 100);
-    };
-
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-
-  const backToTop = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  };
 
   return (
     <>
@@ -47,18 +34,15 @@ const HomePage = () => {
         <title>Coded Exit</title>
       </Head>
 
-      <div onClick={backToTop} className={`back-to-top ${scrolled ? "d-block" : "d-none"}`}>
-        <span className="back-top">
-          <span className="material-symbols-outlined mat-icon fw-300">keyboard_double_arrow_up</span>
-        </span>
-      </div>
+      {/* Sticky Navbar */}
+      <Navbar 
+        scrollToSection={(ref) => ref.current?.scrollIntoView({ behavior: "smooth" })} 
+        sections={{ productRef, serviceRef, aboutRef, teamRef, newsRef, careerRef, testimonialRef }} 
+        rtlurl={undefined} 
+      />
 
-      <Navbar scrollToSection={(ref) => ref.current?.scrollIntoView({ behavior: "smooth" })} sections={{
-        heroRef, productRef, serviceRef, aboutRef, teamRef, newsRef, careerRef, testimonialRef, contactRef
-      }} />
-
-      <section ref={heroRef}><Hero /></section>
-      <section ref={productRef}><Products /></section>
+      <Hero />
+      <section ref={productRef}><OurPosFeatures /></section>
       <section ref={serviceRef}><Service /></section>
       <section ref={aboutRef}><About /></section>
       <section ref={teamRef}><Team /></section>

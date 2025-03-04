@@ -6,7 +6,7 @@ import Consult from "@/components/Consult";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
-import Products from "@/components/Products";
+import Products from "@/components/OurPosFeatures";
 import Service from "@/components/Service";
 import Team from "@/components/Team";
 import Testimonial from "@/components/Testimonial";

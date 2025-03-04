@@ -1,107 +1,56 @@
-import Link from 'next/link';
-import React from 'react';
+import Link from "next/link";
 
 const Features = () => {
-    return (
-        <section className="section features-section-1">
-        <div className="section__gap-bottom">
-          <div className="container">
-            <div className="row">
-              <div className="col-xl-10 col-xxl-7">
-                <span className="d-block h5 lh-1 fw-semibold clr-base">
-                  {" "}
-                  Exciting New Phase in the Advancement of Field Service Solutions{" "}
-                </span>
-                <h3 className="mt-5 mb-5">
-                  {" "}
-                  Let's collaborate to transform your ideal business into a successful reality through expert field services{" "}
-                </h3>
-                <p className="max-text-60">
-                  {" "}
-                  We manage projects from start to finish, delivering trusted field service 
-                  solutions to ensure your success and provide the best IT support.{" "}
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+  return (
+    <div className="section pt-0"
+      style={{
+        paddingBottom: "0px",
+        borderBottom: " 2px solid #5D3FD3 !important",
+        marginBottom: "40px"
+      }}>
+      <div className="section__gap-bottom">
         <div className="container">
-          <div className="row g-4">
-            <div className="col-md-6 col-xl-3">
-              <div className="feature-card-1">
-                <div className="icon-box icon-box--md bg-secondary circle">
-                  <img src="/images/icon-28.png" alt="image" />
-                </div>
-                <h5 className="mt-8 mb-2">Top Flexibility</h5>
-                <p className="mb-5">
-                  {" "}
-                  We offer the most responsive and efficient field services to 
-                  businesses worldwide, ensuring seamless IT solutions.{" "}
-                </p>
-                <Link href="services" className="t-link t-link--base fw-md">
-                  {" "}
-                  Read More{" "}
-                  <span className="material-symbols-outlined mat-icon fw-200">
-                    {" "}
-                    trending_flat{" "}
-                  </span>
-                </Link>
-              </div>
+          <div className="row justify-content-center">
+            <div className="col-md-10 col-xl-8">
+              <span className="d-block h5 lh-1 fw-semibold clr-base text-center">
+                {" "}
+                Our POS Features{" "}
+              </span>
+              <h3 className="mt-5 mb-5 text-center">
+                {" "}
+                Trusted & Prosdfsjfessional POS Solutions{" "}
+              </h3>
+              <p className="text-center mx-auto t-short-para">
+                {" "}
+                Designed for retail, restaurants, and service industries, our advanced POS system streamlines operations, boosts
+                efficiency, and drives growth. Transform your vision into success today!{" "}
+              </p>
             </div>
-            <div className="col-md-6 col-xl-3">
-              <div className="feature-card-1">
-                <div className="icon-box icon-box--md bg-danger circle">
-                  <img src="/images/icon-29.png" alt="image" />
-                </div>
-                <h5 className="mt-8 mb-2">Time Saving</h5>
-                <p className="mb-5">
-                  {" "}
-                  We deliver the most responsive and effective field services to enterprises and businesses globally.{" "}
-                </p>
-                <Link href="services" className="t-link t-link--base fw-md">
-                  {" "}
-                  Read More{" "}
-                  <span className="material-symbols-outlined mat-icon fw-200">
-                    {" "}
-                    trending_flat{" "}
-                  </span>
-                </Link>
+          </div>
+        </div>
+      </div>
+      <div className="container">
+        <div className="row mb-3" style={{}}>
+          <img src="/images/out products.jpg" alt="" style={{ width: "100%", height: "400px", borderRadius: "5px" }} />
+        </div>
+        <div className="row g-3 g-xxl-4 justify-content-center">
+          <div className="col-md-6 col-lg-4">
+            <div className="service-card service-card--1">
+              <div className="icon-box icon-box--md circle bg-danger flex-shrink-0">
+                <img src="/images/icon-2.png" alt="image" />
               </div>
-            </div>
-            <div className="col-md-6 col-xl-3">
-              <div className="feature-card-1">
-                <div className="icon-box icon-box--md bg-success circle">
-                  <img src="/images/icon-30.png" alt="image" />
-                </div>
-                <h5 className="mt-8 mb-2">Management</h5>
+              <div className="flex-grow-1">
+                <h5 className="mb-2">Square POS</h5>
                 <p className="mb-5">
                   {" "}
-                  We offer the most responsive and efficient field services to enterprises and businesses worldwide.{" "}
+                  Free POS software with paid add-ons.
+                  Supports inventory management, sales tracking, and reporting.{" "}
                 </p>
-                <Link href="services" className="t-link t-link--base fw-md">
+                <Link
+                  href="field-service-management"
+                  className="t-link t-link--base fw-md">
                   {" "}
-                  Read More{" "}
-                  <span className="material-symbols-outlined mat-icon fw-200">
-                    {" "}
-                    trending_flat{" "}
-                  </span>
-                </Link>
-              </div>
-            </div>
-            <div className="col-md-6 col-xl-3">
-              <div className="feature-card-1">
-                <div className="icon-box icon-box--md bg-warning circle">
-                  <img src="/images/icon-31.png" alt="image" />
-                </div>
-                <h5 className="mt-8 mb-2">Collaborative</h5>
-                <p className="mb-5">
-                  {" "}
-                  We deliver highly responsive and effective field 
-                  services to businesses and enterprises globally.{" "}
-                </p>
-                <Link href="services" className="t-link t-link--base fw-md">
-                  {" "}
-                  Read More{" "}
+                  Discover Now{" "}
                   <span className="material-symbols-outlined mat-icon fw-200">
                     {" "}
                     trending_flat{" "}
@@ -110,9 +59,82 @@ const Features = () => {
               </div>
             </div>
           </div>
+          <div className="col-md-6 col-lg-4">
+            <div className="service-card service-card--1">
+              <div className="icon-box icon-box--md circle bg-success flex-shrink-0">
+                <img src="/images/lamp.png" alt="image" />
+              </div>
+              <div className="flex-grow-1">
+                <h5 className="mb-2">Lightspeed POS</h5>
+                <p className="mb-5">
+                  {" "}
+                  Advanced inventory management with multi-location support.
+                  Customizable workflows for restaurants and retail.{" "}
+                </p>
+                <Link
+                  href="cloud-solutions-service"
+                  className="t-link t-link--base fw-md">
+                  {" "}
+                  Discover Now{" "}
+                  <span className="material-symbols-outlined mat-icon fw-200">
+                    {" "}
+                    trending_flat{" "}
+                  </span>
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-6 col-lg-4">
+            <div className="service-card service-card--1">
+              <div className="icon-box icon-box--md circle bg-warning flex-shrink-0">
+                <img src="/images/icon-4.png" alt="image" />
+              </div>
+              <div className="flex-grow-1">
+                <h5 className="mb-2">Toast POS</h5>
+                <p className="mb-5">
+                  {" "}
+                  Designed specifically for food businesses with kitchen display system (KDS).
+                  Contactless ordering and payment options.{" "}
+                </p>
+                <Link
+                  href="artificial-intelligence-service"
+                  className="t-link t-link--base fw-md">
+                  {" "}
+                  Discover Now{" "}
+                  <span className="material-symbols-outlined mat-icon fw-200">
+                    {" "}
+                    trending_flat{" "}
+                  </span>
+                </Link>
+              </div>
+            </div>
+          </div>
+
         </div>
-      </section>
-    );
+      </div>
+      <div className="section__gap-top">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-md-10 col-xl-8">
+              <div className="group group-row flex-wrap justify-content-center align-items-center">
+
+                <Link
+                  href="contact-us"
+                  className="bttn bttn--stroke-outline bttn-md bttn-pill fw-md flex-shrink-0 align-items-center">
+                  <span className="bttn__arrow"> Contact Us </span>
+                </Link>
+                <Link
+                  href="#"
+                  className="bttn bttn--stroke-outline bttn-md bttn-pill fw-md flex-shrink-0 align-items-center">
+                  <span className="bttn__arrow"> More Products </span>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default Features;

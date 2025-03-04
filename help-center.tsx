@@ -241,7 +241,7 @@ const help_center = () => {
                     href="help-center-details"
                     className="t-link d-block clr-heading question-card__title">
                     {" "}
-                    How to create a free itechex account?{" "}
+                    How to create a free Coded Exit ltd account?{" "}
                   </Link>
                 </h5>
                 <Link
@@ -263,7 +263,7 @@ const help_center = () => {
                     href="help-center-details"
                     className="t-link d-block clr-heading question-card__title">
                     {" "}
-                    Do you offer free trials on itechex?{" "}
+                    Do you offer free trials on Coded Exit ltd?{" "}
                   </Link>
                 </h5>
                 <Link
@@ -307,7 +307,7 @@ const help_center = () => {
                     href="help-center-details"
                     className="t-link d-block clr-heading question-card__title">
                     {" "}
-                    How to create a free itechex account?{" "}
+                    How to create a free Coded Exit ltd account?{" "}
                   </Link>
                 </h5>
                 <Link

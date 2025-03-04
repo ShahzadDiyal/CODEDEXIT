@@ -9,7 +9,7 @@ import "swiper/css/effect-fade";
 import Feedback_2 from "@/components/Feedback_2";
 import Videosection from "@/components/Videosection";
 import { useEffect } from 'react';
-import Navbar from "@/components/Navbar";
+import Navbar from "@/components/NavbarTwo";
 import Footer from "@/components/Footer";
 
 const about_us = () => {
@@ -244,7 +244,7 @@ const about_us = () => {
                 <h2 className="mt-2 mb-4"> Numbers speak louder than words </h2>
                 <p>
                   {" "}
-                  Here are a few numbers that speak to itechex's power, ease,
+                  Here are a few numbers that speak to Coded Exit ltd's power, ease,
                   and speed.{" "}
                 </p>
               </div>
@@ -316,7 +316,7 @@ const about_us = () => {
               <div className="col-md-10">
                 <h2 className="clr-light text-center">
                   {" "}
-                  Itechex through the years{" "}
+                  Coded Exit ltd through the years{" "}
                 </h2>
               </div>
             </div>
@@ -347,7 +347,7 @@ const about_us = () => {
                         <li className="align-items-center">
                           <span className="d-block clr-light">
                             {" "}
-                            Itechex dives into the IoT domain{" "}
+                            Coded Exit ltd dives into the IoT domain{" "}
                           </span>
                         </li>
                         <li className="align-items-center">
@@ -386,7 +386,7 @@ const about_us = () => {
                         <li className="align-items-center">
                           <span className="d-block clr-light">
                             {" "}
-                            Itechex dives into the IoT domain{" "}
+                            Coded Exit ltd dives into the IoT domain{" "}
                           </span>
                         </li>
                         <li className="align-items-center">
@@ -425,7 +425,7 @@ const about_us = () => {
                         <li className="align-items-center">
                           <span className="d-block clr-light">
                             {" "}
-                            Itechex dives into the IoT domain{" "}
+                            Coded Exit ltd dives into the IoT domain{" "}
                           </span>
                         </li>
                         <li className="align-items-center">
@@ -464,7 +464,7 @@ const about_us = () => {
                         <li className="align-items-center">
                           <span className="d-block clr-light">
                             {" "}
-                            Itechex dives into the IoT domain{" "}
+                            Coded Exit ltd dives into the IoT domain{" "}
                           </span>
                         </li>
                         <li className="align-items-center">
@@ -503,7 +503,7 @@ const about_us = () => {
                         <li className="align-items-center">
                           <span className="d-block clr-light">
                             {" "}
-                            Itechex dives into the IoT domain{" "}
+                            Coded Exit ltd dives into the IoT domain{" "}
                           </span>
                         </li>
                         <li className="align-items-center">
@@ -542,7 +542,7 @@ const about_us = () => {
                         <li className="align-items-center">
                           <span className="d-block clr-light">
                             {" "}
-                            Itechex dives into the IoT domain{" "}
+                            Coded Exit ltd dives into the IoT domain{" "}
                           </span>
                         </li>
                         <li className="align-items-center">
@@ -581,7 +581,7 @@ const about_us = () => {
                         <li className="align-items-center">
                           <span className="d-block clr-light">
                             {" "}
-                            Itechex dives into the IoT domain{" "}
+                            Coded Exit ltd dives into the IoT domain{" "}
                           </span>
                         </li>
                         <li className="align-items-center">
@@ -620,7 +620,7 @@ const about_us = () => {
                         <li className="align-items-center">
                           <span className="d-block clr-light">
                             {" "}
-                            Itechex dives into the IoT domain{" "}
+                            Coded Exit ltd dives into the IoT domain{" "}
                           </span>
                         </li>
                         <li className="align-items-center">
@@ -659,7 +659,7 @@ const about_us = () => {
                         <li className="align-items-center">
                           <span className="d-block clr-light">
                             {" "}
-                            Itechex dives into the IoT domain{" "}
+                            Coded Exit ltd dives into the IoT domain{" "}
                           </span>
                         </li>
                         <li className="align-items-center">
@@ -698,7 +698,7 @@ const about_us = () => {
                         <li className="align-items-center">
                           <span className="d-block clr-light">
                             {" "}
-                            Itechex dives into the IoT domain{" "}
+                            Coded Exit ltd dives into the IoT domain{" "}
                           </span>
                         </li>
                         <li className="align-items-center">
@@ -737,7 +737,7 @@ const about_us = () => {
                         <li className="align-items-center">
                           <span className="d-block clr-light">
                             {" "}
-                            Itechex dives into the IoT domain{" "}
+                            Coded Exit ltd dives into the IoT domain{" "}
                           </span>
                         </li>
                         <li className="align-items-center">
@@ -776,7 +776,7 @@ const about_us = () => {
                         <li className="align-items-center">
                           <span className="d-block clr-light">
                             {" "}
-                            Itechex dives into the IoT domain{" "}
+                            Coded Exit ltd dives into the IoT domain{" "}
                           </span>
                         </li>
                         <li className="align-items-center">

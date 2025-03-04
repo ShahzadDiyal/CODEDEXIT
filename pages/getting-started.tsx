@@ -1,4 +1,4 @@
-import Navbar from "@/components/Navbar";
+import Navbar from "@/components/NavbarTwo";
 import Footer from "@/components/Footer";
 import Link from "next/link";
 import { useEffect } from 'react';
@@ -76,7 +76,7 @@ const getting_started = () => {
                 </div>
                 <h4 className="mt-4 mb-5">
                   {" "}
-                  Do you offer free trials on itechex?{" "}
+                  Do you offer free trials on Coded Exit ltd?{" "}
                 </h4>
                 <p className="mb-8">
                   {" "}
@@ -140,7 +140,7 @@ const getting_started = () => {
                 </div>
                 <h4 className="mt-4 mb-5">
                   {" "}
-                  How to create a free itechex account?{" "}
+                  How to create a free Coded Exit ltd account?{" "}
                 </h4>
                 <p className="mb-8">
                   {" "}

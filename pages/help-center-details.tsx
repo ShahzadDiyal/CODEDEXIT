@@ -1,4 +1,4 @@
-import Navbar from "@/components/Navbar";
+import Navbar from "@/components/NavbarTwo";
 import Footer from "@/components/Footer";
 import Link from "next/link";
 
@@ -62,7 +62,7 @@ const help_center_details = () => {
                 </div>
                 <h2 className="text-center mb-5">
                   {" "}
-                  Do you offer free trials on Itechex?{" "}
+                  Do you offer free trials on Coded Exit ltd?{" "}
                 </h2>
                 <p className="text-center mx-auto max-text-50">
                   {" "}
@@ -76,7 +76,7 @@ const help_center_details = () => {
         <div className="container">
           <div className="row g-6 justify-content-center">
             <div className="col-md-10 col-lg-8">
-              <h4 className="mb-5"> What is Itechex? </h4>
+              <h4 className="mb-5"> What is Coded Exit ltd? </h4>
               <p>
                 {" "}
                 Lorem ipsum dolor sit amet consectetur. Nisi felis bibendum
@@ -87,7 +87,7 @@ const help_center_details = () => {
               </p>
               <h4 className="mt-15 mb-5">
                 {" "}
-                How to create a free account on itechex?{" "}
+                How to create a free account on Coded Exit ltd?{" "}
               </h4>
               <p>
                 {" "}
@@ -117,7 +117,7 @@ const help_center_details = () => {
                   Odio facilisis mauris sit amet massa vitae tortor.{" "}
                 </figcaption>
               </figure>
-              <h5 className="mb-5"> How to setup your itechex account </h5>
+              <h5 className="mb-5"> How to setup your Coded Exit ltd account </h5>
               <p>
                 {" "}
                 Vitae congue eu consequat ac felis placerat vestibulum lectus
@@ -166,7 +166,7 @@ const help_center_details = () => {
                     href="help-center-details"
                     className="t-link d-block clr-heading question-card__title">
                     {" "}
-                    How to create a free itechex account?{" "}
+                    How to create a free Coded Exit ltd account?{" "}
                   </Link>
                 </h5>
                 <Link
@@ -188,7 +188,7 @@ const help_center_details = () => {
                     href="help-center-details"
                     className="t-link d-block clr-heading question-card__title">
                     {" "}
-                    Do you offer free trials on itechex?{" "}
+                    Do you offer free trials on Coded Exit ltd?{" "}
                   </Link>
                 </h5>
                 <Link
@@ -232,7 +232,7 @@ const help_center_details = () => {
                     href="help-center-details"
                     className="t-link d-block clr-heading question-card__title">
                     {" "}
-                    How to create a free itechex account?{" "}
+                    How to create a free Coded Exit ltd account?{" "}
                   </Link>
                 </h5>
                 <Link

@@ -5,10 +5,15 @@ const News = () => {
   return (
     <div className="section">
       <div className="container mt-5">
-        <h2 className="text-center">Latest News</h2>
-        <p className="text-center mb-4">
-          Digital Transformation for the Microfinance and Banking Sector is becoming inevitable to effectively meet customer needs.
+        <span className="d-block h5 lh-1 fw-semibold clr-base text-center mb-2 mt-1" style={{ border: "1px solid", padding: "10px", borderRadius: "10px", width: "20%", justifySelf: "center" }}>
+          {" "}
+          Latest News{" "}
+        </span>
+        <p className="text-center mx-auto t-short-para mb-2" >
+          {" "}
+          Digital Transformation for the Microfinance and Banking Sector is becoming inevitable to effectively meet customer needs.{" "}
         </p>
+
         <div className="row">
           {newsArticles.map((article, index) => (
             <div key={index} className="col-md-6 col-lg-4">

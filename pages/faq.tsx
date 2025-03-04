@@ -1,4 +1,4 @@
-import Navbar from "@/components/Navbar";
+import Navbar from "@/components/NavbarTwo";
 import Consult from "@/components/Consult";
 import Footer from "@/components/Footer";
 import Link from "next/link";
@@ -253,7 +253,7 @@ const faq = () => {
                 </h2>
                 <p className="text-center">
                   {" "}
-                  Itechex deep industry expertise enables global brands to hit
+                  Coded Exit ltd deep industry expertise enables global brands to hit
                   the ground running.{" "}
                 </p>
               </div>
