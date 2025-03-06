@@ -49,7 +49,7 @@ const AllPosFeatures = () => {
                 </li>
                 <li className="">
                   <Link
-                    href="services"
+                    href="/all-Pos-Features"
                     className="d-inline-block t-link clr-light :clr-accent">
                     {" "}
                     Features{" "}
@@ -76,10 +76,10 @@ const AllPosFeatures = () => {
             <div className="container">
               <div className="row justify-content-center">
                 <div className="col-md-10 col-xl-8">
-                  <span className="d-block h5 lh-1 fw-semibold clr-base text-center">
-                    {" "}
-                    Our POS Features{" "}
-                  </span>
+                <span className="d-block h5 lh-1 fw-semibold clr-base text-center" style={{border:"3px solid",padding:"15px",borderRadius:"10px",width:"30%",justifySelf:"center"}}>
+                  {" "}
+                  Our POS Features{" "}
+                </span>
                   <h3 className="mt-5 mb-5 text-center">
                     {" "}
                     Trusted & Professional POS Solutions{" "}
@@ -110,7 +110,7 @@ const AllPosFeatures = () => {
                       href="field-service-management"
                       className="t-link t-link--base fw-md">
                       {" "}
-                      Discover Now{" "}
+                      More{" "}
                       <span className="material-symbols-outlined mat-icon fw-200">
                         {" "}
                         trending_flat{" "}
@@ -131,10 +131,10 @@ const AllPosFeatures = () => {
                       The Admin module allows managing users, assigning roles, setting permissions, tracking audit logs, and handling tenants. It ensures secure access control, efficient user management, and comprehensive oversight of system activities.{" "}
                     </p>
                     <Link
-                      href="field-service-management"
+                      href="/features/make-sale"
                       className="t-link t-link--base fw-md">
                       {" "}
-                      Discover Now{" "}
+                      More{" "}
                       <span className="material-symbols-outlined mat-icon fw-200">
                         {" "}
                         trending_flat{" "}
@@ -159,7 +159,7 @@ const AllPosFeatures = () => {
                       href="cloud-solutions-service"
                       className="t-link t-link--base fw-md">
                       {" "}
-                      Discover Now{" "}
+                      More{" "}
                       <span className="material-symbols-outlined mat-icon fw-200">
                         {" "}
                         trending_flat{" "}
@@ -183,7 +183,7 @@ const AllPosFeatures = () => {
                       href="field-service-management"
                       className="t-link t-link--base fw-md">
                       {" "}
-                      Discover Now{" "}
+                      More{" "}
                       <span className="material-symbols-outlined mat-icon fw-200">
                         {" "}
                         trending_flat{" "}
@@ -207,7 +207,7 @@ const AllPosFeatures = () => {
                       href="field-service-management"
                       className="t-link t-link--base fw-md">
                       {" "}
-                      Discover Now{" "}
+                      More{" "}
                       <span className="material-symbols-outlined mat-icon fw-200">
                         {" "}
                         trending_flat{" "}
@@ -232,7 +232,7 @@ const AllPosFeatures = () => {
                       href="field-service-management"
                       className="t-link t-link--base fw-md">
                       {" "}
-                      Discover Now{" "}
+                      More{" "}
                       <span className="material-symbols-outlined mat-icon fw-200">
                         {" "}
                         trending_flat{" "}
@@ -257,7 +257,7 @@ const AllPosFeatures = () => {
                       href="field-service-management"
                       className="t-link t-link--base fw-md">
                       {" "}
-                      Discover Now{" "}
+                      More{" "}
                       <span className="material-symbols-outlined mat-icon fw-200">
                         {" "}
                         trending_flat{" "}
@@ -282,7 +282,7 @@ const AllPosFeatures = () => {
                       href="field-service-management"
                       className="t-link t-link--base fw-md">
                       {" "}
-                      Discover Now{" "}
+                      More{" "}
                       <span className="material-symbols-outlined mat-icon fw-200">
                         {" "}
                         trending_flat{" "}
@@ -306,7 +306,7 @@ const AllPosFeatures = () => {
                       href="field-service-management"
                       className="t-link t-link--base fw-md">
                       {" "}
-                      Discover Now{" "}
+                      More{" "}
                       <span className="material-symbols-outlined mat-icon fw-200">
                         {" "}
                         trending_flat{" "}
@@ -331,7 +331,7 @@ const AllPosFeatures = () => {
                       href="artificial-intelligence-service"
                       className="t-link t-link--base fw-md">
                       {" "}
-                      Discover Now{" "}
+                      More{" "}
                       <span className="material-symbols-outlined mat-icon fw-200">
                         {" "}
                         trending_flat{" "}
@@ -355,7 +355,7 @@ const AllPosFeatures = () => {
                       href="field-service-management"
                       className="t-link t-link--base fw-md">
                       {" "}
-                      Discover Now{" "}
+                      More{" "}
                       <span className="material-symbols-outlined mat-icon fw-200">
                         {" "}
                         trending_flat{" "}
@@ -379,7 +379,7 @@ const AllPosFeatures = () => {
                       href="field-service-management"
                       className="t-link t-link--base fw-md">
                       {" "}
-                      Discover Now{" "}
+                      More{" "}
                       <span className="material-symbols-outlined mat-icon fw-200">
                         {" "}
                         trending_flat{" "}
@@ -403,7 +403,7 @@ const AllPosFeatures = () => {
                       href="field-service-management"
                       className="t-link t-link--base fw-md">
                       {" "}
-                      Discover Now{" "}
+                      More{" "}
                       <span className="material-symbols-outlined mat-icon fw-200">
                         {" "}
                         trending_flat{" "}
@@ -427,7 +427,7 @@ const AllPosFeatures = () => {
                       href="field-service-management"
                       className="t-link t-link--base fw-md">
                       {" "}
-                      Discover Now{" "}
+                      More{" "}
                       <span className="material-symbols-outlined mat-icon fw-200">
                         {" "}
                         trending_flat{" "}
@@ -451,7 +451,7 @@ const AllPosFeatures = () => {
                       href="field-service-management"
                       className="t-link t-link--base fw-md">
                       {" "}
-                      Discover Now{" "}
+                      More{" "}
                       <span className="material-symbols-outlined mat-icon fw-200">
                         {" "}
                         trending_flat{" "}
@@ -475,7 +475,7 @@ const AllPosFeatures = () => {
                       href="field-service-management"
                       className="t-link t-link--base fw-md">
                       {" "}
-                      Discover Now{" "}
+                      More{" "}
                       <span className="material-symbols-outlined mat-icon fw-200">
                         {" "}
                         trending_flat{" "}
@@ -499,7 +499,7 @@ const AllPosFeatures = () => {
                       href="field-service-management"
                       className="t-link t-link--base fw-md">
                       {" "}
-                      Discover Now{" "}
+                      More{" "}
                       <span className="material-symbols-outlined mat-icon fw-200">
                         {" "}
                         trending_flat{" "}

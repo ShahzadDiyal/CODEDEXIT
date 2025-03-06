@@ -38,16 +38,16 @@ const Service = () => {
                   {" "}
                   Complete deployment of the POS system, covering software and hardware setup, configuration, data migration, user training, and initial support to ensure a seamless and efficient start for businesses with minimal disruptions.{" "}
                 </p>
-                <Link
+                {/* <Link
                   href="field-service-management"
                   className="t-link t-link--base fw-md">
                   {" "}
-                  Discover Now{" "}
+                  More{" "}
                   <span className="material-symbols-outlined mat-icon fw-200">
                     {" "}
                     trending_flat{" "}
                   </span>
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>
@@ -62,16 +62,16 @@ const Service = () => {
                   {" "}
                   24/7 customer support, troubleshooting, and regular software updates to keep the system running smoothly, minimizing downtime and ensuring business continuity.{" "}
                 </p>
-                <Link
+                {/* <Link
                   href="cloud-solutions-service"
                   className="t-link t-link--base fw-md">
                   {" "}
-                  Discover Now{" "}
+                  More{" "}
                   <span className="material-symbols-outlined mat-icon fw-200">
                     {" "}
                     trending_flat{" "}
                   </span>
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>
@@ -86,16 +86,16 @@ const Service = () => {
                   {" "}
                   Tailoring the POS to fit specific business needs, including integrating with third-party tools like accounting software, e-commerce platforms, and payment gateways for enhanced efficiency.{" "}
                 </p>
-                <Link
+                {/* <Link
                   href="artificial-intelligence-service"
                   className="t-link t-link--base fw-md">
                   {" "}
-                  Discover Now{" "}
+                  More{" "}
                   <span className="material-symbols-outlined mat-icon fw-200">
                     {" "}
                     trending_flat{" "}
                   </span>
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>

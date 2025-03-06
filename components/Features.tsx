@@ -50,7 +50,7 @@ const Features = () => {
                   href="field-service-management"
                   className="t-link t-link--base fw-md">
                   {" "}
-                  Discover Now{" "}
+                  More{" "}
                   <span className="material-symbols-outlined mat-icon fw-200">
                     {" "}
                     trending_flat{" "}
@@ -75,7 +75,7 @@ const Features = () => {
                   href="cloud-solutions-service"
                   className="t-link t-link--base fw-md">
                   {" "}
-                  Discover Now{" "}
+                  More{" "}
                   <span className="material-symbols-outlined mat-icon fw-200">
                     {" "}
                     trending_flat{" "}
@@ -100,7 +100,7 @@ const Features = () => {
                   href="artificial-intelligence-service"
                   className="t-link t-link--base fw-md">
                   {" "}
-                  Discover Now{" "}
+                  More{" "}
                   <span className="material-symbols-outlined mat-icon fw-200">
                     {" "}
                     trending_flat{" "}

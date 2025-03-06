@@ -80,7 +80,7 @@ const help_center = () => {
                   href="getting-started"
                   className="t-link t-link--base fw-md">
                   {" "}
-                  Discover Now{" "}
+                  More{" "}
                   <span className="material-symbols-outlined mat-icon fw-200">
                     {" "}
                     trending_flat{" "}
@@ -106,7 +106,7 @@ const help_center = () => {
                   href="getting-started"
                   className="t-link t-link--base fw-md">
                   {" "}
-                  Discover Now{" "}
+                  More{" "}
                   <span className="material-symbols-outlined mat-icon fw-200">
                     {" "}
                     trending_flat{" "}
@@ -132,7 +132,7 @@ const help_center = () => {
                   href="getting-started"
                   className="t-link t-link--base fw-md">
                   {" "}
-                  Discover Now{" "}
+                  More{" "}
                   <span className="material-symbols-outlined mat-icon fw-200">
                     {" "}
                     trending_flat{" "}
@@ -157,7 +157,7 @@ const help_center = () => {
                   href="getting-started"
                   className="t-link t-link--base fw-md">
                   {" "}
-                  Discover Now{" "}
+                  More{" "}
                   <span className="material-symbols-outlined mat-icon fw-200">
                     {" "}
                     trending_flat{" "}
@@ -183,7 +183,7 @@ const help_center = () => {
                   href="getting-started"
                   className="t-link t-link--base fw-md">
                   {" "}
-                  Discover Now{" "}
+                  More{" "}
                   <span className="material-symbols-outlined mat-icon fw-200">
                     {" "}
                     trending_flat{" "}
@@ -209,7 +209,7 @@ const help_center = () => {
                   href="getting-started"
                   className="t-link t-link--base fw-md">
                   {" "}
-                  Discover Now{" "}
+                  More{" "}
                   <span className="material-symbols-outlined mat-icon fw-200">
                     {" "}
                     trending_flat{" "}
@@ -248,7 +248,7 @@ const help_center = () => {
                   href="help-center-details"
                   className="t-link t-link--base fw-md question-card__link">
                   {" "}
-                  Discover Now{" "}
+                  More{" "}
                   <span className="material-symbols-outlined mat-icon fw-200">
                     {" "}
                     trending_flat{" "}
@@ -270,7 +270,7 @@ const help_center = () => {
                   href="help-center-details"
                   className="t-link t-link--base fw-md question-card__link">
                   {" "}
-                  Discover Now{" "}
+                  More{" "}
                   <span className="material-symbols-outlined mat-icon fw-200">
                     {" "}
                     trending_flat{" "}
@@ -292,7 +292,7 @@ const help_center = () => {
                   href="help-center-details"
                   className="t-link t-link--base fw-md question-card__link">
                   {" "}
-                  Discover Now{" "}
+                  More{" "}
                   <span className="material-symbols-outlined mat-icon fw-200">
                     {" "}
                     trending_flat{" "}
@@ -314,7 +314,7 @@ const help_center = () => {
                   href="help-center-details"
                   className="t-link t-link--base fw-md question-card__link">
                   {" "}
-                  Discover Now{" "}
+                  More{" "}
                   <span className="material-symbols-outlined mat-icon fw-200">
                     {" "}
                     trending_flat{" "}

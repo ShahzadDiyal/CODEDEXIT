@@ -59,11 +59,14 @@ const HomePage = () => {
 
       <section ref={heroRef}><Hero /></section>
       <section ref={productRef}><Products /></section>
+      <hr />
       <section ref={serviceRef}><Service /></section>
       <section ref={aboutRef}><About /></section>
       <section ref={teamRef}><Team /></section>
       <section ref={newsRef}><News /></section>
+      <hr />
       <section ref={careerRef}><Career /></section>
+      <hr />
       <section ref={testimonialRef}><Testimonial /></section>
       <Footer />
     </>

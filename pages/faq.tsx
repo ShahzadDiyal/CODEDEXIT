@@ -6,13 +6,13 @@ import { useState, useEffect } from "react";
 const faq_1_data = [
   {
     id: 1,
-    question: "What services does Uzisystem offer?",
+    question: "What services does Coded Exit Ltd offer?",
     answer:
-      "Uzisystem provides field service management, IT solutions, AI development, cloud solutions, and more to help businesses streamline operations and enhance efficiency.",
+      "Coded Exit Ltd provides field service management, IT solutions, AI development, cloud solutions, and more to help businesses streamline operations and enhance efficiency.",
   },
   {
     id: 2,
-    question: "How can Uzisystem improve my field service operations?",
+    question: "How can Coded Exit Ltd improve my field service operations?",
     answer:
       "Our field service management solutions optimize scheduling, dispatching, and tracking, ensuring faster service delivery and improved customer satisfaction.",
   },
@@ -42,19 +42,19 @@ const faq_1_data = [
   },
   {
     id: 7,
-    question: "How secure are Uzisystem’s IT solutions?",
+    question: "How secure are Coded Exit Ltd’s IT solutions?",
     answer:
       "Security is our top priority. We implement robust cybersecurity measures, data encryption, and compliance standards to protect your business.",
   },
   {
     id: 8,
-    question: "What makes Uzisystem different from competitors?",
+    question: "What makes Coded Exit Ltd different from competitors?",
     answer:
       "Our expertise, customer-centric approach, and commitment to innovation set us apart. We provide scalable, cutting-edge solutions tailored to your growth.",
   },
   {
     id: 9,
-    question: "How can I get started with Uzisystem?",
+    question: "How can I get started with Coded Exit Ltd?",
     answer:
       "Simply contact us through our website or email, and our team will assist you in choosing the right solution for your business needs.",
   },
@@ -68,19 +68,19 @@ const faq_1_data = [
 const faq_2_data = [
   {
     id: 1,
-    question: "How does Uzisystem ensure the security of my business data?",
+    question: "How does Coded Exit Ltd ensure the security of my business data?",
     answer:
       "We implement advanced encryption, multi-layered security protocols, and regular audits to safeguard your data from cyber threats and unauthorized access.",
   },
   {
     id: 2,
-    question: "Are Uzisystem’s cloud solutions reliable and scalable?",
+    question: "Are Coded Exit Ltd’s cloud solutions reliable and scalable?",
     answer:
       "Yes! Our cloud solutions are built for high availability, scalability, and resilience, ensuring your business operations run smoothly without downtime.",
   },
   {
     id: 3,
-    question: "How does Uzisystem help improve operational efficiency?",
+    question: "How does Coded Exit Ltd help improve operational efficiency?",
     answer:
       "We streamline workflows, automate repetitive tasks, and optimize resource allocation to enhance productivity and reduce operational costs.",
   },
@@ -92,13 +92,13 @@ const faq_2_data = [
   },
   {
     id: 5,
-    question: "How does Uzisystem prevent downtime and system failures?",
+    question: "How does Coded Exit Ltd prevent downtime and system failures?",
     answer:
       "We use proactive monitoring, failover mechanisms, and disaster recovery strategies to minimize disruptions and ensure seamless business continuity.",
   },
   {
     id: 6,
-    question: "Can Uzisystem integrate its solutions with existing business systems?",
+    question: "Can Coded Exit Ltd integrate its solutions with existing business systems?",
     answer:
       "Yes, our solutions are designed for seamless integration with your current software and infrastructure, ensuring a smooth transition without disruptions.",
   },
@@ -110,7 +110,7 @@ const faq_2_data = [
   },
   {
     id: 8,
-    question: "What measures does Uzisystem take to prevent cybersecurity threats?",
+    question: "What measures does Coded Exit Ltd take to prevent cybersecurity threats?",
     answer:
       "We deploy AI-powered threat detection, regular security updates, and employee training programs to prevent cyberattacks and ensure robust defense mechanisms.",
   },
@@ -321,7 +321,7 @@ const faq = () => {
                 </span>
                 <h2 className="mt-5 text-center">
                   {" "}
-                  Explore Uzisystem’s resources for insights, innovation, security, and business efficiency.{" "}
+                  Explore Coded Exit Ltd’s resources for insights, innovation, security, and business efficiency.{" "}
                 </h2>
               </div>
             </div>

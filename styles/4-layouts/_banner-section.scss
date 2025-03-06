@@ -1,10 +1,11 @@
 .banner-section {
     position: relative;
     isolation: isolate;
-    background-image: url(/images/banner-bg.png);
+    background-image: url(/images/light.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    padding: 250px;
 
     &::after {
         content: '';

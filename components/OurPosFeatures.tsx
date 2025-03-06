@@ -41,10 +41,10 @@
                     The Make Sale module streamlines sales processing with a user-friendly interface, real-time calculations, and shortcut keys, ensuring fast transactions, improved efficiency, and a seamless checkout experience for businesses and customers.{" "}
                   </p>
                   <Link
-                    href="field-service-management"
+                    href="/features/make-sale"
                     className="t-link t-link--base fw-md">
                     {" "}
-                    Discover Now{" "}
+                    More{" "}
                     <span className="material-symbols-outlined mat-icon fw-200">
                       {" "}
                       trending_flat{" "}
@@ -69,7 +69,7 @@
                     href="cloud-solutions-service"
                     className="t-link t-link--base fw-md">
                     {" "}
-                    Discover Now{" "}
+                    More{" "}
                     <span className="material-symbols-outlined mat-icon fw-200">
                       {" "}
                       trending_flat{" "}
@@ -94,7 +94,7 @@
                     href="artificial-intelligence-service"
                     className="t-link t-link--base fw-md">
                     {" "}
-                    Discover Now{" "}
+                    More{" "}
                     <span className="material-symbols-outlined mat-icon fw-200">
                       {" "}
                       trending_flat{" "}

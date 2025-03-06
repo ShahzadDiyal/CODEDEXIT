@@ -84,34 +84,34 @@ const terms_condition = () => {
               <h3 className="mb-5" id="terms"> Terms and Conditions </h3>
               <p className="mb-10">
                 {" "}
-                Welcome to Uzisystem! By accessing or using our services, you agree to comply with these Terms and Conditions. Please read them carefully.
+                Welcome to Coded Exit Ltd! By accessing or using our services, you agree to comply with these Terms and Conditions. Please read them carefully.
 
                 {" "}
               </p>
-              <h4 className="mb-5"> Use Terms for Uzisystem services </h4>
+              <h4 className="mb-5"> Use Terms for Coded Exit Ltd services </h4>
               <p className="mb-10">
                 {" "}
-                Uzisystem provides innovative technology solutions. By using our website and services, you agree to adhere to these
+                Coded Exit Ltd provides innovative technology solutions. By using our website and services, you agree to adhere to these
                 terms. We reserve the right to update these terms at any time.{" "}
               </p>
 
               <h4 className="mb-5"> Acceptance of Terms </h4>
               <p className="mb-10">
                 {" "}
-                By using Uzisystem’s services, you agree to comply with these terms. We reserve the right to update these terms at any time. Continued use constitutes acceptance of changes.
+                By using Coded Exit Ltd’s services, you agree to comply with these terms. We reserve the right to update these terms at any time. Continued use constitutes acceptance of changes.
                 If you do not agree, please refrain from using our services.{" "}
               </p>
 
               <h4 className="mb-5">Service Usage and Restrictions </h4>
               <p className="mb-10">
                 {" "}
-                Uzisystem provides IT solutions, field service management, AI, and cloud services. Users must not misuse our services for illegal activities, unauthorized access, or system disruptions.
+                Coded Exit Ltd provides IT solutions, field service management, AI, and cloud services. Users must not misuse our services for illegal activities, unauthorized access, or system disruptions.
                 Violations may lead to suspension or termination of services.{" "}
               </p>
 
               <h3 className="mb-5" id="privacy"> Privacy Policy </h3>
               <p className="mb-5">
-                Uzisystem is committed to protecting your privacy. We collect and use personal
+                Coded Exit Ltd is committed to protecting your privacy. We collect and use personal
                 information only to enhance our services, improve security, and ensure compliance
                 with industry standards. Your data is stored securely and never shared with
                 unauthorized third parties. By using our services, you agree to our data handling
@@ -129,13 +129,13 @@ const terms_condition = () => {
               <h4 className="mb-5">Security and Confidentiality</h4>
               <p className="mb-10">
                 {" "}
-                Uzisystem implements strict security measures to protect personal and business data. Users are responsible for maintaining their account
+                Coded Exit Ltd implements strict security measures to protect personal and business data. Users are responsible for maintaining their account
                 confidentiality and must report any security breaches immediately.{" "}
               </p>
 
               <h4 className="mb-5"> Cookies and Tracking </h4>
               <p className="mb-10">
-                Uzisystem uses cookies and tracking technologies to enhance user experience,
+                Coded Exit Ltd uses cookies and tracking technologies to enhance user experience,
                 analyze website traffic, and improve service efficiency. These cookies help us
                 understand user preferences, ensuring a personalized and secure browsing experience.
                 By using our services, you consent to our use of cookies in accordance with our
@@ -143,27 +143,27 @@ const terms_condition = () => {
               </p>
               <h3 className="mb-5" id="policy"> User Policy </h3>
               <p className="mb-10">
-                Uzisystem is dedicated to providing secure and efficient technology solutions.
+                Coded Exit Ltd is dedicated to providing secure and efficient technology solutions.
                 Users must ensure ethical and lawful use of our services, including field service
                 management, IT solutions, AI, and cloud services. Misuse of our platform, including
                 unauthorized access, data breaches, or fraudulent activities, is strictly prohibited.
                 Users are responsible for safeguarding their account credentials and reporting
                 security issues immediately. Failure to comply with our policies may result in
-                account suspension or termination. By using Uzisystem’s services, you agree to
+                account suspension or termination. By using Coded Exit Ltd’s services, you agree to
                 follow our guidelines and maintain the integrity of our platform.
               </p>
 
               <h4 className="mb-5"> User Responsibilities </h4>
               <p className="mb-10">
                 {" "}
-                Users must provide accurate information, comply with all applicable laws, and use Uzisystem’s services ethically. Misuse of services,
+                Users must provide accurate information, comply with all applicable laws, and use Coded Exit Ltd’s services ethically. Misuse of services,
                 including fraudulent activities, will result in immediate account suspension.{" "}
               </p>
               <h4 className="mb-5"> Account Management </h4>
               <p className="mb-10">
                 {" "}
                 Users are responsible for safeguarding their account credentials. Unauthorized access or data breaches caused by negligence may lead to penalties.
-                Uzisystem reserves the right to suspend accounts violating our policies.{" "}
+                Coded Exit Ltd reserves the right to suspend accounts violating our policies.{" "}
               </p>
             </div>
 

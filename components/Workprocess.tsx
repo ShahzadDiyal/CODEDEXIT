@@ -14,7 +14,7 @@ const Workprocess = () => {
                 </span>
                 <h2 className="mt-5 mb-5 text-center clr-light">
                   {" "}
-                  How uzisystem Assist Your Business{" "}
+                  How Coded Exit Ltd Assist Your Business{" "}
                 </h2>
                 <p className="max-text-60 text-center mx-auto clr-light">
                   {" "}

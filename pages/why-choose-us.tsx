@@ -77,7 +77,7 @@ const why_choose_us = () => {
               <div className="section__gap-bottom pb-lg-0 position-sticky top-0">
                 <span className="d-block h5 lh-1 fw-semibold clr-base">
                   {" "}
-                  We’re Uzisystem {" "}
+                  We’re Coded Exit Ltd {" "}
                 </span>
                 <h2 className="mt-2 mb-4">
                   {" "}
@@ -86,7 +86,7 @@ const why_choose_us = () => {
               
                 <p className="mb-5">
                   {" "}
-                  At Uzisystem, we don’t just provide IT solutions—we build innovative, scalable, and efficient systems that transform businesses. Whether you need Field Service Management, Cloud Solutions, AI, Chatbots, or other IT services,
+                  At Coded Exit Ltd, we don’t just provide IT solutions—we build innovative, scalable, and efficient systems that transform businesses. Whether you need Field Service Management, Cloud Solutions, AI, Chatbots, or other IT services,
                    we are your trusted technology partner. Here’s why you should choose us?{" "}
                 </p>
                 <h4> Expertise Across Multiple Domains</h4>
@@ -128,7 +128,7 @@ const why_choose_us = () => {
                 <h3>Let’s Innovate Together!</h3>
                 <p className="mb-8">
                   {" "}
-                  At Uzisystem, we are passionate about empowering businesses with technology. Whether you need to automate operations, improve efficiency, or scale with cloud and AI solutions, we are here to help.
+                  At Coded Exit Ltd, we are passionate about empowering businesses with technology. Whether you need to automate operations, improve efficiency, or scale with cloud and AI solutions, we are here to help.
                    Partner with us and take your business to the next level! {" "}
                 </p>
                                 

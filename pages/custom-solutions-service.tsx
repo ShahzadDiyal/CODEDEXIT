@@ -453,7 +453,7 @@ const custom_solutions_service = () => {
                   href="service-details-1"
                   className="t-link t-link--base fw-md">
                   {" "}
-                  Discover Now{" "}
+                  More{" "}
                   <span className="material-symbols-outlined mat-icon fw-200">
                     {" "}
                     trending_flat{" "}
@@ -481,7 +481,7 @@ const custom_solutions_service = () => {
                   href="service-details-1"
                   className="t-link t-link--base fw-md">
                   {" "}
-                  Discover Now{" "}
+                  More{" "}
                   <span className="material-symbols-outlined mat-icon fw-200">
                     {" "}
                     trending_flat{" "}
@@ -510,7 +510,7 @@ const custom_solutions_service = () => {
                   href="service-details-1"
                   className="t-link t-link--base fw-md">
                   {" "}
-                  Discover Now{" "}
+                  More{" "}
                   <span className="material-symbols-outlined mat-icon fw-200">
                     {" "}
                     trending_flat{" "}

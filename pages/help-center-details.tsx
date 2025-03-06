@@ -173,7 +173,7 @@ const help_center_details = () => {
                   href="help-center-details"
                   className="t-link t-link--base fw-md question-card__link">
                   {" "}
-                  Discover Now{" "}
+                  More{" "}
                   <span className="material-symbols-outlined mat-icon fw-200">
                     {" "}
                     trending_flat{" "}
@@ -195,7 +195,7 @@ const help_center_details = () => {
                   href="help-center-details"
                   className="t-link t-link--base fw-md question-card__link">
                   {" "}
-                  Discover Now{" "}
+                  More{" "}
                   <span className="material-symbols-outlined mat-icon fw-200">
                     {" "}
                     trending_flat{" "}
@@ -217,7 +217,7 @@ const help_center_details = () => {
                   href="help-center-details"
                   className="t-link t-link--base fw-md question-card__link">
                   {" "}
-                  Discover Now{" "}
+                  More{" "}
                   <span className="material-symbols-outlined mat-icon fw-200">
                     {" "}
                     trending_flat{" "}
@@ -239,7 +239,7 @@ const help_center_details = () => {
                   href="help-center-details"
                   className="t-link t-link--base fw-md question-card__link">
                   {" "}
-                  Discover Now{" "}
+                  More{" "}
                   <span className="material-symbols-outlined mat-icon fw-200">
                     {" "}
                     trending_flat{" "}
