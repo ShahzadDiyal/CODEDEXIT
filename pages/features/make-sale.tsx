@@ -60,21 +60,19 @@ const Installation_and_setup = () => {
         <div className="container">
           <div className="row g-4">
             <div className="col-md-7 col-xl-5">
-              
+
             </div>
             <span className="w-100"></span>
-            <div className="col-md-6">
-            <h2>Make Sale Module</h2>
+            <div className="col-md-6 mt-0">
+              <h2>Make Sale Module</h2>
               <p>
                 {" "}
-                We are a Field Service Management company. We provide efficient workforce and service automation solutions. Let us help you streamline operations using technologies like real-time tracking,
-                scheduling, dispatching, reporting, and mobile workforce management.
-                We have extensive expertise in delivering advanced Field Service Management solutions. By utilizing the latest technologies and the right tools, our team develops tailored solutions that perfectly align with industry needs. Managing field operations is a complex process, and we support you
-                at every stage, from planning and deployment to optimization and ongoing maintenance.{" "}
+                The Make Sale Module streamlines order processing with essential features and quick actions. Users can set customers, apply discounts, manage sales tax, and process payments efficiently. With Shortcuts keys and real-time order details, automated calculations,
+                and an intuitive interface, this module ensures a seamless sales experience.{" "}
               </p>
               <Link
                 href="contact-us"
-                className="bttn gap-2 bttn--base bttn-md bttn-pill fw-md flex-shrink-0 mt-3">
+                className="bttn gap-2 bttn--base bttn-md bttn-pill fw-md flex-shrink-0" style={{ marginTop: "28px" }}>
                 {" "}
                 Start Project{" "}
                 <span className="material-symbols-rounded mat-icon size-16 fw-400 bttn__icon-cover d-flex align-items-center">
@@ -85,16 +83,334 @@ const Installation_and_setup = () => {
             </div>
             <div className="col-md-6">
               <img
-                src="/images/make-sale.jpg"
+                src="/images/make-sale2.png"
                 alt="image"
                 className="img-fluid flex-shrink-0"
               />
-              {/* <p className="mb-8">
+            </div>
+          </div>
+          <hr />
+          <span className="d-block h5 lh-1 fw-semibold clr-base text-center" style={{ fontSize:"40px", padding:"20px" }}>
+            {" "}
+          Make Sale Features{" "}
+          </span>
+          <div className="row g-4">
+            <div className="col-md-7 col-xl-5">
+
+            </div>
+            <span className="w-100"></span>
+            <div className="col-md-6 align-self-center">
+              <h4>F1: Payment Method</h4>
+              <p>
                 {" "}
-                We have extensive expertise in delivering advanced Field Service Management solutions. By utilizing the latest technologies and the right tools, our team develops tailored solutions that perfectly align with industry needs. Managing field operations is a complex process, and we support you
-                at every stage, from planning and deployment to optimization and ongoing maintenance.{" "}
-              </p> */}
-              
+                The F1: Payment Method button allows users to select a preferred payment method, including Cash, Account, or Card, each with distinct icons for clarity. Clicking F1 opens a clean, modern interface where users can input payment details and finalize transactions. This feature enhances efficiency,
+                reduces errors, and ensures seamless, professional order processing.{" "}
+              </p>
+
+            </div>
+            <div className="col-md-6">
+              <img
+                src="/images/f1-payment-method.png"
+                alt="image"
+                className="img-fluid flex-shrink-0"
+              />
+            </div>
+          </div>
+          <div className="row g-4 mt-4">
+            <div className="col-md-7 col-xl-5">
+
+            </div>
+            <span className="w-100"></span>
+            <div className="col-md-6">
+              <img
+                src="/images/f2.png"
+                alt="image"
+                className="img-fluid flex-shrink-0"
+              />
+            </div>
+            <div className="col-md-6 align-self-center">
+              <h4>F2: Product List</h4>
+              <p>
+                {" "}
+                The F2: Lookup button allows users to quickly search for products or customer details within the system. Upon pressing F2, a table appears displaying product listings with details like name, quantity, price, brand, and vendor. This functionality enhances efficiency,
+                reducing manual searches and improving accuracy in selecting the right products or customers.{" "}
+              </p>
+
+            </div>
+
+          </div>
+          <div className="row g-4 mt-4">
+            <div className="col-md-7 col-xl-5">
+
+            </div>
+            <span className="w-100"></span>
+           
+            <div className="col-md-6 align-self-center">
+              <h4>F3: Discount</h4>
+              <p>
+                {" "}
+                Pressing F3 opens a popup where users can apply a discount either as a percentage or a fixed amount. This flexibility allows businesses to offer promotions, loyalty discounts, or special pricing. It ensures accurate calculations, enhances customer satisfaction, 
+                and boosts sales by making pricing adjustments seamless and efficient.{" "}
+              </p>
+            </div>
+            <div className="col-md-6">
+              <img
+                src="/images/f3.png"
+                alt="image"
+                className="img-fluid flex-shrink-0"
+              />
+            </div>
+
+          </div>
+          <div className="row g-4 mt-4">
+            <div className="col-md-7 col-xl-5">
+
+            </div>
+            <span className="w-100"></span>
+            <div className="col-md-6">
+              <img
+                src="/images/f4-order-status.png"
+                alt="image"
+                className="img-fluid flex-shrink-0"
+              />
+            </div>
+            <div className="col-md-6 align-self-center">
+              <h4>F4: Status (Order Status List)</h4>
+              <p>
+                {" "}
+                When users press F4, a popup opens displaying Paid, Unpaid, and Partially Paid order statuses. This allows quick selection and tracking of payment statuses, ensuring accurate financial records, reducing errors, and preventing duplicate payments. It enhances transparency, streamlines order management, and improves overall sales efficiency.{" "}
+              </p>
+            </div>
+          </div>
+          <div className="row g-4 mt-4">
+            <div className="col-md-7 col-xl-5">
+
+            </div>
+            <span className="w-100"></span>
+            <div className="col-md-6 align-self-center">
+              <h4>F5: Go to Product Cart View</h4>
+              <p>
+                {" "}
+                Pressing F5 instantly navigates the user to the product cart, displaying all added items for review. Users can modify quantities, apply discounts, or remove products before finalizing the sale. This feature ensures order accuracy, reduces errors, and enhances the checkout experience for seamless
+                {" "}
+              </p>
+            </div>
+            <div className="col-md-6">
+              <img
+                src="/images/f5-product-cart.png"
+                alt="image"
+                className="img-fluid flex-shrink-0"
+              />
+            </div>
+          </div>
+          <div className="row g-4 mt-4">
+            <div className="col-md-7 col-xl-5">
+            </div>
+            <span className="w-100"></span>
+            <div className="col-md-6 text-end">
+              <img
+                src="/images/f6.png"
+                alt="image"
+                className="img-fluid flex-shrink-0"
+              />
+            </div>
+            <div className="col-md-6 align-self-center">
+              <h4>F6: Sales Tax</h4>
+              <p className="align-items-center">
+                {" "}
+                When the user presses the F6 button, the system automatically applies the required sales tax to the total purchase amount. This ensures compliance with tax regulations and accurate financial calculations. It eliminates manual tax entry errors, streamlines transactions, and enhances transparency for both sellers and customers.
+                {" "}
+              </p>
+            </div>
+          </div>
+          <div className="row g-4 mt-4">
+            <div className="col-md-7 col-xl-5">
+            </div>
+            <span className="w-100"></span>
+            
+            <div className="col-md-6 align-self-center">
+              <h4>F7: Set Customer</h4>
+              <p className="align-items-center">
+                {" "}
+                When the user presses F7, a customer selection interface appears, allowing them to assign a buyer to the sale. This ensures accurate order tracking, personalized service, and efficient record-keeping. It helps in managing customer purchase history, enabling better sales insights, loyalty programs, and targeted promotions.
+                {" "}
+              </p>
+            </div>
+            <div className="col-md-6 text-end">
+              <img
+                src="/images/f7.png"
+                alt="image"
+                className="img-fluid flex-shrink-0"
+              />
+            </div>
+          </div>
+          <div className="row g-4 mt-4">
+            <div className="col-md-7 col-xl-5">
+            </div>
+            <span className="w-100"></span>
+            <div className="col-md-6 text-end">
+              <img
+                src="/images/f8.png"
+                alt="image"
+                className="img-fluid flex-shrink-0"
+              />
+            </div>
+            <div className="col-md-6 align-self-center">
+              <h4>F8: Item Placement</h4>
+              <p className="align-items-center">
+                {" "}
+                Pressing F8 adds the selected product to the sale, ensuring accurate item tracking. This automates product entry, reducing manual errors and saving time. It enhances efficiency by instantly updating totals, discounts, and taxes, ensuring a seamless checkout experience while maintaining precise inventory records.
+                {" "}
+              </p>
+            </div>
+          </div>
+          <div className="row g-4 mt-4">
+            <div className="col-md-7 col-xl-5">
+            </div>
+            <span className="w-100"></span>
+            
+            <div className="col-md-6 align-self-center">
+              <h4>F10: Reset</h4>
+              <p className="align-items-center">
+                {" "}
+                Clicking the F10 button clears all entered fields and resets the sale module for a new transaction. This prevents incorrect data from being processed, reduces manual errors, and improves workflow efficiency. It ensures a fresh start for each sale, allowing users to handle multiple transactions seamlessly without confusion.
+                {" "}
+              </p>
+            </div>
+            <div className="col-md-6 text-end">
+              <img
+                src="/images/f10.png"
+                alt="image"
+                className="img-fluid flex-shrink-0"
+              />
+            </div>
+          </div>
+          <div className="row g-4 mt-4">
+            <div className="col-md-7 col-xl-5">
+            </div>
+            <span className="w-100"></span>
+            <div className="col-md-6 text-end">
+              <img
+                src="/images/f10.png"
+                alt="image"
+                className="img-fluid flex-shrink-0"
+              />
+            </div>
+            <div className="col-md-6 align-self-center">
+              <h4>F11: Recall</h4>
+              <p className="align-items-center">
+                {" "}
+                Pressing F11 switches the system to full-screen mode, hiding the taskbar and browser tabs for a distraction-free interface. Pressing F11 again restores the original view. This enhances focus, providing a clear workspace for efficient order management without unnecessary distractions.
+                {" "}
+              </p>
+            </div>
+            
+          </div>
+          <div className="row g-4 mt-4">
+            <div className="col-md-7 col-xl-5">
+            </div>
+            <span className="w-100"></span>
+            
+            <div className="col-md-6 align-self-center">
+              <h4>F12: Tender</h4>
+              <p className="align-items-center">
+                {" "}
+                When the user presses F12, the system processes the transaction and finalizes payment details. This ensures a smooth and secure checkout, reducing errors and enhancing efficiency. The feature speeds up sales, improves accuracy, and provides a seamless experience for both customers and sales staff.
+                {" "}
+              </p>
+            </div>
+            <div className="col-md-6 text-end">
+              <img
+                src="/images/f12.png"
+                alt="image"
+                className="img-fluid flex-shrink-0"
+              />
+            </div>
+          </div>
+
+          {/* other features */}
+
+          <div className="row g-4 mt-4">
+            <div className="col-md-7 col-xl-5">
+            </div>
+            <span className="w-100"></span>
+            <div className="col-md-6 text-end">
+              <img
+                src="/images/detail.png"
+                alt="image"
+                className="img-fluid flex-shrink-0"
+              />
+            </div>
+            <div className="col-md-6 align-self-center">
+              <h4>Order Details Panel</h4>
+              <p className="align-items-center">
+                {" "}
+                This panel provides a comprehensive view of the sale, displaying seller and customer details, order status, and financial summaries. It enhances transaction transparency, prevents discrepancies, and ensures accurate record-keeping. Users can track payments, review customer information, and maintain an organized sales history for future reference.
+                {" "}
+              </p>
+            </div>
+            
+          </div>
+          <div className="row g-4 mt-4">
+            <div className="col-md-7 col-xl-5">
+            </div>
+            <span className="w-100"></span>
+            
+            <div className="col-md-6 align-self-center">
+              <h4>Product Entry Section</h4>
+              <p className="align-items-center">
+                {" "}
+                This section allows users to input Product Tag, Quantity, Price, Discount, and Total, streamlining order processing. It improves efficiency by enabling quick product additions, automatic calculations, and discount applications. This ensures accuracy in pricing, reduces manual errors, and enhances the overall sales workflow, leading to a smoother checkout experience.
+                {" "}
+              </p>
+            </div>
+            <div className="col-md-6 text-end">
+              <img
+                src="/images/entry.png"
+                alt="image"
+                className="img-fluid flex-shrink-0"
+              />
+            </div>
+          </div>
+          <div className="row g-4 mt-4">
+            <div className="col-md-7 col-xl-5">
+            </div>
+            <span className="w-100"></span>
+            <div className="col-md-6 text-end">
+              <img
+                src="/images/financial-overview.png"
+                alt="image"
+                className="img-fluid flex-shrink-0"
+              />
+            </div>
+            <div className="col-md-6 align-self-center">
+              <h4>Financial Overview</h4>
+              <p className="align-items-center">
+                {" "}
+                The Financial Overview displays Gross Total, Discounts, Sub Total, Sales Tax, and Final Total, providing a transparent breakdown of the order. This ensures accurate cost calculations, helping businesses maintain pricing consistency, prevent billing errors, and improve financial tracking for better decision-making and seamless transaction management.
+                {" "}
+              </p>
+            </div>
+          </div>
+          <div className="row g-4 mt-4">
+            <div className="col-md-7 col-xl-5">
+            </div>
+            <span className="w-100"></span>
+            
+            <div className="col-md-6 align-self-center">
+              <h4>Real-time Calculation</h4>
+              <p className="align-items-center">
+                {" "}
+                The Real-time Calculation feature automatically updates pricing, discounts, and tax amounts as products are added or modified. This minimizes manual errors, enhances accuracy, and speeds up the checkout process. Businesses benefit from precise billing, improved customer experience, and reduced discrepancies in financial records.
+                {" "}
+              </p>
+            </div>
+            <div className="col-md-6 text-end">
+              <img
+                src="/images/real-time-calculation.png"
+                alt="image"
+                className="img-fluid flex-shrink-0"
+              />
             </div>
           </div>
         </div>

@@ -46,15 +46,15 @@ const Hero = () => {
                 <div className="hero-slider-1__item">
                   <span className="d-block h4 fw-semibold clr-accent mb-5">
                     {" "}
-                    Sell Smarter, Grow Faster!{" "}
+                    Innovate, Scale, Succeed! {" "}
                   </span>
-                  <h2 className="clr-light mb-5">
+                  <h3 className="clr-light mb-5">
                     {" "}
-                    Next-Gen POS for a Hassle-Free Retail Experience{" "}
-                  </h2>
+                    Next-Gen Technology for a Seamless Digital Experience{" "}
+                  </h3>
                   <p className="t-short-para clr-light xl-text mb-10">
                     {" "}
-                    From checkout to analytics, take full control and maximize efficiency.{" "}
+                    Offering end-to-end software solutions for businesses to thrive in the digital era.{" "}
                   </p>
                   <div className="group group-sm-row align-items-start align-items-sm-center">
                     <Link
@@ -101,15 +101,15 @@ const Hero = () => {
                 <div className="hero-slider-1__item">
                   <span className="d-block h4 fw-semibold clr-accent mb-5">
                     {" "}
-                    Elevate Your Business with Smart POS{" "}
+                    Build Smart, Grow Fast!{" "}
                   </span>
-                  <h2 className="clr-light mb-5">
+                  <h3 className="clr-light mb-5">
                     {" "}
-                    Fast, Secure & Scalable – The Ultimate Sales Solution.{" "}
-                  </h2>
+                    Future-Ready Technology for Seamless Business Operations{" "}
+                  </h3>
                   <p className="t-short-para clr-light xl-text mb-10">
                     {" "}
-                    Seamlessly process transactions, track inventory, and manage customers with ease.{" "}
+                    Comprehensive software solutions designed to optimize and accelerate business growth.{" "}
                   </p>  
                   <div className="group group-sm-row align-items-start align-items-sm-center">
                     <Link
@@ -156,15 +156,15 @@ const Hero = () => {
                 <div className="hero-slider-1__item">
                   <span className="d-block h4 fw-semibold clr-accent mb-5">
                     {" "}
-                    The Future of POS is Here{" "}
+                    The Future of Software Solutions is Here!{" "}
                   </span>
-                  <h2 className="clr-light mb-5">
+                  <h3 className="clr-light mb-5">
                     {" "}
-                    Empower Your Business with a Smart & Seamless Point of Sale System.{" "}
-                  </h2>
+                    Empower Your Business with Smart & Scalable Software Solutions{" "}
+                  </h3>
                   <p className="t-short-para clr-light xl-text mb-10">
                     {" "}
-                    Effortlessly manage sales, inventory, and customers—all in one powerful platform.{" "}
+                    Effortlessly Manage Operations, Data, and Growth—all in One Powerful Ecosystem {" "}
                   </p>
                   <div className="group group-sm-row align-items-start align-items-sm-center">
                     <Link

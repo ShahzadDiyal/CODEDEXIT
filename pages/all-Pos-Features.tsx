@@ -37,7 +37,7 @@ const AllPosFeatures = () => {
         <div className="container">
           <div className="row">
             <div className="col-12">
-              <h3 className="clr-light mb-3"> POS Features</h3>
+              <h3 className="clr-light mb-3"> Point Of Sale</h3>
               <ul className="list list-row flex-wrap breadcrumb-list">
                 <li>
                   <Link
@@ -76,7 +76,7 @@ const AllPosFeatures = () => {
             <div className="container">
               <div className="row justify-content-center">
                 <div className="col-md-10 col-xl-8">
-                <span className="d-block h5 lh-1 fw-semibold clr-base text-center" style={{border:"3px solid",padding:"15px",borderRadius:"10px",width:"30%",justifySelf:"center"}}>
+                <span className="d-block h5 lh-1 fw-semibold clr-base text-center" style={{fontSize:"30px"}}>
                   {" "}
                   Our POS Features{" "}
                 </span>

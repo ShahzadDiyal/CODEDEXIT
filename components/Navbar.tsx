@@ -102,7 +102,7 @@ const Navbar = ({ scrollToSection, sections,rtlurl }) => {
                         scrollToSection(sections.productRef);
                       }}
                     >
-                      Features
+                      Products
                     </a>
                   </li>
                   <li>

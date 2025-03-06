@@ -9,17 +9,18 @@ const Service = () => {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-md-10 col-xl-8">
-              <span className="d-block h5 lh-1 fw-semibold clr-base text-center" style={{border:"1px solid",padding:"10px",borderRadius:"10px",width:"20%",justifySelf:"center"}}>
+              <span className="d-block h5 lh-1 fw-semibold clr-base text-center" style={{fontSize:"30px"}}>
                 {" "}
                 Our Services{" "}
               </span>
               <h3 className="mt-5 mb-5 text-center">
                 {" "}
-                World-Class POS Services for Growth{" "}
+                World-Class Software Solutions{" "}
               </h3>
               <p className="text-center mx-auto t-short-para">
                 {" "}
-                Empowering retail, restaurants, and service industries with cutting-edge technology. Let’s turn your business vision into reality!{" "}
+                CODEDEXIT Ltd. – Delivering innovative, scalable software solutions to transform businesses with cutting-edge technology, 
+                automation, and future-ready digital innovations for lasting success!{" "}
               </p>
             </div>
           </div>
@@ -30,13 +31,13 @@ const Service = () => {
           <div className="col-md-6 col-lg-4">
             <div className="service-card service-card--1">
               <div className="icon-box icon-box--md circle bg-danger flex-shrink-0">
-                <img src="/images/customization.png" alt="image" />
+                <img src="/images/custom.png" alt="image" />
               </div>
               <div className="flex-grow-1">
-                <h5 className="mb-2">Installation & Setup </h5>
+                <h5 className="mb-2">Custom Software Development</h5>
                 <p className="mb-5">
                   {" "}
-                  Complete deployment of the POS system, covering software and hardware setup, configuration, data migration, user training, and initial support to ensure a seamless and efficient start for businesses with minimal disruptions.{" "}
+                  Custom software development delivering scalable, secure, and high-performance solutions to enhance efficiency, automate processes, and drive growth with innovative, user-friendly, and future-ready technology.{" "}
                 </p>
                 {/* <Link
                   href="field-service-management"
@@ -54,13 +55,13 @@ const Service = () => {
           <div className="col-md-6 col-lg-4">
             <div className="service-card service-card--1">
               <div className="icon-box icon-box--md circle bg-success flex-shrink-0">
-                <img src="/images/connection.png" alt="image" />
+                <img src="/images/web-development.png" alt="image" />
               </div>
               <div className="flex-grow-1">
-                <h5 className="mb-2">Technical Support & Maintenance </h5>
+                <h5 className="mb-2">Web development</h5>
                 <p className="mb-5">
                   {" "}
-                  24/7 customer support, troubleshooting, and regular software updates to keep the system running smoothly, minimizing downtime and ensuring business continuity.{" "}
+                  Web development services creating responsive, secure, and dynamic websites to enhance user experience, boost engagement, and establish a strong online presence with cutting-edge technology, seamless performance, and scalable solutions.{" "}
                 </p>
                 {/* <Link
                   href="cloud-solutions-service"
@@ -78,13 +79,13 @@ const Service = () => {
           <div className="col-md-6 col-lg-4">
             <div className="service-card service-card--1">
               <div className="icon-box icon-box--md circle bg-warning flex-shrink-0">
-                <img src="/images/cloud-computing.png" alt="image" />
+                <img src="/images/mobile-app.png" alt="image" />
               </div>
               <div className="flex-grow-1">
-                <h5 className="mb-2">Customization & Integration</h5>
+                <h5 className="mb-2">Mobile App Development</h5>
                 <p className="mb-5">
                   {" "}
-                  Tailoring the POS to fit specific business needs, including integrating with third-party tools like accounting software, e-commerce platforms, and payment gateways for enhanced efficiency.{" "}
+                  Mobile app development services creating intuitive, feature-rich, and high-performance apps for iOS and Android, ensuring seamless user experience, scalability, and innovation to drive engagement and business growth.{" "}
                 </p>
                 {/* <Link
                   href="artificial-intelligence-service"

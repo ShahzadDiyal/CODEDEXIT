@@ -6,14 +6,14 @@ import Consult from "@/components/Consult";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
-import Products from "@/components/OurPosFeatures";
+import Products from "@/components/OurPosProducts";
 import Service from "@/components/Service";
 import Team from "@/components/Team";
 import Testimonial from "@/components/Testimonial";
 import News from "@/components/News";
 import Career from "@/components/Career";
 import Features from "@/components/Features";
-import OurPosFeatures from "@/components/OurPosFeatures";
+import OurPosFeatures from "@/components/OurPosProducts";
 
 const HomePage = () => {
   const productRef = useRef(null);

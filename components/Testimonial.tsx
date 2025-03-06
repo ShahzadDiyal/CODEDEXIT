@@ -34,9 +34,9 @@ const Testimonail = () => {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-md-10 col-lg-8 col-xxl-7">
-              <span className="d-block h5 lh-1 fw-semibold clr-base text-center" style={{ border: "1px solid", padding: "10px", borderRadius: "10px", width: "80%", justifySelf: "center" }}>
+              <span className="d-block h5 lh-1 fw-semibold clr-base text-center" style={{fontSize:"30px"}}>
                 {" "}
-                The views expressed by our existing clients{" "}
+                Our Testimonials{" "}
               </span>
               <h2 className="mt-5 mb-5 text-center">
                 {" "}

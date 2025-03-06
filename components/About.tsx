@@ -29,16 +29,16 @@ const About = () => {
                       <div className="section__gap-bottom pb-lg-0">
                         <span className="d-block h5 lh-1 fw-semibold clr-base">
                           {" "}
-                          Boost Sales & Efficiency with Our Smart POS Solutions{" "}
+                          Trusted & Professional Software Solutions{" "}
                         </span>
-                        <h2 className="mt-5 mb-5">
+                        <h4 className="mt-5 mb-5">
                           {" "}
                           In 10 years, we've succeeded. Success rewards efforts.{" "}
-                        </h2>
+                        </h4>
                         <p className="mb-8 max-text-60">
                           {" "}
-                          CODEDEXIT Ltd guarantees seamless sales operations with precision and efficiency, ensuring a smooth and hassle-free POS experience. Our advanced technology secures transactions,
-                           protects customer data, and optimizes business performance for unstoppable growth.{" "}
+                          At CODEDEXIT LTD, we are committed to delivering high-performance, reliable, and future-ready software solutions that help businesses thrive in the digital era. Whether you need a powerful POS system, enterprise software, 
+                          or AI-driven applications, we provide the technology to fuel your success.{" "}
                         </p>
                         <Link
                           href="about-us"

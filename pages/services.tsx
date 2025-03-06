@@ -75,17 +75,18 @@ const service = () => {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-md-10 col-xl-8">
-              <span className="d-block h5 lh-1 fw-semibold clr-base text-center" style={{border:"1px solid",padding:"10px",borderRadius:"10px",width:"20%",justifySelf:"center"}}>
+              <span className="d-block h5 lh-1 fw-semibold clr-base text-center" style={{fontSize:"30px"}}>
                 {" "}
                 Our Services{" "}
               </span>
               <h3 className="mt-5 mb-5 text-center">
                 {" "}
-                World-Class POS Services for Growth{" "}
+                World-Class Software Services for Growth{" "}
               </h3>
               <p className="text-center mx-auto t-short-para">
                 {" "}
-                Empowering retail, restaurants, and service industries with cutting-edge technology. Let’s turn your business vision into reality!{" "}
+                CODEDEXIT Ltd. – Delivering innovative, scalable software solutions to transform businesses with cutting-edge technology, automation, 
+                and future-ready digital innovations for lasting success!{" "}
               </p>
             </div>
           </div>
@@ -96,16 +97,16 @@ const service = () => {
           <div className="col-md-6 col-lg-4">
             <div className="service-card service-card--1">
               <div className="icon-box icon-box--md circle bg-danger flex-shrink-0">
-                <img src="/images/customization.png" alt="image" />
+                <img src="/images/custom.png" alt="image" />
               </div>
               <div className="flex-grow-1">
-                <h5 className="mb-2">Installation & Setup </h5>
+                <h5 className="mb-2">Custom Software Development</h5>
                 <p className="mb-5">
                   {" "}
-                  Complete deployment of the POS system, covering software and hardware setup, configuration, data migration, user training, and initial support to ensure a seamless and efficient start for businesses with minimal disruptions.{" "}
+                  Custom software development delivering scalable, secure, and high-performance solutions to enhance efficiency, automate processes, and drive growth with innovative, user-friendly, and future-ready technology.{" "}
                 </p>
                 {/* <Link
-                  href="InstallationAndSetup"
+                  href="field-service-management"
                   className="t-link t-link--base fw-md">
                   {" "}
                   More{" "}
@@ -120,13 +121,13 @@ const service = () => {
           <div className="col-md-6 col-lg-4">
             <div className="service-card service-card--1">
               <div className="icon-box icon-box--md circle bg-success flex-shrink-0">
-                <img src="/images/connection.png" alt="image" />
+                <img src="/images/web-development.png" alt="image" />
               </div>
               <div className="flex-grow-1">
-                <h5 className="mb-2">Technical Support & Maintenance </h5>
+                <h5 className="mb-2">Web development</h5>
                 <p className="mb-5">
                   {" "}
-                  24/7 customer support, troubleshooting, and regular software updates to keep the system running smoothly, minimizing downtime and ensuring business continuity.{" "}
+                  Web development services creating responsive, secure, and dynamic websites to enhance user experience, boost engagement, and establish a strong online presence with cutting-edge technology, seamless performance, and scalable solutions.{" "}
                 </p>
                 {/* <Link
                   href="cloud-solutions-service"
@@ -144,13 +145,13 @@ const service = () => {
           <div className="col-md-6 col-lg-4">
             <div className="service-card service-card--1">
               <div className="icon-box icon-box--md circle bg-warning flex-shrink-0">
-                <img src="/images/24-hours.png" alt="image" />
+                <img src="/images/mobile-app.png" alt="image" />
               </div>
               <div className="flex-grow-1">
-                <h5 className="mb-2"> 24/7 Technical Support</h5>
+                <h5 className="mb-2">Mobile App Development</h5>
                 <p className="mb-5">
                   {" "}
-                  Ensure smooth business operations with 24/7 technical support, system updates, troubleshooting, and maintenance. Our team minimizes downtime, ensuring your POS system runs efficiently for optimal performance and reliability.{" "}
+                  Mobile app development services creating intuitive, feature-rich, and high-performance apps for iOS and Android, ensuring seamless user experience, scalability, and innovation to drive engagement and business growth.{" "}
                 </p>
                 {/* <Link
                   href="artificial-intelligence-service"
@@ -167,14 +168,15 @@ const service = () => {
           </div>
           <div className="col-md-6 col-lg-4">
             <div className="service-card service-card--1">
-              <div className="icon-box icon-box--md circle flex-shrink-0" style={{backgroundColor:"rgb(177 175 172)"}}>
-                <img src="/images/reporting.png" alt="image" />
+              <div className="icon-box icon-box--md circle flex-shrink-0" style={{backgroundColor:"rgb(255 131 102)"}}>
+                <img src="/images/solution.png" alt="image" />
               </div>
               <div className="flex-grow-1">
-                <h5 className="mb-2">Reporting & Analytics</h5>
+                <h5 className="mb-2">Cloud Solutions</h5>
                 <p className="mb-5">
                   {" "}
-                  Gain real-time insights into sales, inventory, and customer trends with detailed reports and analytics. Track performance, identify opportunities, and make data-driven decisions to optimize operations,drive business growth.{" "}
+                  Scalable, secure, and high-performance cloud computing services designed to enhance business operations, improve data accessibility, ensure reliability, and drive efficiency with seamless integration and advanced infrastructure management. 
+                  {" "}
                 </p>
                 {/* <Link
                   href="artificial-intelligence-service"
@@ -191,14 +193,14 @@ const service = () => {
           </div>
           <div className="col-md-6 col-lg-4">
             <div className="service-card service-card--1">
-              <div className="icon-box icon-box--md circle flex-shrink-0" style={{backgroundColor:"#64f955"}}>
-                <img src="/images/customizations.png" alt="image" />
+              <div className="icon-box icon-box--md circle flex-shrink-0" style={{backgroundColor:"rgb(187 97 202)"}}>
+                <img src="/images/artificial-intelligence.png" alt="image" />
               </div>
               <div className="flex-grow-1">
-                <h5 className="mb-2">Customization & Integration</h5>
+                <h5 className="mb-2">AI & ML</h5>
                 <p className="mb-5">
                   {" "}
-                  Tailoring the POS to fit specific business needs, including integrating with third-party tools like accounting software, e-commerce platforms, and payment gateways for enhanced efficiency.{" "}
+                  AI & Machine Learning Solutions – Harness the power of smart automation and data-driven insights to optimize operations, improve decision-making, enhance efficiency, and drive innovation for scalable and intelligent business growth. {" "}
                 </p>
                 {/* <Link
                   href="artificial-intelligence-service"
@@ -215,158 +217,14 @@ const service = () => {
           </div>
           <div className="col-md-6 col-lg-4">
             <div className="service-card service-card--1">
-              <div className="icon-box icon-box--md circle flex-shrink-0" style={{backgroundColor:"rgb(83 114 255)"}}>
-                <img src="/images/stockmanagement.png" alt="image" />
+              <div className="icon-box icon-box--md circle flex-shrink-0" style={{backgroundColor:"rgb(125 233 129)"}}>
+                <img src="/images/customer-care.png" alt="image" />
               </div>
               <div className="flex-grow-1">
-                <h5 className="mb-2">Inventory & Stock Management</h5>
+                <h5 className="mb-2">IT Consulting & Support</h5>
                 <p className="mb-5">
                   {" "}
-                  Track, manage, and optimize inventory across multiple locations with real-time updates, low-stock alerts, and automated stock adjustments to prevent shortages and ensure efficient stock control.{" "}
-                </p>
-                {/* <Link
-                  href="artificial-intelligence-service"
-                  className="t-link t-link--base fw-md">
-                  {" "}
-                  More{" "}
-                  <span className="material-symbols-outlined mat-icon fw-200">
-                    {" "}
-                    trending_flat{" "}
-                  </span>
-                </Link> */}
-              </div>
-            </div>
-          </div>
-          <div className="col-md-6 col-lg-4">
-            <div className="service-card service-card--1">
-              <div className="icon-box icon-box--md circle flex-shrink-0" style={{backgroundColor:"rgb(76 171 244)"}}>
-                <img src="/images/process.png" alt="image" />
-              </div>
-              <div className="flex-grow-1">
-                <h5 className="mb-2">Sales & Order Processing</h5>
-                <p className="mb-5">
-                  {" "}
-                  Streamline sales transactions with fast order processing, barcode scanning, invoice generation, and seamless checkout experiences, improving efficiency and enhancing customer satisfaction.{" "}
-                </p>
-                {/* <Link
-                  href="artificial-intelligence-service"
-                  className="t-link t-link--base fw-md">
-                  {" "}
-                  More{" "}
-                  <span className="material-symbols-outlined mat-icon fw-200">
-                    {" "}
-                    trending_flat{" "}
-                  </span>
-                </Link> */}
-              </div>
-            </div>
-          </div>
-          <div className="col-md-6 col-lg-4">
-            <div className="service-card service-card--1">
-              <div className="icon-box icon-box--md circle bg-danger flex-shrink-0">
-                <img src="/images/store.png" alt="image" />
-              </div>
-              <div className="flex-grow-1">
-                <h5 className="mb-2">Multi-Store Management</h5>
-                <p className="mb-5">
-                  {" "}
-                  Easily manage multiple stores from a centralized system, ensuring synchronized inventory, pricing, and sales tracking while gaining real-time insights to streamline operations and improve overall business performance.{" "}
-                </p>
-                {/* <Link
-                  href="artificial-intelligence-service"
-                  className="t-link t-link--base fw-md">
-                  {" "}
-                  More{" "}
-                  <span className="material-symbols-outlined mat-icon fw-200">
-                    {" "}
-                    trending_flat{" "}
-                  </span>
-                </Link> */}
-              </div>
-            </div>
-          </div>
-          <div className="col-md-6 col-lg-4">
-            <div className="service-card service-card--1">
-              <div className="icon-box icon-box--md circle bg-warning flex-shrink-0">
-                <img src="/images/secure-payment.png" alt="image" />
-              </div>
-              <div className="flex-grow-1">
-                <h5 className="mb-2"> Secure Payment Processing</h5>
-                <p className="mb-5">
-                  {" "}
-                  Accept multiple payment methods, including cash, cards, and digital wallets, with end-to-end encryption and fraud protection, ensuring secure and reliable transactions system.{" "}
-                </p>
-                {/* <Link
-                  href="artificial-intelligence-service"
-                  className="t-link t-link--base fw-md">
-                  {" "}
-                  More{" "}
-                  <span className="material-symbols-outlined mat-icon fw-200">
-                    {" "}
-                    trending_flat{" "}
-                  </span>
-                </Link> */}
-              </div>
-            </div>
-          </div>
-          <div className="col-md-6 col-lg-4">
-            <div className="service-card service-card--1">
-              <div className="icon-box icon-box--md circle flex-shrink-0" style={{backgroundColor:"rgb(205 62 198)"}}>
-                <img src="/images/loyal-customer.png" alt="image" />
-              </div>
-              <div className="flex-grow-1">
-                <h5 className="mb-2"> Customer & Loyalty Management</h5>
-                <p className="mb-5">
-                  {" "}
-                  Boost customer retention with loyalty programs, targeted promotions, and detailed customer profiles, offering businesses valuable insights to enhance engagement, drive repeat sales, and improve overall customer satisfaction and experience.{" "}
-                </p>
-                {/* <Link
-                  href="artificial-intelligence-service"
-                  className="t-link t-link--base fw-md">
-                  {" "}
-                  More{" "}
-                  <span className="material-symbols-outlined mat-icon fw-200">
-                    {" "}
-                    trending_flat{" "}
-                  </span>
-                </Link> */}
-              </div>
-            </div>
-          </div>
-          <div className="col-md-6 col-lg-4">
-            <div className="service-card service-card--1">
-              <div className="icon-box icon-box--md circle flex-shrink-0" style={{backgroundColor:"rgb(151 63 255)"}}>
-                <img src="/images/team-management.png" alt="image" />
-              </div>
-              <div className="flex-grow-1">
-                <h5 className="mb-2"> Employee & User Management</h5>
-                <p className="mb-5">
-                  {" "}
-                  Manage employees efficiently by assigning roles, setting permissions, and tracking performance with detailed logs and reports, ensuring security, accountability, and streamlined workforce operations for improved business productivity and control.{" "}
-                </p>
-                {/* <Link
-                  href="artificial-intelligence-service"
-                  className="t-link t-link--base fw-md">
-                  {" "}
-                  More{" "}
-                  <span className="material-symbols-outlined mat-icon fw-200">
-                    {" "}
-                    trending_flat{" "}
-                  </span>
-                </Link> */}
-              </div>
-            </div>
-          </div>
-          <div className="col-md-6 col-lg-4">
-            <div className="service-card service-card--1">
-              <div className="icon-box icon-box--md circle flex-shrink-0" style={{backgroundColor:"rgb(255 236 165)"}}> 
-                <img src="/images/cloud-network.png" alt="image" />
-              </div>
-              <div className="flex-grow-1">
-                <h5 className="mb-2">Multi-Location Management</h5>
-                <p className="mb-5">
-                  {" "}
-                  Streamline multi-location operations with centralized stock control, real-time reporting, and seamless coordination, ensuring efficiency, consistency, and smooth management across all business branches for enhanced productivity.{" "}
+                  Providing expert guidance, technical assistance, and strategic solutions to optimize your IT infrastructure, enhance security, improve efficiency, and ensure seamless business operations with cutting-edge technology and proactive support.{" "}
                 </p>
                 {/* <Link
                   href="artificial-intelligence-service"

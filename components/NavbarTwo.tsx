@@ -91,15 +91,15 @@ const NavbarTwo = ({ rtlurl }) => {
                   </li>
                   <li>
                     <a
-                      href="all-Pos-Features"
+                      href="/ourProducts"
                       className="primary-menu__link"
                     >
-                      Features
+                      Products
                     </a>
                   </li>
                   <li>
                     <a
-                      href="services"
+                      href="/services/"
                       className="primary-menu__link"
                     >
                       Services
@@ -107,7 +107,7 @@ const NavbarTwo = ({ rtlurl }) => {
                   </li>
                   <li>
                     <a
-                      href="about-us"
+                      href="/about-us/"
                       className="primary-menu__link"
                     >
                       About
@@ -116,7 +116,7 @@ const NavbarTwo = ({ rtlurl }) => {
 
                   <li>
                     <a
-                      href="blog"
+                      href="/blog/"
                       className="primary-menu__link"
                     >
                       Blogs
@@ -125,7 +125,7 @@ const NavbarTwo = ({ rtlurl }) => {
 
 
                   <Link
-                    href="contact-us"
+                    href="/contact-us/"
                     className="bttn bttn--stroke-outline bttn-md bttn-pill fw-md flex-shrink-0 align-items-center">
                     Contact Us
                   </Link>
