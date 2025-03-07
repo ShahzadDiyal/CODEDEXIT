@@ -86,7 +86,7 @@ const AllPosFeatures = () => {
                   </h3>
                   <p className="text-center mx-auto t-short-para">
                     {" "}
-                    At CODEDEXIT Ltd., we provide advanced POS solutions for marts of all sizes, simplifying operations, enhancing efficiency, 
+                    At CODEDEXIT Ltd, we provide advanced POS solutions for marts of all sizes, simplifying operations, enhancing efficiency, 
                     and driving growth with seamless sales, inventory, and management features! {" "}
                   </p>
                 </div>

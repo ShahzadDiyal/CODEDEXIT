@@ -9,22 +9,43 @@ const feedbackData = [
     id: 1,
     img: '/images/team-1.png',
     name: 'Peter Cooper',
-    review: "Exceptional IT solutions! Enhanced efficiency, security, and growth. Reliable support and seamless technology integration. Highly recommended!",
+    review: "Its really wonderful to get work done from him of mobile app development's task. He take care of everything in brief to make sure me that the work done properly.",
     company: "Barone LLC."
   },
   {
     id: 2,
     img: '/images/team-2.png',
     name: 'Wade Warren',
-    review: "Incredible IT solutions! Streamlined our operations, improved security, and boosted productivity. Outstanding service and support. Truly impressed!",
+    review: "He took care of delivery time and without compromising the quality of the output which makes me satisfied always, and i would like to hire him again for my mobile app development task!",
     company: "Big Kahuna Ltd."
   },
   {
     id: 3,
     img: '/images/team-3.png',
     name: 'Marvin McKey',
-    review: "Outstanding IT solutions! Enhanced performance, seamless integration, and top-notch support. A game-changer for our business success!",
+    review: "The custom website he created was truly impressive—professionally designed, fully functional, and aligned with my vision. It has helped my business stand out online.",
     company: "Biffco Ltd."
+  },
+  {
+    id: 4,
+    img: '/images/team-4.png',
+    name: 'Berg Jason',
+    review: "My custom website was built with precision and creativity! The layout is stunning, the functionality is smooth, and the site is perfectly optimized. It’s exactly what I envisioned for my business.",
+    company: "BERGIS ltd."
+  },
+  {
+    id: 5,
+    img: '/images/team-5.png',
+    name: 'Alice Kieran',
+    review: "Exceptional work and communication from the team. They are very responsive and considerate when it comes to customer's demands and go out of their way to get the job done with utmost professionalism.",
+    company: "Alice Kieran Ltd."
+  },
+  {
+    id: 6,
+    img: '/images/team-6.png',
+    name: 'Fakhri Shehab',
+    review: "The best team to work with! The team is extra professional, always live to solve your problems (no matter what's the time!) and always following up! THE BEST BEST! Highly recommended!",
+    company: "Eskilstuna, Södermanland."
   },
 ]
 const Feedback_3 = () => {
@@ -124,16 +145,16 @@ const Feedback_3 = () => {
       <div className="section__gap-bottom">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-md-10 col-xl-7">
+            <div className="col-md-10 col-xl-10">
               <div className="text-center">
                 <span className="d-inline-block h5 lh-1 fw-semibold clr-base">
                   {" "}
                   Trusted by industrial innovators{" "}
                 </span>
-                <h2 className="mt-5 mb-5">
+                <h3 className="mt-5 mb-5">
                   {" "}
                   Don’t take our word for it. See what our clients say{" "}
-                </h2>
+                </h3>
                 <p className="mx-auto max-text-60">
                   {" "}
                   What follows are some of the comments made by our clients.
@@ -147,7 +168,7 @@ const Feedback_3 = () => {
       </div>
       <div className="container">
         <div className="row justify-content-center">
-          <div className="col-md-10 col-xl-8">
+          <div className="col-md-10 col-xl-12">
             <Swiper
               dir="ltr"
               className="testimonial-slider-2"

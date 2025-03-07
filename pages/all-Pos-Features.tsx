@@ -107,7 +107,7 @@ const AllPosFeatures = () => {
                       The Dashboard module provides a comprehensive overview of business operations, featuring real-time analytics, key performance indicators, and visual reports. Users can track sales, inventory, expenses, and other essential metrics efficiently.{" "}
                     </p>
                     <Link
-                      href="field-service-management"
+                      href="/pos-features/dashboard"
                       className="t-link t-link--base fw-md">
                       {" "}
                       More{" "}
@@ -131,7 +131,7 @@ const AllPosFeatures = () => {
                       The Admin module allows managing users, assigning roles, setting permissions, tracking audit logs, and handling tenants. It ensures secure access control, efficient user management, and comprehensive oversight of system activities.{" "}
                     </p>
                     <Link
-                      href="/features/make-sale"
+                      href="/pos-features/make-sale"
                       className="t-link t-link--base fw-md">
                       {" "}
                       More{" "}
@@ -156,7 +156,7 @@ const AllPosFeatures = () => {
                       , track payments etc.{" "}
                     </p>
                     <Link
-                      href="cloud-solutions-service"
+                      href="/pos-features/purchase-orders"
                       className="t-link t-link--base fw-md">
                       {" "}
                       More{" "}
@@ -194,8 +194,8 @@ const AllPosFeatures = () => {
               </div>
               <div className="col-md-6 col-lg-4">
                 <div className="service-card service-card--1">
-                  <div className="icon-box icon-box--md circle flex-shrink-0" style={{backgroundColor:"#64f955"}}>
-                    <img src="/images/cart.png" alt="image" />
+                  <div className="icon-box icon-box--md circle flex-shrink-0" style={{backgroundColor:"#ffc163"}}>
+                    <img src="/images/checkout.png" alt="image" />
                   </div>
                   <div className="flex-grow-1">
                     <h5 className="mb-2">Online Orders</h5>
@@ -218,7 +218,7 @@ const AllPosFeatures = () => {
               </div>
               <div className="col-md-6 col-lg-4">
                 <div className="service-card service-card--1">
-                  <div className="icon-box icon-box--md circle bg-white flex-shrink-0">
+                  <div className="icon-box icon-box--md circle flex-shrink-0" style={{background:"rgb(16 253 0)"}}>
                     <img src="/images/allstock.png" alt="image" />
                   </div>
                   <div className="flex-grow-1">
@@ -366,7 +366,7 @@ const AllPosFeatures = () => {
               </div>
               <div className="col-md-6 col-lg-4">
                 <div className="service-card service-card--1">
-                  <div className="icon-box icon-box--md circle flex-shrink-0" style={{backgroundColor:"rgb(255 0 0) !important"}}>
+                  <div className="icon-box icon-box--md circle flex-shrink-0" style={{backgroundColor:"rgb(255 0 0)"}}>
                     <img src="/images/hammer.png" alt="image" />
                   </div>
                   <div className="flex-grow-1">

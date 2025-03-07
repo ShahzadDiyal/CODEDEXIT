@@ -177,12 +177,12 @@ const Navbar = ({ scrollToSection, sections,rtlurl }) => {
                       Testimonials
                     </a>
                   </li>
-                  <Link
+                  {/* <Link
                     href="contact-us"
               
                     className="bttn bttn--stroke-outline bttn-md bttn-pill fw-md flex-shrink-0 align-items-center">
                           Contact Us
-                  </Link>
+                  </Link> */}
                   <li>
                     <button className="dark-mode-toggle" onClick={() => setTheme(inactiveTheme)}>
                       {theme !== "light" ? (
