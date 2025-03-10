@@ -6,7 +6,7 @@ import Navbar from "@/components/NavbarTwo";
 import { useEffect } from 'react';
 import Footer from "@/components/Footer";
 
-const Master_Category_Module = () => {
+const Settings_Module = () => {
   useEffect(() => {
     document.documentElement.setAttribute("dir", "ltr");
   }, []);
@@ -19,7 +19,7 @@ const Master_Category_Module = () => {
         <div className="container">
           <div className="row">
             <div className="col-12">
-              <h3 className="clr-light mb-3">Master Category</h3>
+              <h3 className="clr-light mb-3">Setting Module </h3>
               <ul className="list list-row flex-wrap breadcrumb-list">
                 <li>
                   <Link
@@ -42,7 +42,7 @@ const Master_Category_Module = () => {
                     href="#"
                     className="d-inline-block t-link clr-light :clr-accent">
                     {" "}
-                    Master Category{" "}
+                    Setting Module{" "}
                   </Link>
                 </li>
                 <li className="d-none">
@@ -60,15 +60,15 @@ const Master_Category_Module = () => {
         <div className="container">
           <div className="row g-4" style={{ border: "1px solid", borderRadius: "5px", padding: "0 25px 25px 25px" }}>
             <div className="col-md-7 col-xl-5">
-
             </div>
             <span className="w-100"></span>
             <div className="col-md-6 mt-0 align-self-center">
-              <h3>Master Category Module</h3>
+              <h3>Setting Module </h3>
               <p>
                 {" "}
-                The Master Category Module streamlines product management with a structured system for inventory organization. It features a well-organized product list, enabling users to track stock, pricing, taxes, and availability efficiently. Advanced search and filters enhance accessibility, simplifying vendor coordination and sales tracking.
-                Its modern interface boosts productivity, accuracy, and decision-making in inventory management.{" "}
+                The Settings Module serves as the central hub for configuring and customizing the Point of Sale system. With multiple tabs like General Settings, Company Details, Tax, System, Email, and Custom Localizations, users can fine-tune operations to match business needs. This module enhances flexibility, compliance, and efficiency,
+                ensuring seamless system management and a personalized POS experience.
+                {" "}
               </p>
               <Link
                 href="contact-us"
@@ -81,18 +81,19 @@ const Master_Category_Module = () => {
                 </span>
               </Link>
             </div>
-            <div className="col-md-6 align-self-center">
+            <div className="col-md-6">
               <img
-                src="/images/master-category.png"
+                src="/images/setting.png"
                 alt="image"
                 className="img-fluid flex-shrink-0"
+                style={{ border: "1px solid", borderRadius: "5px" }}
               />
             </div>
           </div>
           <hr />
           <span className="d-block h5 lh-1 fw-semibold clr-base text-center" style={{ fontSize: "40px", padding: "20px" }}>
             {" "}
-            Master Category Features{" "}
+            Setting Module Features {" "}
           </span>
           <div className="row g-4">
             <div className="col-md-7 col-xl-5">
@@ -100,23 +101,24 @@ const Master_Category_Module = () => {
             </div>
             <span className="w-100"></span>
             <div className="col-md-6 align-self-center">
-              <h4>Available Product List</h4>
+              <h4><u>Company Details</u></h4>
               <p>
                 {" "}
-                The Available Product List module features a structured table with efficient record handling, including pagination, date filters, and search functionality for quick access. Users can track stock, pricing, taxes, and availability with ease. Advanced filtering enhances usability, ensuring seamless
-                inventory management and improved decision-making for optimized sales and stock control.{" "}
+                The Company Details Tab allows businesses to update essential company information, including name, phone, email, and tax details, through a user-friendly form. This ensures accurate records, enhances professionalism, and maintains compliance with tax regulations. Keeping company details updated helps in
+                seamless communication, efficient invoicing, and a well-managed business identity.{" "}
               </p>
 
             </div>
             <div className="col-md-6 align-self-center">
               <img
-                src="/images/master-category.png"
+                src="/images/company-details.png"
                 alt="image"
                 className="img-fluid flex-shrink-0"
+                style={{ border: "1px solid", borderRadius: "5px" }}
               />
             </div>
           </div>
-          
+
           <div className="row g-4">
             <div className="col-md-7 col-xl-5">
 
@@ -124,50 +126,45 @@ const Master_Category_Module = () => {
             <span className="w-100"></span>
             <div className="col-md-6 align-self-center">
               <img
-                src="/images/category.png"
+                src="/images/systems.png"
                 alt="image"
                 className="img-fluid flex-shrink-0"
+                style={{ border: "1px solid", borderRadius: "5px" }}
               />
             </div>
             <div className="col-md-6 align-self-center">
-              <h4>Category List</h4>
+              <h4><u>System Tab</u></h4>
               <p>
                 {" "}
-                The Category Tab features a structured table displaying parent categories and group names for seamless product classification. Each record includes an edit button, allowing users to update category details effortlessly. With an intuitive interface, this module simplifies category management,
-                ensuring better organization, quick modifications, and improved inventory control.{" "}
+                The System Tab allows businesses to configure essential settings, including Company Locations, Default Language, Timezone, Currency Name, Currency Symbol, and Currency Position. This ensures a personalized and region-specific POS experience, improving accuracy in transactions, seamless global operations, and better
+                user accessibility, ultimately enhancing efficiency and operational consistency.{" "}
               </p>
-
             </div>
-
           </div>
-          
-          {/* 
-          <span className="d-block h5 lh-1 fw-semibold clr-base text-center" style={{ fontSize: "40px", padding: "20px" }}>
-            {" "}
-            Graphical Insights{" "}
-          </span> */}
           <div className="row g-4">
             <div className="col-md-7 col-xl-5">
+
             </div>
             <span className="w-100"></span>
             <div className="col-md-6 align-self-center">
-              <h4>Vendor List</h4>
+              <h4><u> Email Configuration</u></h4>
               <p>
                 {" "}
-                The Vendor Tab provides a comprehensive table displaying vendor details, including Vendor Tag, Name, Phone Number, Product Category, Status, Register Date, Creation Date, and Picture. Users can efficiently manage vendors with pagination, date filters, and a search function for quick access. The Action column allows seamless vendor editing,
-                ensuring smooth coordination, organized vendor management, and improved operational efficiency.{" "}
+                The Email Configuration Tab allows seamless email setup with fields like Mail Protocol, Mail Encryption, Mail Host, Mail Port, Mail Username, and Mail Password. This ensures secure and reliable email communication for order confirmations, invoices, and notifications. With proper configuration, businesses can enhance customer engagement,
+                security, and operational efficiency through automated email transactions.{" "}
               </p>
+
             </div>
             <div className="col-md-6 align-self-center">
               <img
-                src="/images/vendors.png"
+                src="/images/email-configurations.png"
                 alt="image"
                 className="img-fluid flex-shrink-0"
+                style={{ border: "1px solid", borderRadius: "5px" }}
               />
             </div>
-
           </div>
-          
+
           <div className="row g-4">
             <div className="col-md-7 col-xl-5">
 
@@ -175,88 +172,45 @@ const Master_Category_Module = () => {
             <span className="w-100"></span>
             <div className="col-md-6 align-self-center">
               <img
-                src="/images/brand-list.png"
+                src="/images/localizations.png"
                 alt="image"
                 className="img-fluid flex-shrink-0"
+                style={{ border: "1px solid", borderRadius: "5px" }}
               />
             </div>
             <div className="col-md-6 align-self-center">
-              <h4>Brand List </h4>
+              <h4><u>Localization </u></h4>
               <p>
                 {" "}
-                The Brand List module features a structured table displaying Brand Tag, Name, Vendor Name, Status, Description, and Picture for effective brand management. With pagination, date filters, and search functionality, users can quickly find and manage brands. The Action column allows seamless editing,
-                ensuring accurate brand organization, streamlined vendor coordination, and improved inventory control.{" "}
+                The Localization Tab allows users to customize language settings by selecting a language, module, and screen for a personalized experience. A search bar enables quick access to specific localizations, while a structured table with Key, Module Name, Screen Name, Default Value, and Value ensures seamless translations.
+                This enhances usability, accessibility, and system adaptability for diverse business needs.{" "}
               </p>
             </div>
           </div>
-          
-          <div className="row g-4">
-            <div className="col-md-7 col-xl-5">
-            </div>
-            <span className="w-100"></span>
-            <div className="col-md-6 align-self-center">
-              <h4>Product List</h4>
-              <p>
-                {" "}
-                The Product List module provides a well-structured table displaying Tag, Product Name, Brand Name, Measurement Unit, Size, Color, Weight, Description, and Picture for efficient product management. With pagination, date filters, and search functionality, users can easily locate products. The Action column enables seamless editing,
-                ensuring accurate product tracking, streamlined inventory control, and better decision-making.{" "}
-              </p>
-            </div>
-            <div className="col-md-6 align-self-center">
-              <img
-                src="/images/products-list.png"
-                alt="image"
-                className="img-fluid flex-shrink-0"
-              />
-            </div>
-
-          </div>
-          
-          <div className="row g-4">
-            <div className="col-md-7 col-xl-5">
-
-            </div>
-            <span className="w-100"></span>
-            <div className="col-md-6 align-self-center">
-              <img
-                src="/images/customer-list.png"
-                alt="image"
-                className="img-fluid flex-shrink-0"
-              />
-            </div>
-            <div className="col-md-6 align-self-center">
-              <h4>Customer List</h4>
-              <p>
-                {" "}
-                The Customer List module provides a detailed table displaying Store Name, Customer Name, Phone Number, Address, Email, Cash Customer Status, and Picture for efficient customer management. With pagination, date filters, and search functionality, users can quickly locate customer records. The Action column allows seamless editing,
-                ensuring accurate data management, enhanced customer tracking, and improved service efficiency.{" "}
-              </p>
-            </div>
-          </div>
-          
-
 
           <div className="row g-4">
             <div className="col-md-7 col-xl-5">
             </div>
             <span className="w-100"></span>
             <div className="col-md-6 align-self-center">
-              <h4>Warehouse</h4>
+              <h4><u>Tax List</u></h4>
               <p>
                 {" "}
-                The Warehouse module provides a structured table displaying Warehouse Name and Picture for efficient inventory storage management. With pagination, date filters, and search functionality, users can quickly locate and manage warehouse records. The Action column enables seamless editing, ensuring accurate updates, better organization,
-                and streamlined warehouse operations for improved inventory tracking and stock control.{" "}
+                The Tax Tab provides a structured table displaying Tax Name, Tax, Tax Type, Tax Scope, Creation Date, and Picture, ensuring efficient tax management. With advanced search, filtering, and pagination, users can easily track and update tax records. This feature enhances compliance, accuracy,
+                and financial transparency, streamlining tax calculations and business operations.{" "}
               </p>
+
             </div>
             <div className="col-md-6 align-self-center">
               <img
-                src="/images/warehouse-list.png"
+                src="/images/taxlist.png"
                 alt="image"
                 className="img-fluid flex-shrink-0"
+                style={{ border: "1px solid", borderRadius: "5px" }}
               />
             </div>
           </div>
-          
+
           <div className="row g-4">
             <div className="col-md-7 col-xl-5">
 
@@ -264,82 +218,115 @@ const Master_Category_Module = () => {
             <span className="w-100"></span>
             <div className="col-md-6 align-self-center">
               <img
-                src="/images/promotions-list.png"
+                src="/images/payment-method-list.png"
                 alt="image"
                 className="img-fluid flex-shrink-0"
+                style={{ border: "1px solid", borderRadius: "5px" }}
               />
             </div>
             <div className="col-md-6 align-self-center">
-              <h4> Promotions</h4>
+              <h4><u>Payment Method </u></h4>
               <p>
                 {" "}
-                The Promotions module provides a structured table displaying Store Name, Promotion Name, Start Date, and End Date for efficient promotion tracking. With pagination, date filters, and search functionality, users can easily locate and manage active or upcoming promotions. The Action column allows seamless editing,
-                ensuring accurate updates, better promotional planning, and enhanced sales strategy execution. {" "}
+                The Payment Method Tab provides a structured table displaying Name, Display Name, Store Name, Enable/Disable, and Picture, ensuring efficient payment management. With advanced pagination, search, and filtering, users can quickly locate and manage payment options. This feature enhances flexibility, control, and seamless transaction processing,
+                optimizing the payment experience for both businesses and customers.{" "}
               </p>
             </div>
           </div>
 
+          <div className="row g-4">
+            <div className="col-md-7 col-xl-5">
+            </div>
+            <span className="w-100"></span>
+            <div className="col-md-6 align-self-center">
+              <h4><u>Order Status Type List</u></h4>
+              <p>
+                {" "}
+                The Order Status Type Tab provides a structured table displaying Name, Store Name, and Enable/Disable options, ensuring efficient order status management. With advanced search, filtering, and pagination, users can quickly locate and update order statuses. This enhances workflow efficiency,
+                order tracking, and operational control, ensuring a smooth and organized sales process.{" "}
+              </p>
 
-        </div>
-      </div>
-      {/* <div className="field-service-section ">
-        <div className="field-service-section__content bg-base-800">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-6 col-xl-5 z-1">
-                <ul className="list list-row flex-wrap gap-6 mb-8">
-                  <li className="d-flex align-items-center gap-3">
-                    <img
-                      src="/images/icon-73.png"
-                      alt="image"
-                      className="img-fluid flex-shrink-0"
-                    />
-                    <h6 className="clr-accent"> Here since 2010 </h6>
-                  </li>
-                  <li className="d-flex align-items-center gap-3">
-                    <img
-                      src="/images/icon-74.png"
-                      alt="image"
-                      className="img-fluid flex-shrink-0"
-                    />
-                    <h6 className="clr-accent"> Verified Partner </h6>
-                  </li>
-                </ul>
-                <p className="clr-light mb-8 xxl-text">
-                  {" "}
-                  Whether you're a startup or an established company in the UK or worldwide, our field service management solutions streamline operations,
-                  optimize workforce efficiency, and enhance customer satisfaction.{" "}
-                </p>
-                <p className="clr-light mb-5">
-                  {" "}
-                  Maximize productivity with our field service management solutions. Automate scheduling, track field teams in real-time, and optimize resources to ensure seamless service delivery,
-                  reducing downtime and improving customer satisfaction effortlessly.{" "}
-                </p>
-                <p className="clr-light mb-5">
-                  {" "}
-                  Empower your workforce with cutting-edge technology. Our intuitive platform enables efficient job assignment, mobile access, and instant communication, helping technicians
-                  complete tasks faster while keeping customers informed and happy.{" "}
-                </p>
-                <p className="clr-light mb-12">
-                  {" "}
-                  Stay ahead with data-driven insights. Leverage powerful analytics to track performance, identify trends, and make informed decisions, ensuring continuous
-                  improvement and unmatched service excellence in your field operations.{" "}
-                </p>
-                <Link
-                  href="contact-us"
-                  className="bttn gap-2 bttn--base bttn-md bttn-pill fw-md flex-shrink-0">
-                  {" "}
-                  Schedule a call{" "}
-                  <span className="material-symbols-rounded mat-icon size-16 fw-400 bttn__icon-cover d-flex align-items-center">
-                    {" "}
-                    arrow_forward{" "}
-                  </span>
-                </Link>
-              </div>
+            </div>
+            <div className="col-md-6 align-self-center">
+              <img
+                src="/images/orderstatustype.png"
+                alt="image"
+                className="img-fluid flex-shrink-0"
+                style={{ border: "1px solid", borderRadius: "5px" }}
+              />
+            </div>
+          </div>
+
+          <div className="row g-4">
+            <div className="col-md-7 col-xl-5">
+
+            </div>
+            <span className="w-100"></span>
+            <div className="col-md-6 align-self-center">
+              <img
+                src="/images/me-unit-list.png"
+                alt="image"
+                className="img-fluid flex-shrink-0"
+                style={{ border: "1px solid", borderRadius: "5px" }}
+              />
+            </div>
+            <div className="col-md-6 align-self-center">
+              <h4><u>Measurement Unit List</u></h4>
+              <p>
+                {" "}
+                The Measurement Unit List Tab provides a structured table displaying Name, Creation Date, Picture, and Action, ensuring efficient unit management. With advanced search, filtering, and pagination, users can quickly locate and manage measurement units. This feature enhances inventory accuracy, standardization, and operational efficiency,
+                ensuring seamless product categorization and precise stock tracking.{" "}
+              </p>
+            </div>
+          </div>
+          <div className="row g-4">
+            <div className="col-md-7 col-xl-5">
+            </div>
+            <span className="w-100"></span>
+            <div className="col-md-6 align-self-center">
+              <h4><u>Custom Store List</u></h4>
+              <p>
+                {" "}
+                The Custom Store List provides a structured table displaying essential store details like Name, Country, State, City, Zip Code, Address, and Picture. With advanced search, filtering, and pagination, users can efficiently locate and manage store records. This module enhances store organization, location tracking, and operational
+                efficiency, ensuring smooth business management across multiple locations.{" "}
+              </p>
+
+            </div>
+            <div className="col-md-6 align-self-center">
+              <img
+                src="/images/custom-store-list.png"
+                alt="image"
+                className="img-fluid flex-shrink-0"
+                style={{ border: "1px solid", borderRadius: "5px" }}
+              />
+            </div>
+          </div>
+
+          <div className="row g-4">
+            <div className="col-md-7 col-xl-5">
+
+            </div>
+            <span className="w-100"></span>
+            <div className="col-md-6 align-self-center">
+              <img
+                src="/images/email-sms.png"
+                alt="image"
+                className="img-fluid flex-shrink-0"
+                style={{ border: "1px solid", borderRadius: "5px" }}
+              />
+            </div>
+            <div className="col-md-6 align-self-center">
+              <h4><u>Email/SMS Templates List</u></h4>
+              <p>
+                {" "}
+                The Email/SMS Templates List provides a structured table displaying Template Name, Bcc, Enabled Status, and Action, ensuring efficient communication management. With advanced search, filtering, and pagination, users can quickly locate and manage templates. This module enhances automation, consistency, and efficiency, allowing businesses to
+                streamline notifications, marketing messages, and customer engagement effortlessly.{" "}
+              </p>
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
+
       <div className="section bg-base-800">
         <div className="section__gap-bottom">
           <div className="container">
@@ -540,4 +527,4 @@ const Master_Category_Module = () => {
   );
 };
 
-export default Master_Category_Module;
+export default Settings_Module;

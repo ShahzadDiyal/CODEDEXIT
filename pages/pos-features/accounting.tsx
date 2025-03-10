@@ -6,7 +6,7 @@ import Navbar from "@/components/NavbarTwo";
 import { useEffect } from 'react';
 import Footer from "@/components/Footer";
 
-const Master_Category_Module = () => {
+const Accounting_Module = () => {
   useEffect(() => {
     document.documentElement.setAttribute("dir", "ltr");
   }, []);
@@ -19,7 +19,7 @@ const Master_Category_Module = () => {
         <div className="container">
           <div className="row">
             <div className="col-12">
-              <h3 className="clr-light mb-3">Master Category</h3>
+              <h3 className="clr-light mb-3">Accounting Module </h3>
               <ul className="list list-row flex-wrap breadcrumb-list">
                 <li>
                   <Link
@@ -42,7 +42,7 @@ const Master_Category_Module = () => {
                     href="#"
                     className="d-inline-block t-link clr-light :clr-accent">
                     {" "}
-                    Master Category{" "}
+                    Accounting Module{" "}
                   </Link>
                 </li>
                 <li className="d-none">
@@ -60,15 +60,14 @@ const Master_Category_Module = () => {
         <div className="container">
           <div className="row g-4" style={{ border: "1px solid", borderRadius: "5px", padding: "0 25px 25px 25px" }}>
             <div className="col-md-7 col-xl-5">
-
             </div>
             <span className="w-100"></span>
             <div className="col-md-6 mt-0 align-self-center">
-              <h3>Master Category Module</h3>
+              <h3>Accounting Module </h3>
               <p>
                 {" "}
-                The Master Category Module streamlines product management with a structured system for inventory organization. It features a well-organized product list, enabling users to track stock, pricing, taxes, and availability efficiently. Advanced search and filters enhance accessibility, simplifying vendor coordination and sales tracking.
-                Its modern interface boosts productivity, accuracy, and decision-making in inventory management.{" "}
+                The Accounting Module streamlines financial management with four key tabs: Accounts, Deposits, Transfers, and Transactions. Each tab features a structured table with advanced filtering, search, and pagination, ensuring accurate tracking of financial records. This module enhances transparency, efficiency, and decision-making, helping businesses maintain precise financial control and seamless cash flow management.
+                {" "}
               </p>
               <Link
                 href="contact-us"
@@ -81,18 +80,19 @@ const Master_Category_Module = () => {
                 </span>
               </Link>
             </div>
-            <div className="col-md-6 align-self-center">
+            <div className="col-md-6">
               <img
-                src="/images/master-category.png"
+                src="/images/accounting-module.png"
                 alt="image"
                 className="img-fluid flex-shrink-0"
+                style={{ border: "1px solid", borderRadius: "5px" }}
               />
             </div>
           </div>
           <hr />
           <span className="d-block h5 lh-1 fw-semibold clr-base text-center" style={{ fontSize: "40px", padding: "20px" }}>
             {" "}
-            Master Category Features{" "}
+            Accounting Module Features{" "}
           </span>
           <div className="row g-4">
             <div className="col-md-7 col-xl-5">
@@ -100,23 +100,24 @@ const Master_Category_Module = () => {
             </div>
             <span className="w-100"></span>
             <div className="col-md-6 align-self-center">
-              <h4>Available Product List</h4>
+              <h4><u>Accounts List</u></h4>
               <p>
                 {" "}
-                The Available Product List module features a structured table with efficient record handling, including pagination, date filters, and search functionality for quick access. Users can track stock, pricing, taxes, and availability with ease. Advanced filtering enhances usability, ensuring seamless
-                inventory management and improved decision-making for optimized sales and stock control.{" "}
+                The Accounts Tab provides a detailed overview of financial records, displaying Account Name, Store Name, Account #, Credit, Debit, Balance, and Notes for seamless financial tracking. With advanced filtering, search, and pagination, users can quickly access data. Double-clicking a record or clicking edit opens a right-side panel,
+                 enabling effortless updates for accurate and efficient account management.{" "}
               </p>
 
             </div>
             <div className="col-md-6 align-self-center">
               <img
-                src="/images/master-category.png"
+                src="/images/accounting-module.png"
                 alt="image"
                 className="img-fluid flex-shrink-0"
+                style={{ border: "1px solid", borderRadius: "5px" }}
               />
             </div>
           </div>
-          
+
           <div className="row g-4">
             <div className="col-md-7 col-xl-5">
 
@@ -124,50 +125,45 @@ const Master_Category_Module = () => {
             <span className="w-100"></span>
             <div className="col-md-6 align-self-center">
               <img
-                src="/images/category.png"
+                src="/images/deposit-list.png"
                 alt="image"
                 className="img-fluid flex-shrink-0"
+                style={{ border: "1px solid", borderRadius: "5px" }}
               />
             </div>
             <div className="col-md-6 align-self-center">
-              <h4>Category List</h4>
+              <h4><u> Deposit List</u></h4>
               <p>
                 {" "}
-                The Category Tab features a structured table displaying parent categories and group names for seamless product classification. Each record includes an edit button, allowing users to update category details effortlessly. With an intuitive interface, this module simplifies category management,
-                ensuring better organization, quick modifications, and improved inventory control.{" "}
+                The Deposit List tab provides a structured overview of financial deposits with key details like Account Name, Store Name, Deposit Date, Amount, and Notes for seamless tracking. With advanced filtering, search, and pagination, users can quickly find records. Clicking the edit button or double-clicking a record opens a 
+                right-side edit section, ensuring effortless updates and precise financial management.{" "}
               </p>
-
             </div>
-
           </div>
-          
-          {/* 
-          <span className="d-block h5 lh-1 fw-semibold clr-base text-center" style={{ fontSize: "40px", padding: "20px" }}>
-            {" "}
-            Graphical Insights{" "}
-          </span> */}
           <div className="row g-4">
             <div className="col-md-7 col-xl-5">
+
             </div>
             <span className="w-100"></span>
             <div className="col-md-6 align-self-center">
-              <h4>Vendor List</h4>
+              <h4><u>Transfer List </u></h4>
               <p>
                 {" "}
-                The Vendor Tab provides a comprehensive table displaying vendor details, including Vendor Tag, Name, Phone Number, Product Category, Status, Register Date, Creation Date, and Picture. Users can efficiently manage vendors with pagination, date filters, and a search function for quick access. The Action column allows seamless vendor editing,
-                ensuring smooth coordination, organized vendor management, and improved operational efficiency.{" "}
+                The Transfer List tab provides a structured view of fund transfers between accounts, displaying From Name, To Name, Store Name, Transfer Date, Amount, Notes, and Creation Date. With advanced filtering and pagination, users can efficiently track transfers. Double-clicking a record or clicking edit opens a right-side panel,
+                 allowing seamless modifications for accurate and hassle-free financial management.{" "}
               </p>
+
             </div>
             <div className="col-md-6 align-self-center">
               <img
-                src="/images/vendors.png"
+                src="/images/transfer-list.png"
                 alt="image"
                 className="img-fluid flex-shrink-0"
+                style={{ border: "1px solid", borderRadius: "5px" }}
               />
             </div>
-
           </div>
-          
+
           <div className="row g-4">
             <div className="col-md-7 col-xl-5">
 
@@ -175,171 +171,24 @@ const Master_Category_Module = () => {
             <span className="w-100"></span>
             <div className="col-md-6 align-self-center">
               <img
-                src="/images/brand-list.png"
+                src="/images/transactions-list.png"
                 alt="image"
                 className="img-fluid flex-shrink-0"
+                style={{ border: "1px solid", borderRadius: "5px" }}
               />
             </div>
             <div className="col-md-6 align-self-center">
-              <h4>Brand List </h4>
+              <h4><u> Transactions  List</u></h4>
               <p>
                 {" "}
-                The Brand List module features a structured table displaying Brand Tag, Name, Vendor Name, Status, Description, and Picture for effective brand management. With pagination, date filters, and search functionality, users can quickly find and manage brands. The Action column allows seamless editing,
-                ensuring accurate brand organization, streamlined vendor coordination, and improved inventory control.{" "}
+                The Transactions List provides a detailed overview of financial activities, displaying Store Name, Account Name, Transaction Type, Reference, Credit, Debit, Balance, Date, and Description for accurate tracking. With advanced filtering, pagination, and search functionality, users can quickly find records. Double-clicking a record or clicking edit opens a right-side panel, 
+                enabling seamless transaction modifications for efficient financial management.{" "}
               </p>
-            </div>
-          </div>
-          
-          <div className="row g-4">
-            <div className="col-md-7 col-xl-5">
-            </div>
-            <span className="w-100"></span>
-            <div className="col-md-6 align-self-center">
-              <h4>Product List</h4>
-              <p>
-                {" "}
-                The Product List module provides a well-structured table displaying Tag, Product Name, Brand Name, Measurement Unit, Size, Color, Weight, Description, and Picture for efficient product management. With pagination, date filters, and search functionality, users can easily locate products. The Action column enables seamless editing,
-                ensuring accurate product tracking, streamlined inventory control, and better decision-making.{" "}
-              </p>
-            </div>
-            <div className="col-md-6 align-self-center">
-              <img
-                src="/images/products-list.png"
-                alt="image"
-                className="img-fluid flex-shrink-0"
-              />
-            </div>
-
-          </div>
-          
-          <div className="row g-4">
-            <div className="col-md-7 col-xl-5">
-
-            </div>
-            <span className="w-100"></span>
-            <div className="col-md-6 align-self-center">
-              <img
-                src="/images/customer-list.png"
-                alt="image"
-                className="img-fluid flex-shrink-0"
-              />
-            </div>
-            <div className="col-md-6 align-self-center">
-              <h4>Customer List</h4>
-              <p>
-                {" "}
-                The Customer List module provides a detailed table displaying Store Name, Customer Name, Phone Number, Address, Email, Cash Customer Status, and Picture for efficient customer management. With pagination, date filters, and search functionality, users can quickly locate customer records. The Action column allows seamless editing,
-                ensuring accurate data management, enhanced customer tracking, and improved service efficiency.{" "}
-              </p>
-            </div>
-          </div>
-          
-
-
-          <div className="row g-4">
-            <div className="col-md-7 col-xl-5">
-            </div>
-            <span className="w-100"></span>
-            <div className="col-md-6 align-self-center">
-              <h4>Warehouse</h4>
-              <p>
-                {" "}
-                The Warehouse module provides a structured table displaying Warehouse Name and Picture for efficient inventory storage management. With pagination, date filters, and search functionality, users can quickly locate and manage warehouse records. The Action column enables seamless editing, ensuring accurate updates, better organization,
-                and streamlined warehouse operations for improved inventory tracking and stock control.{" "}
-              </p>
-            </div>
-            <div className="col-md-6 align-self-center">
-              <img
-                src="/images/warehouse-list.png"
-                alt="image"
-                className="img-fluid flex-shrink-0"
-              />
-            </div>
-          </div>
-          
-          <div className="row g-4">
-            <div className="col-md-7 col-xl-5">
-
-            </div>
-            <span className="w-100"></span>
-            <div className="col-md-6 align-self-center">
-              <img
-                src="/images/promotions-list.png"
-                alt="image"
-                className="img-fluid flex-shrink-0"
-              />
-            </div>
-            <div className="col-md-6 align-self-center">
-              <h4> Promotions</h4>
-              <p>
-                {" "}
-                The Promotions module provides a structured table displaying Store Name, Promotion Name, Start Date, and End Date for efficient promotion tracking. With pagination, date filters, and search functionality, users can easily locate and manage active or upcoming promotions. The Action column allows seamless editing,
-                ensuring accurate updates, better promotional planning, and enhanced sales strategy execution. {" "}
-              </p>
-            </div>
-          </div>
-
-
-        </div>
-      </div>
-      {/* <div className="field-service-section ">
-        <div className="field-service-section__content bg-base-800">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-6 col-xl-5 z-1">
-                <ul className="list list-row flex-wrap gap-6 mb-8">
-                  <li className="d-flex align-items-center gap-3">
-                    <img
-                      src="/images/icon-73.png"
-                      alt="image"
-                      className="img-fluid flex-shrink-0"
-                    />
-                    <h6 className="clr-accent"> Here since 2010 </h6>
-                  </li>
-                  <li className="d-flex align-items-center gap-3">
-                    <img
-                      src="/images/icon-74.png"
-                      alt="image"
-                      className="img-fluid flex-shrink-0"
-                    />
-                    <h6 className="clr-accent"> Verified Partner </h6>
-                  </li>
-                </ul>
-                <p className="clr-light mb-8 xxl-text">
-                  {" "}
-                  Whether you're a startup or an established company in the UK or worldwide, our field service management solutions streamline operations,
-                  optimize workforce efficiency, and enhance customer satisfaction.{" "}
-                </p>
-                <p className="clr-light mb-5">
-                  {" "}
-                  Maximize productivity with our field service management solutions. Automate scheduling, track field teams in real-time, and optimize resources to ensure seamless service delivery,
-                  reducing downtime and improving customer satisfaction effortlessly.{" "}
-                </p>
-                <p className="clr-light mb-5">
-                  {" "}
-                  Empower your workforce with cutting-edge technology. Our intuitive platform enables efficient job assignment, mobile access, and instant communication, helping technicians
-                  complete tasks faster while keeping customers informed and happy.{" "}
-                </p>
-                <p className="clr-light mb-12">
-                  {" "}
-                  Stay ahead with data-driven insights. Leverage powerful analytics to track performance, identify trends, and make informed decisions, ensuring continuous
-                  improvement and unmatched service excellence in your field operations.{" "}
-                </p>
-                <Link
-                  href="contact-us"
-                  className="bttn gap-2 bttn--base bttn-md bttn-pill fw-md flex-shrink-0">
-                  {" "}
-                  Schedule a call{" "}
-                  <span className="material-symbols-rounded mat-icon size-16 fw-400 bttn__icon-cover d-flex align-items-center">
-                    {" "}
-                    arrow_forward{" "}
-                  </span>
-                </Link>
-              </div>
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
+
       <div className="section bg-base-800">
         <div className="section__gap-bottom">
           <div className="container">
@@ -540,4 +389,4 @@ const Master_Category_Module = () => {
   );
 };
 
-export default Master_Category_Module;
+export default Accounting_Module;

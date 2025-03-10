@@ -204,7 +204,7 @@ const AllPosFeatures = () => {
                       The Online Orders module efficiently manages customer orders with real-time tracking. It categorizes orders into Pending, Confirmed, Shipped, Delivered, and Completed, ensuring smooth order processing and improved customer satisfaction.{" "}
                     </p>
                     <Link
-                      href="field-service-management"
+                      href="##"
                       className="t-link t-link--base fw-md">
                       {" "}
                       More{" "}
@@ -229,7 +229,7 @@ const AllPosFeatures = () => {
                       {" "}
                     </p>
                     <Link
-                      href="field-service-management"
+                      href="/pos-features/all-stock"
                       className="t-link t-link--base fw-md">
                       {" "}
                       More{" "}
@@ -254,7 +254,7 @@ const AllPosFeatures = () => {
                       The Expenses module helps businesses track and manage operational costs efficiently. Users can record, categorize, and monitor expenses in real-time, ensuring accurate financial oversight and better cost management for profitability.{" "}
                     </p>
                     <Link
-                      href="field-service-management"
+                      href="/pos-features/expense-management"
                       className="t-link t-link--base fw-md">
                       {" "}
                       More{" "}
@@ -279,7 +279,7 @@ const AllPosFeatures = () => {
                       The History module maintains a complete record of Sale Order History and Purchase Order History, allowing businesses to track past transactions, review details, and ensure accurate financial and inventory management.{" "}
                     </p>
                     <Link
-                      href="field-service-management"
+                      href="/pos-features/sale-purchase-history"
                       className="t-link t-link--base fw-md">
                       {" "}
                       More{" "}
@@ -303,7 +303,7 @@ const AllPosFeatures = () => {
                       The Claim module manages product claims, including returns, warranties, and damaged goods. It tracks claim statuses, processes refunds or replacements, maintains records, and ensures a smooth resolution for businesses and customers.{" "}
                     </p>
                     <Link
-                      href="field-service-management"
+                      href="/pos-features/claims"
                       className="t-link t-link--base fw-md">
                       {" "}
                       More{" "}
@@ -328,7 +328,7 @@ const AllPosFeatures = () => {
                       accounting, reduce errors, and make informed financial decisions.{" "}
                     </p>
                     <Link
-                      href="artificial-intelligence-service"
+                      href="/pos-features/accounting"
                       className="t-link t-link--base fw-md">
                       {" "}
                       More{" "}
@@ -352,7 +352,7 @@ const AllPosFeatures = () => {
                       The Item Placement module organizes products systematically by defining row numbers, cabinets, and placements. It ensures efficient storage, easy retrieval, optimized inventory management, and a well-structured warehouse or store layout.{" "}
                     </p>
                     <Link
-                      href="field-service-management"
+                      href="/pos-features/item-placement"
                       className="t-link t-link--base fw-md">
                       {" "}
                       More{" "}
@@ -376,7 +376,7 @@ const AllPosFeatures = () => {
                       The Damage/Lost module tracks and records damaged or lost inventory, updates stock levels, logs incidents, minimizes shrinkage, and ensures accurate inventory records for better business management, reporting, and loss prevention analysis.{" "}
                     </p>
                     <Link
-                      href="field-service-management"
+                      href="/pos-features/damage-lost"
                       className="t-link t-link--base fw-md">
                       {" "}
                       More{" "}
@@ -400,7 +400,7 @@ const AllPosFeatures = () => {
                       The Return Orders module efficiently handles product returns, tracks returned items, processes refunds or exchanges, updates stock levels, and ensures a smooth return experience for both customers and businesses, enhancing satisfaction and efficiency.{" "}
                     </p>
                     <Link
-                      href="field-service-management"
+                      href="/pos-features/return-orders"
                       className="t-link t-link--base fw-md">
                       {" "}
                       More{" "}
@@ -424,7 +424,7 @@ const AllPosFeatures = () => {
                       The Payable/Receivable module manages outstanding payments and incoming receivables, tracks due amounts, records transactions, and ensures smooth cash flow, helping businesses maintain financial stability and accurate accounting records.{" "}
                     </p>
                     <Link
-                      href="field-service-management"
+                      href="/pos-features/payable-recieveable"
                       className="t-link t-link--base fw-md">
                       {" "}
                       More{" "}
@@ -448,7 +448,7 @@ const AllPosFeatures = () => {
                       The Settings module enables admins to customize system preferences, update payment details, company information, email, contact info, and other configurations, ensuring seamless business operations, efficient management, and a tailored user experience.{" "}
                     </p>
                     <Link
-                      href="field-service-management"
+                      href="/pos-features/settings"
                       className="t-link t-link--base fw-md">
                       {" "}
                       More{" "}
@@ -472,7 +472,7 @@ const AllPosFeatures = () => {
                       This POS system manages reports like Purchase Orders, Sales Orders, Profit Margins, Customer Reports, User Reports, Return Sales, and Return Purchases. Reports can be filtered by date and exported to Excel or PDF.{" "}
                     </p>
                     <Link
-                      href="field-service-management"
+                      href="/pos-features/report-module"
                       className="t-link t-link--base fw-md">
                       {" "}
                       More{" "}

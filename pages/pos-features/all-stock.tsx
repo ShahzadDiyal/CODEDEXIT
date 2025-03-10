@@ -6,7 +6,7 @@ import Navbar from "@/components/NavbarTwo";
 import { useEffect } from 'react';
 import Footer from "@/components/Footer";
 
-const Master_Category_Module = () => {
+const All_Stock_Module = () => {
   useEffect(() => {
     document.documentElement.setAttribute("dir", "ltr");
   }, []);
@@ -19,7 +19,7 @@ const Master_Category_Module = () => {
         <div className="container">
           <div className="row">
             <div className="col-12">
-              <h3 className="clr-light mb-3">Master Category</h3>
+              <h3 className="clr-light mb-3">All Stock Management</h3>
               <ul className="list list-row flex-wrap breadcrumb-list">
                 <li>
                   <Link
@@ -42,7 +42,7 @@ const Master_Category_Module = () => {
                     href="#"
                     className="d-inline-block t-link clr-light :clr-accent">
                     {" "}
-                    Master Category{" "}
+                    All Stock Management{" "}
                   </Link>
                 </li>
                 <li className="d-none">
@@ -60,15 +60,15 @@ const Master_Category_Module = () => {
         <div className="container">
           <div className="row g-4" style={{ border: "1px solid", borderRadius: "5px", padding: "0 25px 25px 25px" }}>
             <div className="col-md-7 col-xl-5">
-
             </div>
             <span className="w-100"></span>
             <div className="col-md-6 mt-0 align-self-center">
-              <h3>Master Category Module</h3>
+              <h3>All Stock Management</h3>
               <p>
                 {" "}
-                The Master Category Module streamlines product management with a structured system for inventory organization. It features a well-organized product list, enabling users to track stock, pricing, taxes, and availability efficiently. Advanced search and filters enhance accessibility, simplifying vendor coordination and sales tracking.
-                Its modern interface boosts productivity, accuracy, and decision-making in inventory management.{" "}
+                The Stock Management Module ensures seamless tracking of inventory across stores and warehouses, preventing stockouts and overstocking. With real-time updates, efficient categorization, and automated stock adjustments, businesses can optimize inventory levels. Advanced search, filtering, and reporting enhance decision-making, while seamless warehouse-store coordination boosts 
+                efficiency, reduces losses, and ensures smooth operations for better sales and profitability.
+                {" "}
               </p>
               <Link
                 href="contact-us"
@@ -81,18 +81,19 @@ const Master_Category_Module = () => {
                 </span>
               </Link>
             </div>
-            <div className="col-md-6 align-self-center">
+            <div className="col-md-6">
               <img
-                src="/images/master-category.png"
+                src="/images/all-stock-management.png"
                 alt="image"
                 className="img-fluid flex-shrink-0"
+                style={{border:"1px solid", borderRadius:"5px"}}
               />
             </div>
           </div>
           <hr />
           <span className="d-block h5 lh-1 fw-semibold clr-base text-center" style={{ fontSize: "40px", padding: "20px" }}>
             {" "}
-            Master Category Features{" "}
+           Stock Management Features{" "}
           </span>
           <div className="row g-4">
             <div className="col-md-7 col-xl-5">
@@ -100,19 +101,20 @@ const Master_Category_Module = () => {
             </div>
             <span className="w-100"></span>
             <div className="col-md-6 align-self-center">
-              <h4>Available Product List</h4>
+              <h4><u>Stock In Store</u></h4>
               <p>
                 {" "}
-                The Available Product List module features a structured table with efficient record handling, including pagination, date filters, and search functionality for quick access. Users can track stock, pricing, taxes, and availability with ease. Advanced filtering enhances usability, ensuring seamless
-                inventory management and improved decision-making for optimized sales and stock control.{" "}
+                The Stock Management Module offers a structured, spreadsheet-style table for efficient inventory tracking. Displaying product names, store names, unit stock, quantities, reorder points, and key dates (manufacture, expiry, purchase), it ensures seamless stock control. With a clean, corporate design, pagination, date filters, and search functionality,
+                 users can easily monitor stock levels, prevent shortages, and optimize inventory flow.{" "}
               </p>
 
             </div>
             <div className="col-md-6 align-self-center">
               <img
-                src="/images/master-category.png"
+                src="/images/all-stock-management.png"
                 alt="image"
                 className="img-fluid flex-shrink-0"
+                style={{border:"1px solid", borderRadius:"5px"}}
               />
             </div>
           </div>
@@ -124,162 +126,21 @@ const Master_Category_Module = () => {
             <span className="w-100"></span>
             <div className="col-md-6 align-self-center">
               <img
-                src="/images/category.png"
+                src="/images/stock-in-warehouse.png"
                 alt="image"
                 className="img-fluid flex-shrink-0"
+                style={{border:"1px solid", borderRadius:"5px"}}
               />
             </div>
             <div className="col-md-6 align-self-center">
-              <h4>Category List</h4>
+              <h4><u>Stock In WareHouse</u></h4>
               <p>
                 {" "}
-                The Category Tab features a structured table displaying parent categories and group names for seamless product classification. Each record includes an edit button, allowing users to update category details effortlessly. With an intuitive interface, this module simplifies category management,
-                ensuring better organization, quick modifications, and improved inventory control.{" "}
-              </p>
-
-            </div>
-
-          </div>
-          
-          {/* 
-          <span className="d-block h5 lh-1 fw-semibold clr-base text-center" style={{ fontSize: "40px", padding: "20px" }}>
-            {" "}
-            Graphical Insights{" "}
-          </span> */}
-          <div className="row g-4">
-            <div className="col-md-7 col-xl-5">
-            </div>
-            <span className="w-100"></span>
-            <div className="col-md-6 align-self-center">
-              <h4>Vendor List</h4>
-              <p>
-                {" "}
-                The Vendor Tab provides a comprehensive table displaying vendor details, including Vendor Tag, Name, Phone Number, Product Category, Status, Register Date, Creation Date, and Picture. Users can efficiently manage vendors with pagination, date filters, and a search function for quick access. The Action column allows seamless vendor editing,
-                ensuring smooth coordination, organized vendor management, and improved operational efficiency.{" "}
-              </p>
-            </div>
-            <div className="col-md-6 align-self-center">
-              <img
-                src="/images/vendors.png"
-                alt="image"
-                className="img-fluid flex-shrink-0"
-              />
-            </div>
-
-          </div>
-          
-          <div className="row g-4">
-            <div className="col-md-7 col-xl-5">
-
-            </div>
-            <span className="w-100"></span>
-            <div className="col-md-6 align-self-center">
-              <img
-                src="/images/brand-list.png"
-                alt="image"
-                className="img-fluid flex-shrink-0"
-              />
-            </div>
-            <div className="col-md-6 align-self-center">
-              <h4>Brand List </h4>
-              <p>
-                {" "}
-                The Brand List module features a structured table displaying Brand Tag, Name, Vendor Name, Status, Description, and Picture for effective brand management. With pagination, date filters, and search functionality, users can quickly find and manage brands. The Action column allows seamless editing,
-                ensuring accurate brand organization, streamlined vendor coordination, and improved inventory control.{" "}
+                The Stock in Warehouse tab provides a detailed inventory overview, allowing POS holders to efficiently manage stock levels. The main table displays Product Name, Warehouse Name, Unit Stock, and Quantity, ensuring clear visibility. Clicking a record opens a sub-table with detailed stock insights, including purchase, manufacturing, and expiry dates. Users can seamlessly add stock to a selected store and restock with a single click, ensuring accurate inventory distribution, 
+                reducing stock shortages, and improving overall supply chain efficiency.{" "}
               </p>
             </div>
           </div>
-          
-          <div className="row g-4">
-            <div className="col-md-7 col-xl-5">
-            </div>
-            <span className="w-100"></span>
-            <div className="col-md-6 align-self-center">
-              <h4>Product List</h4>
-              <p>
-                {" "}
-                The Product List module provides a well-structured table displaying Tag, Product Name, Brand Name, Measurement Unit, Size, Color, Weight, Description, and Picture for efficient product management. With pagination, date filters, and search functionality, users can easily locate products. The Action column enables seamless editing,
-                ensuring accurate product tracking, streamlined inventory control, and better decision-making.{" "}
-              </p>
-            </div>
-            <div className="col-md-6 align-self-center">
-              <img
-                src="/images/products-list.png"
-                alt="image"
-                className="img-fluid flex-shrink-0"
-              />
-            </div>
-
-          </div>
-          
-          <div className="row g-4">
-            <div className="col-md-7 col-xl-5">
-
-            </div>
-            <span className="w-100"></span>
-            <div className="col-md-6 align-self-center">
-              <img
-                src="/images/customer-list.png"
-                alt="image"
-                className="img-fluid flex-shrink-0"
-              />
-            </div>
-            <div className="col-md-6 align-self-center">
-              <h4>Customer List</h4>
-              <p>
-                {" "}
-                The Customer List module provides a detailed table displaying Store Name, Customer Name, Phone Number, Address, Email, Cash Customer Status, and Picture for efficient customer management. With pagination, date filters, and search functionality, users can quickly locate customer records. The Action column allows seamless editing,
-                ensuring accurate data management, enhanced customer tracking, and improved service efficiency.{" "}
-              </p>
-            </div>
-          </div>
-          
-
-
-          <div className="row g-4">
-            <div className="col-md-7 col-xl-5">
-            </div>
-            <span className="w-100"></span>
-            <div className="col-md-6 align-self-center">
-              <h4>Warehouse</h4>
-              <p>
-                {" "}
-                The Warehouse module provides a structured table displaying Warehouse Name and Picture for efficient inventory storage management. With pagination, date filters, and search functionality, users can quickly locate and manage warehouse records. The Action column enables seamless editing, ensuring accurate updates, better organization,
-                and streamlined warehouse operations for improved inventory tracking and stock control.{" "}
-              </p>
-            </div>
-            <div className="col-md-6 align-self-center">
-              <img
-                src="/images/warehouse-list.png"
-                alt="image"
-                className="img-fluid flex-shrink-0"
-              />
-            </div>
-          </div>
-          
-          <div className="row g-4">
-            <div className="col-md-7 col-xl-5">
-
-            </div>
-            <span className="w-100"></span>
-            <div className="col-md-6 align-self-center">
-              <img
-                src="/images/promotions-list.png"
-                alt="image"
-                className="img-fluid flex-shrink-0"
-              />
-            </div>
-            <div className="col-md-6 align-self-center">
-              <h4> Promotions</h4>
-              <p>
-                {" "}
-                The Promotions module provides a structured table displaying Store Name, Promotion Name, Start Date, and End Date for efficient promotion tracking. With pagination, date filters, and search functionality, users can easily locate and manage active or upcoming promotions. The Action column allows seamless editing,
-                ensuring accurate updates, better promotional planning, and enhanced sales strategy execution. {" "}
-              </p>
-            </div>
-          </div>
-
-
         </div>
       </div>
       {/* <div className="field-service-section ">
@@ -540,4 +401,4 @@ const Master_Category_Module = () => {
   );
 };
 
-export default Master_Category_Module;
+export default All_Stock_Module;
