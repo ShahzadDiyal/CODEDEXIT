@@ -46,11 +46,11 @@ const Hero = () => {
                 <div className="hero-slider-1__item">
                   <span className="d-block h4 fw-semibold clr-accent mb-5">
                     {" "}
-                    Innovate, Scale, Succeed! {" "}
+                    The Future of Software Solutions is Here!{" "}
                   </span>
                   <h3 className="clr-light mb-5">
                     {" "}
-                    Next-Gen Technology for a Seamless Digital Experience{" "}
+                    Empower Your Business with Smart & Scalable Software Solutions{" "}
                   </h3>
                   <p className="t-short-para clr-light xl-text mb-10">
                     {" "}
@@ -156,11 +156,11 @@ const Hero = () => {
                 <div className="hero-slider-1__item">
                   <span className="d-block h4 fw-semibold clr-accent mb-5">
                     {" "}
-                    The Future of Software Solutions is Here!{" "}
+                    Innovate, Scale, Succeed! {" "}
                   </span>
                   <h3 className="clr-light mb-5">
                     {" "}
-                    Empower Your Business with Smart & Scalable Software Solutions{" "}
+                    Next-Gen Technology for a Seamless Digital Experience{" "}
                   </h3>
                   <p className="t-short-para clr-light xl-text mb-10">
                     {" "}

@@ -180,7 +180,7 @@ const AllPosFeatures = () => {
                       The Master Category module allows businesses to organize products and services into structured categories. It helps streamline inventory management, improves search efficiency, and enhances reporting for better business insights and decision-making.{" "}
                     </p>
                     <Link
-                      href="field-service-management"
+                      href="/pos-features/master-category"
                       className="t-link t-link--base fw-md">
                       {" "}
                       More{" "}

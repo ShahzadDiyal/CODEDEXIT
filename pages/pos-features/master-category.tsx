@@ -6,7 +6,7 @@ import Navbar from "@/components/NavbarTwo";
 import { useEffect } from 'react';
 import Footer from "@/components/Footer";
 
-const Dashboard_Module = () => {
+const Master_Category_Module = () => {
   useEffect(() => {
     document.documentElement.setAttribute("dir", "ltr");
   }, []);
@@ -19,7 +19,7 @@ const Dashboard_Module = () => {
         <div className="container">
           <div className="row">
             <div className="col-12">
-              <h3 className="clr-light mb-3">Dashboard</h3>
+              <h3 className="clr-light mb-3">Master Category</h3>
               <ul className="list list-row flex-wrap breadcrumb-list">
                 <li>
                   <Link
@@ -42,7 +42,7 @@ const Dashboard_Module = () => {
                     href="#"
                     className="d-inline-block t-link clr-light :clr-accent">
                     {" "}
-                    Dashboard{" "}
+                    Master Category{" "}
                   </Link>
                 </li>
                 <li className="d-none">
@@ -64,11 +64,11 @@ const Dashboard_Module = () => {
             </div>
             <span className="w-100"></span>
             <div className="col-md-6 mt-0 align-self-center">
-              <h3>Dashboard Module</h3>
+              <h3>Master Category Module</h3>
               <p>
                 {" "}
-                The Dashboard Module is essential for businesses to monitor, analyze, and optimize operations in real time. It provides centralized insights, data visualization, and performance tracking, enabling smarter decisions. With an intuitive interface, it enhances efficiency, transparency,
-                and productivity, ensuring seamless business management and data-driven growth at a glance. {" "}
+                The Master Category Module provides a structured, comprehensive product management system, ensuring seamless organization and accessibility of inventory data. With a well-organized product list table, users can efficiently track store-wise stock, pricing, taxes, discounts, and availability. Advanced search and filter options enhance usability, enabling quick access to specific data. This module simplifies inventory management, vendor coordination, and product categorization, ensuring better decision-making, streamlined operations, and improved sales tracking. Its modern,
+                 business-oriented interface enhances productivity and accuracy in managing diverse product categories. {" "}
               </p>
               <Link
                 href="contact-us"
@@ -83,7 +83,7 @@ const Dashboard_Module = () => {
             </div>
             <div className="col-md-6">
               <img
-                src="/images/dashb.png"
+                src="/images/master-category.png"
                 alt="image"
                 className="img-fluid flex-shrink-0"
               />
@@ -92,7 +92,7 @@ const Dashboard_Module = () => {
           <hr />
           <span className="d-block h5 lh-1 fw-semibold clr-base text-center" style={{ fontSize: "40px", padding: "20px" }}>
             {" "}
-            Dashboard Features{" "}
+            Master Category Features{" "}
           </span>
           <div className="row g-4">
             <div className="col-md-7 col-xl-5">
@@ -573,4 +573,4 @@ const Dashboard_Module = () => {
   );
 };
 
-export default Dashboard_Module;
+export default Master_Category_Module;
