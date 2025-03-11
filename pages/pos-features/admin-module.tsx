@@ -18,7 +18,7 @@ const Admin_Module = () => {
       <section className="banner-section section--sm">
         <div className="container">
           <div className="row">
-            <div className="col-12">
+            <div className="col-md-6">
               <h3 className="clr-light mb-3">Admin Module </h3>
               <ul className="list list-row flex-wrap breadcrumb-list">
                 <li>
@@ -52,13 +52,31 @@ const Admin_Module = () => {
                 </li>
               </ul>
             </div>
+            <div className="col-md-6">
+              <div className="container" style={{ marginTop: "20px" }}>
+                <div className="row justify-content-center">
+                  <div className="group group-row flex-wrap justify-content-end align-items-end">
+                    <Link
+                      href="book-a-demo"
+                      className="bttn bttn--stroke-outline bttn-md bttn-pill fw-md flex-shrink-0 align-items-center">
+                      <span className="bttn__arrow"> Book a Demo </span>
+                    </Link>
+                    <Link
+                      href="register-a-company"
+                      className="bttn bttn--stroke-outline bttn-md bttn-pill fw-md flex-shrink-0 align-items-center">
+                      <span className="bttn__arrow"> Register a Company </span>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
       {/* <!-- Banner End --> */}
       <div className="section">
         <div className="container">
-          <div className="row g-4 padding-around" style={{ border: "1px solid", borderRadius: "5px"}}>
+          <div className="row g-4 padding-around" style={{ border: "1px solid", borderRadius: "5px" }}>
             <div className="col-md-7 col-xl-5">
             </div>
             <span className="w-100"></span>
@@ -86,7 +104,7 @@ const Admin_Module = () => {
                 src="/images/admin-side.jpg"
                 alt="image"
                 className="img-fluid flex-shrink-0"
-                style={{ border: "1px solid", borderRadius: "5px",width:"100%", height:"500px" }}
+                style={{ border: "1px solid", borderRadius: "5px", width: "100%", height: "500px" }}
               />
             </div>
           </div>
@@ -235,6 +253,26 @@ const Admin_Module = () => {
             </div>
           </div>
           <hr />
+          <div className="row">
+            <div className="col-12">
+              <div className="container" style={{ marginTop: "20px" }}>
+                <div className="row justify-content-center">
+                  <div className="group group-row flex-wrap justify-content-center align-items-end">
+                    <Link
+                      href="book-a-demo"
+                      className="bttn bttn--stroke-outline bttn-md bttn-pill fw-md flex-shrink-0 align-items-center">
+                      <span className="bttn__arrow"> Book a Demo </span>
+                    </Link>
+                    <Link
+                      href="register-a-company"
+                      className="bttn bttn--stroke-outline bttn-md bttn-pill fw-md flex-shrink-0 align-items-center">
+                      <span className="bttn__arrow"> Register a Company </span>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 

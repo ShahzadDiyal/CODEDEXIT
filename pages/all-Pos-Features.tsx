@@ -36,7 +36,7 @@ const AllPosFeatures = () => {
       <section className="banner-section section--sm">
         <div className="container">
           <div className="row">
-            <div className="col-12">
+            <div className="col-md-6">
               <h3 className="clr-light mb-3"> Point Of Sale</h3>
               <ul className="list list-row flex-wrap breadcrumb-list">
                 <li>
@@ -47,12 +47,20 @@ const AllPosFeatures = () => {
                     Home{" "}
                   </Link>
                 </li>
+                <li>
+                  <Link
+                    href="/ourProducts"
+                    className="d-inline-block t-link clr-light :clr-accent">
+                    {" "}
+                    Our Products{" "}
+                  </Link>
+                </li>
                 <li className="">
                   <Link
                     href="/all-Pos-Features"
                     className="d-inline-block t-link clr-light :clr-accent">
                     {" "}
-                    Features{" "}
+                    Features Of POS{" "}
                   </Link>
                 </li>
                 <li className="d-none">
@@ -67,6 +75,24 @@ const AllPosFeatures = () => {
                 </li>
               </ul>
             </div>
+            <div className="col-md-6">
+              <div className="container" style={{ marginTop: "20px" }}>
+                <div className="row justify-content-center">
+                  <div className="group group-row flex-wrap justify-content-end align-items-end">
+                    <Link
+                      href="book-a-demo"
+                      className="bttn bttn--stroke-outline bttn-md bttn-pill fw-md flex-shrink-0 align-items-center">
+                      <span className="bttn__arrow"> Book a Demo </span>
+                    </Link>
+                    <Link
+                      href="register-a-company"
+                      className="bttn bttn--stroke-outline bttn-md bttn-pill fw-md flex-shrink-0 align-items-center">
+                      <span className="bttn__arrow"> Register a Company </span>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -76,10 +102,10 @@ const AllPosFeatures = () => {
             <div className="container">
               <div className="row justify-content-center">
                 <div className="col-md-10 col-xl-8">
-                <span className="d-block h5 lh-1 fw-semibold clr-base text-center" style={{fontSize:"30px"}}>
-                  {" "}
-                  Our POS Features{" "}
-                </span>
+                  <span className="d-block h5 lh-1 fw-semibold clr-base text-center" style={{ fontSize: "30px" }}>
+                    {" "}
+                    Our POS Features{" "}
+                  </span>
                   <h3 className="mt-5 mb-5 text-center">
                     {" "}
                     Trusted & Professional POS Solutions{" "}
@@ -95,7 +121,7 @@ const AllPosFeatures = () => {
           </div>
           <div className="container">
             <div className="row g-3 g-xxl-4 justify-content-center">
-            <div className="col-md-6 col-lg-4">
+              <div className="col-md-6 col-lg-4">
                 <div className="service-card service-card--1">
                   <div className="icon-box icon-box--md circle bg-success flex-shrink-0">
                     <img src="/images/dashboard.png" alt="image" />
@@ -194,7 +220,7 @@ const AllPosFeatures = () => {
               </div>
               <div className="col-md-6 col-lg-4">
                 <div className="service-card service-card--1">
-                  <div className="icon-box icon-box--md circle flex-shrink-0" style={{backgroundColor:"#ffc163"}}>
+                  <div className="icon-box icon-box--md circle flex-shrink-0" style={{ backgroundColor: "#ffc163" }}>
                     <img src="/images/checkout.png" alt="image" />
                   </div>
                   <div className="flex-grow-1">
@@ -218,7 +244,7 @@ const AllPosFeatures = () => {
               </div>
               <div className="col-md-6 col-lg-4">
                 <div className="service-card service-card--1">
-                  <div className="icon-box icon-box--md circle flex-shrink-0" style={{background:"rgb(16 253 0)"}}>
+                  <div className="icon-box icon-box--md circle flex-shrink-0" style={{ background: "rgb(16 253 0)" }}>
                     <img src="/images/allstock.png" alt="image" />
                   </div>
                   <div className="flex-grow-1">
@@ -241,10 +267,10 @@ const AllPosFeatures = () => {
                   </div>
                 </div>
               </div>
-          
+
               <div className="col-md-6 col-lg-4">
                 <div className="service-card service-card--1">
-                  <div className="icon-box icon-box--md circle flex-shrink-0" style={{backgroundColor:"rgb(83 114 255)"}}>
+                  <div className="icon-box icon-box--md circle flex-shrink-0" style={{ backgroundColor: "rgb(83 114 255)" }}>
                     <img src="/images/expense.png" alt="image" />
                   </div>
                   <div className="flex-grow-1">
@@ -266,10 +292,10 @@ const AllPosFeatures = () => {
                   </div>
                 </div>
               </div>
-              
+
               <div className="col-md-6 col-lg-4">
                 <div className="service-card service-card--1">
-                  <div className="icon-box icon-box--md circle flex-shrink-0" style={{backgroundColor:"rgb(153 153 154)"}}>
+                  <div className="icon-box icon-box--md circle flex-shrink-0" style={{ backgroundColor: "rgb(153 153 154)" }}>
                     <img src="/images/order-history.png" alt="image" />
                   </div>
                   <div className="flex-grow-1">
@@ -342,7 +368,7 @@ const AllPosFeatures = () => {
               </div>
               <div className="col-md-6 col-lg-4">
                 <div className="service-card service-card--1">
-                  <div className="icon-box icon-box--md circle flex-shrink-0" style={{backgroundColor:"rgb(23 198 171)"}}>
+                  <div className="icon-box icon-box--md circle flex-shrink-0" style={{ backgroundColor: "rgb(23 198 171)" }}>
                     <img src="/images/placement.png" alt="image" />
                   </div>
                   <div className="flex-grow-1">
@@ -366,7 +392,7 @@ const AllPosFeatures = () => {
               </div>
               <div className="col-md-6 col-lg-4">
                 <div className="service-card service-card--1">
-                  <div className="icon-box icon-box--md circle flex-shrink-0" style={{backgroundColor:"rgb(255 0 0)"}}>
+                  <div className="icon-box icon-box--md circle flex-shrink-0" style={{ backgroundColor: "rgb(255 0 0)" }}>
                     <img src="/images/hammer.png" alt="image" />
                   </div>
                   <div className="flex-grow-1">
@@ -390,7 +416,7 @@ const AllPosFeatures = () => {
               </div>
               <div className="col-md-6 col-lg-4">
                 <div className="service-card service-card--1">
-                  <div className="icon-box icon-box--md circle flex-shrink-0" style={{backgroundColor:"rgb(236 162 85)"}}>
+                  <div className="icon-box icon-box--md circle flex-shrink-0" style={{ backgroundColor: "rgb(236 162 85)" }}>
                     <img src="/images/commercial.png" alt="image" />
                   </div>
                   <div className="flex-grow-1">
@@ -414,7 +440,7 @@ const AllPosFeatures = () => {
               </div>
               <div className="col-md-6 col-lg-4">
                 <div className="service-card service-card--1">
-                  <div className="icon-box icon-box--md circle flex-shrink-0" style={{backgroundColor:"rgb(205 62 198)"}}>
+                  <div className="icon-box icon-box--md circle flex-shrink-0" style={{ backgroundColor: "rgb(205 62 198)" }}>
                     <img src="/images/income.png" alt="image" />
                   </div>
                   <div className="flex-grow-1">
@@ -438,7 +464,7 @@ const AllPosFeatures = () => {
               </div>
               <div className="col-md-6 col-lg-4">
                 <div className="service-card service-card--1">
-                  <div className="icon-box icon-box--md circle flex-shrink-0" style={{backgroundColor:"rgb(151 63 255)"}}>
+                  <div className="icon-box icon-box--md circle flex-shrink-0" style={{ backgroundColor: "rgb(151 63 255)" }}>
                     <img src="/images/settings.png" alt="image" />
                   </div>
                   <div className="flex-grow-1">
@@ -462,7 +488,7 @@ const AllPosFeatures = () => {
               </div>
               <div className="col-md-6 col-lg-4">
                 <div className="service-card service-card--1">
-                  <div className="icon-box icon-box--md circle flex-shrink-0" style={{backgroundColor:"rgb(227 227 227)"}}>
+                  <div className="icon-box icon-box--md circle flex-shrink-0" style={{ backgroundColor: "rgb(227 227 227)" }}>
                     <img src="/images/report.png" alt="image" />
                   </div>
                   <div className="flex-grow-1">
@@ -486,7 +512,7 @@ const AllPosFeatures = () => {
               </div>
               <div className="col-md-6 col-lg-4">
                 <div className="service-card service-card--1">
-                  <div className="icon-box icon-box--md circle flex-shrink-0" style={{backgroundColor:"rgb(227 117 149)"}}>
+                  <div className="icon-box icon-box--md circle flex-shrink-0" style={{ backgroundColor: "rgb(227 117 149)" }}>
                     <img src="/images/report.png" alt="image" />
                   </div>
                   <div className="flex-grow-1">
@@ -516,9 +542,14 @@ const AllPosFeatures = () => {
                 <div className="col-md-10 col-xl-8">
                   <div className="group group-row flex-wrap justify-content-center align-items-center">
                     <Link
-                      href="contact-us"
+                      href="book-a-demo"
                       className="bttn bttn--stroke-outline bttn-md bttn-pill fw-md flex-shrink-0 align-items-center">
-                      <span className="bttn__arrow"> Contact Us </span>
+                      <span className="bttn__arrow"> Book a Demo </span>
+                    </Link>
+                    <Link
+                      href="register-a-company"
+                      className="bttn bttn--stroke-outline bttn-md bttn-pill fw-md flex-shrink-0 align-items-center">
+                      <span className="bttn__arrow"> Register a Company </span>
                     </Link>
                   </div>
                 </div>

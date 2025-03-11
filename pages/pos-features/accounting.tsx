@@ -18,7 +18,7 @@ const Accounting_Module = () => {
       <section className="banner-section section--sm">
         <div className="container">
           <div className="row">
-            <div className="col-12">
+            <div className="col-md-6">
               <h3 className="clr-light mb-3">Accounting Module </h3>
               <ul className="list list-row flex-wrap breadcrumb-list">
                 <li>
@@ -51,6 +51,24 @@ const Accounting_Module = () => {
                     className="d-inline-block t-link clr-light :clr-accent"></Link>
                 </li>
               </ul>
+            </div>
+            <div className="col-md-6">
+              <div className="container" style={{ marginTop: "20px" }}>
+                <div className="row justify-content-center">
+                  <div className="group group-row flex-wrap justify-content-end align-items-end">
+                    <Link
+                      href="book-a-demo"
+                      className="bttn bttn--stroke-outline bttn-md bttn-pill fw-md flex-shrink-0 align-items-center">
+                      <span className="bttn__arrow"> Book a Demo </span>
+                    </Link>
+                    <Link
+                      href="register-a-company"
+                      className="bttn bttn--stroke-outline bttn-md bttn-pill fw-md flex-shrink-0 align-items-center">
+                      <span className="bttn__arrow"> Register a Company </span>
+                    </Link>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -184,6 +202,27 @@ const Accounting_Module = () => {
                 The Transactions List provides a detailed overview of financial activities, displaying Store Name, Account Name, Transaction Type, Reference, Credit, Debit, Balance, Date, and Description for accurate tracking. With advanced filtering, pagination, and search functionality, users can quickly find records. Double-clicking a record or clicking edit opens a right-side panel, 
                 enabling seamless transaction modifications for efficient financial management.{" "}
               </p>
+            </div>
+          </div>
+          <hr />
+          <div className="row">
+            <div className="col-12">
+              <div className="container" style={{ marginTop: "20px" }}>
+                <div className="row justify-content-center">
+                  <div className="group group-row flex-wrap justify-content-center align-items-end">
+                    <Link
+                      href="book-a-demo"
+                      className="bttn bttn--stroke-outline bttn-md bttn-pill fw-md flex-shrink-0 align-items-center">
+                      <span className="bttn__arrow"> Book a Demo </span>
+                    </Link>
+                    <Link
+                      href="register-a-company"
+                      className="bttn bttn--stroke-outline bttn-md bttn-pill fw-md flex-shrink-0 align-items-center">
+                      <span className="bttn__arrow"> Register a Company </span>
+                    </Link>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

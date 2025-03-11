@@ -18,7 +18,7 @@ const Item_Placement_Module = () => {
       <section className="banner-section section--sm">
         <div className="container">
           <div className="row">
-            <div className="col-12">
+            <div className="col-md-6">
               <h3 className="clr-light mb-3">Item Placement</h3>
               <ul className="list list-row flex-wrap breadcrumb-list">
                 <li>
@@ -52,6 +52,24 @@ const Item_Placement_Module = () => {
                 </li>
               </ul>
             </div>
+            <div className="col-md-6">
+            <div className="container" style={{ marginTop: "20px" }}>
+              <div className="row justify-content-center">
+                <div className="group group-row flex-wrap justify-content-end align-items-end">
+                  <Link
+                    href="book-a-demo"
+                    className="bttn bttn--stroke-outline bttn-md bttn-pill fw-md flex-shrink-0 align-items-center">
+                    <span className="bttn__arrow"> Book a Demo </span>
+                  </Link>
+                  <Link
+                    href="register-a-company"
+                    className="bttn bttn--stroke-outline bttn-md bttn-pill fw-md flex-shrink-0 align-items-center">
+                    <span className="bttn__arrow"> Register a Company </span>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
           </div>
         </div>
       </section>
@@ -184,6 +202,27 @@ const Item_Placement_Module = () => {
                 The Product Placement List module efficiently tracks product storage locations, displaying Product Name, Section, Row, Cabin Number, and Creation Date for accurate inventory management. With edit functionality, users can easily update product placement details, ensuring quick retrieval, reduced misplacement,
                 and optimized storage organization for smoother warehouse and store operations.{" "}
               </p>
+            </div>
+          </div>
+          <hr />
+          <div className="row">
+            <div className="col-12">
+              <div className="container" style={{ marginTop: "20px" }}>
+                <div className="row justify-content-center">
+                  <div className="group group-row flex-wrap justify-content-center align-items-end">
+                    <Link
+                      href="book-a-demo"
+                      className="bttn bttn--stroke-outline bttn-md bttn-pill fw-md flex-shrink-0 align-items-center">
+                      <span className="bttn__arrow"> Book a Demo </span>
+                    </Link>
+                    <Link
+                      href="register-a-company"
+                      className="bttn bttn--stroke-outline bttn-md bttn-pill fw-md flex-shrink-0 align-items-center">
+                      <span className="bttn__arrow"> Register a Company </span>
+                    </Link>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

@@ -18,7 +18,7 @@ const All_Stock_Module = () => {
       <section className="banner-section section--sm">
         <div className="container">
           <div className="row">
-            <div className="col-12">
+            <div className="col-md-6">
               <h3 className="clr-light mb-3">All Stock Management</h3>
               <ul className="list list-row flex-wrap breadcrumb-list">
                 <li>
@@ -52,6 +52,24 @@ const All_Stock_Module = () => {
                 </li>
               </ul>
             </div>
+            <div className="col-md-6">
+            <div className="container" style={{ marginTop: "20px" }}>
+              <div className="row justify-content-center">
+                <div className="group group-row flex-wrap justify-content-end align-items-end">
+                  <Link
+                    href="book-a-demo"
+                    className="bttn bttn--stroke-outline bttn-md bttn-pill fw-md flex-shrink-0 align-items-center">
+                    <span className="bttn__arrow"> Book a Demo </span>
+                  </Link>
+                  <Link
+                    href="register-a-company"
+                    className="bttn bttn--stroke-outline bttn-md bttn-pill fw-md flex-shrink-0 align-items-center">
+                    <span className="bttn__arrow"> Register a Company </span>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
           </div>
         </div>
       </section>
@@ -141,66 +159,30 @@ const All_Stock_Module = () => {
               </p>
             </div>
           </div>
-        </div>
-      </div>
-      {/* <div className="field-service-section ">
-        <div className="field-service-section__content bg-base-800">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-6 col-xl-5 z-1">
-                <ul className="list list-row flex-wrap gap-6 mb-8">
-                  <li className="d-flex align-items-center gap-3">
-                    <img
-                      src="/images/icon-73.png"
-                      alt="image"
-                      className="img-fluid flex-shrink-0"
-                    />
-                    <h6 className="clr-accent"> Here since 2010 </h6>
-                  </li>
-                  <li className="d-flex align-items-center gap-3">
-                    <img
-                      src="/images/icon-74.png"
-                      alt="image"
-                      className="img-fluid flex-shrink-0"
-                    />
-                    <h6 className="clr-accent"> Verified Partner </h6>
-                  </li>
-                </ul>
-                <p className="clr-light mb-8 xxl-text">
-                  {" "}
-                  Whether you're a startup or an established company in the UK or worldwide, our field service management solutions streamline operations,
-                  optimize workforce efficiency, and enhance customer satisfaction.{" "}
-                </p>
-                <p className="clr-light mb-5">
-                  {" "}
-                  Maximize productivity with our field service management solutions. Automate scheduling, track field teams in real-time, and optimize resources to ensure seamless service delivery,
-                  reducing downtime and improving customer satisfaction effortlessly.{" "}
-                </p>
-                <p className="clr-light mb-5">
-                  {" "}
-                  Empower your workforce with cutting-edge technology. Our intuitive platform enables efficient job assignment, mobile access, and instant communication, helping technicians
-                  complete tasks faster while keeping customers informed and happy.{" "}
-                </p>
-                <p className="clr-light mb-12">
-                  {" "}
-                  Stay ahead with data-driven insights. Leverage powerful analytics to track performance, identify trends, and make informed decisions, ensuring continuous
-                  improvement and unmatched service excellence in your field operations.{" "}
-                </p>
-                <Link
-                  href="contact-us"
-                  className="bttn gap-2 bttn--base bttn-md bttn-pill fw-md flex-shrink-0">
-                  {" "}
-                  Schedule a call{" "}
-                  <span className="material-symbols-rounded mat-icon size-16 fw-400 bttn__icon-cover d-flex align-items-center">
-                    {" "}
-                    arrow_forward{" "}
-                  </span>
-                </Link>
+          <hr />
+          <div className="row">
+            <div className="col-12">
+              <div className="container" style={{ marginTop: "20px" }}>
+                <div className="row justify-content-center">
+                  <div className="group group-row flex-wrap justify-content-center align-items-end">
+                    <Link
+                      href="book-a-demo"
+                      className="bttn bttn--stroke-outline bttn-md bttn-pill fw-md flex-shrink-0 align-items-center">
+                      <span className="bttn__arrow"> Book a Demo </span>
+                    </Link>
+                    <Link
+                      href="register-a-company"
+                      className="bttn bttn--stroke-outline bttn-md bttn-pill fw-md flex-shrink-0 align-items-center">
+                      <span className="bttn__arrow"> Register a Company </span>
+                    </Link>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
+      
       <div className="section bg-base-800">
         <div className="section__gap-bottom">
           <div className="container">

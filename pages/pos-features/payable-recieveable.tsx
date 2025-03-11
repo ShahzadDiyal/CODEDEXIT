@@ -18,7 +18,7 @@ const Payable_Recievable_Module = () => {
       <section className="banner-section section--sm">
         <div className="container">
           <div className="row">
-            <div className="col-12">
+            <div className="col-md-6">
               <h3 className="clr-light mb-3">Payable & Receivable Module </h3>
               <ul className="list list-row flex-wrap breadcrumb-list">
                 <li>
@@ -52,6 +52,24 @@ const Payable_Recievable_Module = () => {
                 </li>
               </ul>
             </div>
+            <div className="col-md-6">
+            <div className="container" style={{ marginTop: "20px" }}>
+              <div className="row justify-content-center">
+                <div className="group group-row flex-wrap justify-content-end align-items-end">
+                  <Link
+                    href="book-a-demo"
+                    className="bttn bttn--stroke-outline bttn-md bttn-pill fw-md flex-shrink-0 align-items-center">
+                    <span className="bttn__arrow"> Book a Demo </span>
+                  </Link>
+                  <Link
+                    href="register-a-company"
+                    className="bttn bttn--stroke-outline bttn-md bttn-pill fw-md flex-shrink-0 align-items-center">
+                    <span className="bttn__arrow"> Register a Company </span>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
           </div>
         </div>
       </section>
@@ -185,6 +203,27 @@ const Payable_Recievable_Module = () => {
                 The Customer Payment Popup provides a seamless payment process with fields for Customer, Payment Methods, Invoice #, Total Due Amount, Discount, Discounted Due Amount, Paid Amount, Paid Date, and Due Date. This structured form ensures accurate transactions, allowing customers to apply discounts, track due amounts, and make 
                 timely payments, enhancing efficiency, accuracy, and financial transparency.{" "}
               </p>
+            </div>
+          </div>
+          <hr />
+          <div className="row">
+            <div className="col-12">
+              <div className="container" style={{ marginTop: "20px" }}>
+                <div className="row justify-content-center">
+                  <div className="group group-row flex-wrap justify-content-center align-items-end">
+                    <Link
+                      href="book-a-demo"
+                      className="bttn bttn--stroke-outline bttn-md bttn-pill fw-md flex-shrink-0 align-items-center">
+                      <span className="bttn__arrow"> Book a Demo </span>
+                    </Link>
+                    <Link
+                      href="register-a-company"
+                      className="bttn bttn--stroke-outline bttn-md bttn-pill fw-md flex-shrink-0 align-items-center">
+                      <span className="bttn__arrow"> Register a Company </span>
+                    </Link>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

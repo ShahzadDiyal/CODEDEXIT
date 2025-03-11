@@ -36,7 +36,7 @@ const AllPosFeatures = () => {
       <section className="banner-section section--sm">
         <div className="container">
           <div className="row">
-            <div className="col-12">
+            <div className="col-md-6">
               <h3 className="clr-light mb-3"> Our Products</h3>
               <ul className="list list-row flex-wrap breadcrumb-list">
                 <li>
@@ -67,6 +67,25 @@ const AllPosFeatures = () => {
                 </li>
               </ul>
             </div>
+            <div className="col-md-6">
+              <div className="container" style={{ marginTop: "20px" }}>
+                <div className="row justify-content-center">
+                  <div className="group group-row flex-wrap justify-content-end align-items-end">
+                    <Link
+                      href="book-a-demo"
+                      className="bttn bttn--stroke-outline bttn-md bttn-pill fw-md flex-shrink-0 align-items-center">
+                      <span className="bttn__arrow"> Book a Demo </span>
+                    </Link>
+                    <Link
+                      href="register-a-company"
+                      className="bttn bttn--stroke-outline bttn-md bttn-pill fw-md flex-shrink-0 align-items-center">
+                      <span className="bttn__arrow"> Register a Company </span>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+           
+          </div>
           </div>
         </div>
       </section>
@@ -94,9 +113,6 @@ const AllPosFeatures = () => {
             </div>
           </div>
           <div className="container">
-          {/* <div className="row mb-3" style={{}}>
-            <img src="/images/pos.jpg" alt="" style={{ width: "100%", height: "600px", borderRadius: "5px" }} />
-          </div> */}
           <div className="row g-3 g-xxl-4 justify-content-center">
             <div className="col-md-6 col-lg-4">
               <div className="service-card service-card--1">
@@ -151,21 +167,26 @@ const AllPosFeatures = () => {
 
           </div>
         </div>
-          <div className="section__gap-top">
+        <div className="section__gap-top">
             <div className="container">
               <div className="row justify-content-center">
                 <div className="col-md-10 col-xl-8">
                   <div className="group group-row flex-wrap justify-content-center align-items-center">
                     <Link
-                      href="contact-us"
+                      href="book-a-demo"
                       className="bttn bttn--stroke-outline bttn-md bttn-pill fw-md flex-shrink-0 align-items-center">
-                      <span className="bttn__arrow"> Contact Us </span>
+                      <span className="bttn__arrow"> Book a Demo </span>
+                    </Link>
+                    <Link
+                      href="register-a-company"
+                      className="bttn bttn--stroke-outline bttn-md bttn-pill fw-md flex-shrink-0 align-items-center">
+                      <span className="bttn__arrow"> Register a Company </span>
                     </Link>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
+          </div>  
         </div>
       </section>
       {/* <!-- Service Section  --> */}

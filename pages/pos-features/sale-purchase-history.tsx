@@ -18,7 +18,7 @@ const Sale_Purchase_History_Module = () => {
       <section className="banner-section section--sm">
         <div className="container">
           <div className="row">
-            <div className="col-12">
+            <div className="col-md-6">
               <h3 className="clr-light mb-3">Sale & Purchase History</h3>
               <ul className="list list-row flex-wrap breadcrumb-list">
                 <li>
@@ -52,6 +52,24 @@ const Sale_Purchase_History_Module = () => {
                 </li>
               </ul>
             </div>
+            <div className="col-md-6">
+            <div className="container" style={{ marginTop: "20px" }}>
+              <div className="row justify-content-center">
+                <div className="group group-row flex-wrap justify-content-end align-items-end">
+                  <Link
+                    href="book-a-demo"
+                    className="bttn bttn--stroke-outline bttn-md bttn-pill fw-md flex-shrink-0 align-items-center">
+                    <span className="bttn__arrow"> Book a Demo </span>
+                  </Link>
+                  <Link
+                    href="register-a-company"
+                    className="bttn bttn--stroke-outline bttn-md bttn-pill fw-md flex-shrink-0 align-items-center">
+                    <span className="bttn__arrow"> Register a Company </span>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
           </div>
         </div>
       </section>
@@ -139,6 +157,27 @@ const Sale_Purchase_History_Module = () => {
                 The Purchase Order History tab provides a structured table displaying Order #, Vendor Name, Gross Total, Discounts, Total & Paid Amounts, Remaining Balance, and Order Date, ensuring accurate financial tracking. Clicking a record reveals detailed product insights, including Product Name, Quantity, Unit Price, and Stock Levels. This enhances transparency, vendor coordination, and inventory control, 
                 helping businesses make informed purchasing decisions and maintain optimal stock levels.{" "}
               </p>
+            </div>
+          </div>
+          <hr />
+          <div className="row">
+            <div className="col-12">
+              <div className="container" style={{ marginTop: "20px" }}>
+                <div className="row justify-content-center">
+                  <div className="group group-row flex-wrap justify-content-center align-items-end">
+                    <Link
+                      href="book-a-demo"
+                      className="bttn bttn--stroke-outline bttn-md bttn-pill fw-md flex-shrink-0 align-items-center">
+                      <span className="bttn__arrow"> Book a Demo </span>
+                    </Link>
+                    <Link
+                      href="register-a-company"
+                      className="bttn bttn--stroke-outline bttn-md bttn-pill fw-md flex-shrink-0 align-items-center">
+                      <span className="bttn__arrow"> Register a Company </span>
+                    </Link>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

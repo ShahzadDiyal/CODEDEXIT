@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 import Link from "next/link";
 
 import { useEffect, useState } from 'react';
-import service_1 from "./services";
+
 
 
 
@@ -207,7 +207,7 @@ const contact_us = () => {
               <ul className="list gap-0 service-link-list">
                 <li>
                   <Link
-                    href="#"
+                    href="/book-a-demo"
                     className="t-link service-link clr-heading :clr-light border-bottom">
                     <span className="group gap-1">
                       <span className="d-inline-block service-link__title fw-bold">
@@ -227,38 +227,17 @@ const contact_us = () => {
                     </span>
                   </Link>
                 </li>
-                {/* <li>
-                  <Link
-                    href="#"
-                    className="t-link service-link clr-heading :clr-light border-bottom">
-                    <span className="group gap-1">
-                      <span className="d-inline-block service-link__title fw-bold">
-                        {" "}
-                        Send Your CV{" "}
-                      </span>
-                      <span className="d-block">
-                        {" "}
-                        if you want to join our team{" "}
-                      </span>
-                    </span>
-                    <span className="service-link__icon clr-light bg-base">
-                      <span className="material-symbols-outlined mat-icon">
-                        {" "}
-                        arrow_forward_ios{" "}
-                      </span>
-                    </span>
-                  </Link>
-                </li> */}
+               
                 <li>
                   <Link
-                    href="#"
+                    href="register-a-company"
                     className="t-link service-link clr-heading :clr-light">
                     <span className="group gap-1">
                       <span className="d-inline-block service-link__title fw-bold">
                         {" "}
-                        Reach Us via Email{" "}
+                        Register a Company{" "}
                       </span>
-                      <span className="d-block"> info@eastandwestagency.com </span>
+                      <span className="d-block">Let's Discuss about Registrations</span>
                     </span>
                     <span className="service-link__icon clr-light bg-base">
                       <span className="material-symbols-outlined mat-icon">
