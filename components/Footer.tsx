@@ -93,7 +93,22 @@ const Footer = () => {
                           Contact Us{" "}
                         </Link>
                       </li>
-                     
+                      <li>
+                        <Link
+                          href="book-a-demo"
+                          className="t-link clr-light :clr-accent">
+                          {" "}
+                          Book a Demo{" "}
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          href="register-a-company"
+                          className="t-link clr-light :clr-accent">
+                          {" "}
+                         Register a Company{" "}
+                        </Link>
+                      </li>
                       <li>
                         <Link
                           href="faq"

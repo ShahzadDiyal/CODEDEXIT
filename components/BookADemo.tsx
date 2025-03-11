@@ -10,16 +10,16 @@ const Book_a_demo = () => {
               <div className="section__gap-bottom pb-lg-0">
                 <span className="d-block h5 lh-1 fw-semibold clr-base mb-5">
                   {" "}
-                  Let’s Works Together{" "}
+                  Experience the Future of Our Services!{" "}
                 </span>
-                <h2 className="mb-10 clr-dark">
+                <h3 className="mb-10 clr-dark">
                   {" "}
-                  We Love to Listen to Your Requirements{" "}
-                </h2>
-                <div className="border t-border-base rounded-4 px-6 py-8 d-inline-flex flex-column gap-6 mb-10">
+                  Book a free demo today and see how we can elevate your business.{" "}
+                </h3>
+                <div className="border t-border-base rounded-4 px-6 py-8 d-inline-flex flex-column gap-6 mb-10 w-80">
                   <div className="group group-md group-row align-items-center">
                     <div className="user user--xmd user-outline-base flex-shrink-0 rounded-circle">
-                      <span className="user__img rounded-circle">
+                      <span className="user__img rounded-circle ">
                         <img
                           src="/images/team-5.png"
                           alt="image"
@@ -33,36 +33,12 @@ const Book_a_demo = () => {
                     </div>
                   </div>
                   <ul className="list list-row align-items-center flex-wrap">
-                    <li>
+                    <li className='w-100'>
                       <Link
                         href="#"
-                        className="bttn bttn--base-outline bttn-sm bttn-pill gap-2 fw-md flex-shrink-0 align-items-center">
+                        className="bttn bttn--base-outline bttn-sm bttn-pill gap-2 fw-md flex-shrink-0 align-items-center w-100">
                         {" "}
                         Call Us{" "}
-                        <span className="material-symbols-rounded mat-icon size-16 fw-400 bttn__icon-base d-flex align-items-center">
-                          {" "}
-                          arrow_forward{" "}
-                        </span>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="#"
-                        className="bttn bttn--base-outline bttn-sm bttn-pill gap-2 fw-md flex-shrink-0 align-items-center">
-                        {" "}
-                        Skype Us{" "}
-                        <span className="material-symbols-rounded mat-icon size-16 fw-400 bttn__icon-base d-flex align-items-center">
-                          {" "}
-                          arrow_forward{" "}
-                        </span>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="#"
-                        className="bttn bttn--base-outline bttn-sm bttn-pill gap-2 fw-md flex-shrink-0 align-items-center">
-                        {" "}
-                        Mail Us{" "}
                         <span className="material-symbols-rounded mat-icon size-16 fw-400 bttn__icon-base d-flex align-items-center">
                           {" "}
                           arrow_forward{" "}
@@ -92,18 +68,27 @@ const Book_a_demo = () => {
               <form
                 action="#"
                 className="contact-form-1 row g-4 bg-base p-2 py-5 py-md-10 px-xxl-10 rounded-4">
-                <div className="col-md-6">
+                 <div className="col-md-12">
                   <input
                     type="text"
-                    className="form-control rounded-pill contact-form-1__input"
-                    placeholder="Name*"
+                    className="form-control contact-form-1__input rounded-pill"
+                    placeholder="Company Name"
                   />
                 </div>
                 <div className="col-md-6">
                   <input
-                    type="number"
+                    type="text"
+                    className="form-control rounded-pill contact-form-1__input"
+                    placeholder="First Name*"
+                    required
+                  />
+                </div>
+                <div className="col-md-6">
+                  <input
+                    type="text"
                     className="form-control contact-form-1__input rounded-pill"
-                    placeholder="Phone*"
+                    placeholder="First Name*"
+                    required
                   />
                 </div>
                 <div className="col-md-6">
@@ -111,52 +96,28 @@ const Book_a_demo = () => {
                     type="email"
                     className="form-control contact-form-1__input rounded-pill"
                     placeholder="Email*"
+                    required
                   />
                 </div>
                 <div className="col-md-6">
                   <input
-                    type="text"
+                    type="number"
                     className="form-control contact-form-1__input rounded-pill"
-                    placeholder="Company Name"
+                    placeholder="Phone*"
+                    required
                   />
                 </div>
+               
                 <div className="col-12">
                   <div className="contact-form-1__select yellow-input rounded-pill">
-                    <select className="form-select rounded-pill">
+                    <select className="form-select rounded-pill" required>
                       <option>Select Services</option>
-                      <option value="1">One</option>
-                      <option value="2">Two</option>
-                      <option value="3">Three</option>
+                      <option value="1">Point of Sale Demo</option>
+                      <option value="2">Link Shortner</option>
                     </select>
                   </div>
                 </div>
-                <div className="col-12">
-                  <div className="contact-form-1__select yellow-input rounded-pill">
-                    <select className="form-select rounded-pill">
-                      <option>Select Requirement</option>
-                      <option value="1">One</option>
-                      <option value="2">Two</option>
-                      <option value="3">Three</option>
-                    </select>
-                  </div>
-                </div>
-                <div className="col-md-6">
-                  <input
-                    type="text"
-                    className="form-control rounded-pill contact-form-1__input"
-                    placeholder="$5,000"
-                  />
-                </div>
-                <div className="col-md-6">
-                  <div className="contact-form-1__select rounded-pill">
-                    <select className="form-select rounded-pill">
-                      <option>Right Now</option>
-                      <option value="1">One</option>
-                      <option value="2">Two</option>
-                      <option value="3">Three</option>
-                    </select>
-                  </div>
-                </div>
+                
                 <div className="col-12">
                   <textarea
                     className="form-control contact-form-1__input rounded-8"
@@ -187,19 +148,19 @@ const Book_a_demo = () => {
                       type="checkbox"
                       value=""
                       id="accept-terms"
+                      required
                     />
-                    <label
-                      className="form-check-label clr-light"
-                      htmlFor="accept-terms">
-                      {" "}
-                      I have read and accepted the Terms & Conditions Privacy
-                      Policy{" "}
-                    </label>
+                   <label
+                    className="form-check-label clr-light"
+                    htmlFor="accept-terms">
+                    {" "}
+                    I have read and accepted the <Link href="/terms-condition" style={{ color: "yellow" }}>Terms & Conditions </Link>{" "}
+                  </label>
                   </div>
                 </div>
                 <div className="col-12">
-                  <div className="text-center mt-6">
-                    <button className="bttn bttn--warning bttn-md bttn-pill fw-md" disabled>
+                  <div className="text-center mt-6 ">
+                    <button className="bttn bttn--warning w-100 bttn-md bttn-pill fw-md" >
                       {" "}
                       Send Message{" "}
                     </button>
