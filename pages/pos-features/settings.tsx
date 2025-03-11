@@ -179,7 +179,7 @@ const Settings_Module = () => {
               />
             </div>
             <div className="col-md-6 align-self-center">
-              <h4><u>Localization </u></h4>
+              <h4><u>Custom Localization </u></h4>
               <p>
                 {" "}
                 The Localization Tab allows users to customize language settings by selecting a language, module, and screen for a personalized experience. A search bar enables quick access to specific localizations, while a structured table with Key, Module Name, Screen Name, Default Value, and Value ensures seamless translations.
@@ -225,7 +225,7 @@ const Settings_Module = () => {
               />
             </div>
             <div className="col-md-6 align-self-center">
-              <h4><u>Payment Method </u></h4>
+              <h4><u>Payment Method List</u></h4>
               <p>
                 {" "}
                 The Payment Method Tab provides a structured table displaying Name, Display Name, Store Name, Enable/Disable, and Picture, ensuring efficient payment management. With advanced pagination, search, and filtering, users can quickly locate and manage payment options. This feature enhances flexibility, control, and seamless transaction processing,

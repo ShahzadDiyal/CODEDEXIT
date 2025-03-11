@@ -496,7 +496,7 @@ const AllPosFeatures = () => {
                       The Admin module enables user management, role assignment, and permission control. Admins can track audit logs for security and manage tenants efficiently, ensuring streamlined access control and operational oversight.{" "}
                     </p>
                     <Link
-                      href="field-service-management"
+                      href="/pos-features/admin-module"
                       className="t-link t-link--base fw-md">
                       {" "}
                       More{" "}

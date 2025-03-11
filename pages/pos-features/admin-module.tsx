@@ -6,7 +6,7 @@ import Navbar from "@/components/NavbarTwo";
 import { useEffect } from 'react';
 import Footer from "@/components/Footer";
 
-const Report_Module = () => {
+const Admin_Module = () => {
   useEffect(() => {
     document.documentElement.setAttribute("dir", "ltr");
   }, []);
@@ -19,7 +19,7 @@ const Report_Module = () => {
         <div className="container">
           <div className="row">
             <div className="col-12">
-              <h3 className="clr-light mb-3">Report Module </h3>
+              <h3 className="clr-light mb-3">Admin Module </h3>
               <ul className="list list-row flex-wrap breadcrumb-list">
                 <li>
                   <Link
@@ -42,7 +42,7 @@ const Report_Module = () => {
                     href="#"
                     className="d-inline-block t-link clr-light :clr-accent">
                     {" "}
-                    Report Module {" "}
+                    Admin Module {" "}
                   </Link>
                 </li>
                 <li className="d-none">
@@ -63,11 +63,11 @@ const Report_Module = () => {
             </div>
             <span className="w-100"></span>
             <div className="col-md-6 mt-0 align-self-center">
-              <h3>Report Module </h3>
+              <h3>Admin Module </h3>
               <p>
                 {" "}
-                The Report Module in our POS system provides comprehensive insights through multiple tabs, including Purchase Orders Report, Sales Order Report, Customer Report, Profit/Margin Report, User Report, Return Sales Orders, and Return Purchase Orders. Each tab offers a flexible, user-friendly interface, allowing seamless data retrieval, analysis, and tracking. This module enhances decision-making by
-                delivering accurate, real-time reports tailored to business needs.
+                The Admin Module serves as the central control hub for managing the entire Point of Sale system. It enables administrators to handle roles, permissions, users, audit logs, and tenants efficiently. With robust access control, user management, and activity tracking, this module ensures security, accountability, and smooth multi-tenant operations,
+                empowering admins to maintain system integrity and operational efficiency.
                 {" "}
               </p>
               <Link
@@ -83,17 +83,17 @@ const Report_Module = () => {
             </div>
             <div className="col-md-6">
               <img
-                src="/images/purchase orders pic.png"
+                src="/images/admin-side.jpg"
                 alt="image"
                 className="img-fluid flex-shrink-0"
-                style={{ border: "1px solid", borderRadius: "5px" }}
+                style={{ border: "1px solid", borderRadius: "5px",width:"100%", height:"500px" }}
               />
             </div>
           </div>
           <hr />
           <span className="d-block h5 lh-1 fw-semibold clr-base text-center" style={{ fontSize: "40px", padding: "20px" }}>
             {" "}
-            Report Module Features {" "}
+            Admin Module Features {" "}
           </span>
           <div className="row g-4">
             <div className="col-md-7 col-xl-5">
@@ -101,21 +101,67 @@ const Report_Module = () => {
             </div>
             <span className="w-100"></span>
             <div className="col-md-6 align-self-center">
-              <h4><u>Purchase Orders Report </u></h4>
+              <h4><u>User Management</u></h4>
               <p>
                 {" "}
-                The Purchase Orders Report feature provides a detailed list of all purchase orders, displayed in a structured table with fields like Vendor, Gross Total, Discount Amount, Total, Paid Amount, Remaining Amount, and Purchase Date. It includes pagination, advanced filtering (by user, vendor, products, order status, and date), and supports import/export to Excel for seamless data management.
-                This feature ensures efficient tracking and analysis of purchase transactions.{" "}
+                The Admin Module provides a comprehensive User Management feature, allowing administrators to view all users in a structured list with fields like Full Name, Email, User Name, Role, and Action. It includes pagination, search functionality, and the ability to add or edit user records, ensuring seamless
+                user management and efficient role-based access control within the system.{" "}
               </p>
 
             </div>
             <div className="col-md-6 align-self-center">
               <img
-                src="/images/purchase orders pic.png"
+                src="/images/admin users list.png"
                 alt="image"
                 className="img-fluid flex-shrink-0"
                 style={{ border: "1px solid", borderRadius: "5px" }}
               />
+            </div>
+          </div>
+          <div className="row g-4">
+            <div className="col-md-7 col-xl-5">
+
+            </div>
+            <span className="w-100"></span>
+            <div className="col-md-6 align-self-center">
+              <img
+                src="/images/admin add users.png"
+                alt="image"
+                className="img-fluid flex-shrink-0"
+                style={{ border: "1px solid", borderRadius: "5px" }}
+              />
+            </div>
+            <div className="col-md-6 align-self-center">
+              <h4><u>Add New User</u></h4>
+              <p>
+                {" "}
+                The Admin Module enables administrators to add new users by entering essential details such as Name, Age, National ID, Phone, Email, Salary, Join Date, Birth Date, Home Town, Current City, Division, Post Code, Roles, and more. This feature ensures seamless user management,
+                allowing admins to assign roles and maintain an organized workforce within the system.{" "}
+              </p>
+            </div>
+          </div>
+          <hr />
+
+          <div className="row g-4">
+            <div className="col-md-7 col-xl-5">
+
+            </div>
+            <span className="w-100"></span>
+            <div className="col-md-6 align-self-center">
+              <img
+                src="/images/admin role list.png"
+                alt="image"
+                className="img-fluid flex-shrink-0"
+                style={{ border: "1px solid", borderRadius: "5px" }}
+              />
+            </div>
+            <div className="col-md-6 align-self-center">
+              <h4><u>Roles Management</u></h4>
+              <p>
+                {" "}
+                The Roles Management feature in the Admin Module allows administrators to view a comprehensive list of all roles with fields like Name, Permissions, and Action. It includes pagination and search functionality for easy navigation. Admins can also add, edit, and manage roles efficiently,
+                ensuring proper access control and security across the Point of Sale system.{" "}
+              </p>
             </div>
           </div>
 
@@ -125,20 +171,45 @@ const Report_Module = () => {
             </div>
             <span className="w-100"></span>
             <div className="col-md-6 align-self-center">
+              <h4><u>Add or Edit Role</u></h4>
+              <p>
+                {" "}
+                The Admin Module allows administrators to create and assign new roles with specific permissions to control access within the system. This feature ensures a structured hierarchy, enabling role-based access management for users, enhancing security,
+                and maintaining operational efficiency in the Point of Sale system.{" "}
+              </p>
+
+            </div>
+            <div className="col-md-6 align-self-center">
               <img
-                src="/images/sale orders pic.png"
+                src="/images/admin add role.png"
                 alt="image"
                 className="img-fluid flex-shrink-0"
                 style={{ border: "1px solid", borderRadius: "5px" }}
               />
             </div>
+          </div>
+          <hr />
+
+          <div className="row g-4">
+            <div className="col-md-7 col-xl-5">
+
+            </div>
+            <span className="w-100"></span>
             <div className="col-md-6 align-self-center">
-              <h4><u>Sales Orders Report </u></h4>
+              <h4><u>Tenant Management</u></h4>
               <p>
                 {" "}
-                The Sales Orders Report feature provides a detailed list of all sales transactions, displayed in a structured table with fields like Order #, Customer Name, Gross Total, Discount Amount, Sub Total, Tax Amount, Total, Paid Amount, Remaining Amount, Profit, Cost, and Sale Date. It includes pagination, advanced filtering (by user, customers, products,
-                order status, and date) and supports export to PDF and Excel for seamless reporting.{" "}
+                The Admin Module allows administrators to manage all tenants efficiently. It provides a structured list displaying key details like Name and Email, along with pagination and a search functionality for easy navigation. Admins can also add new tenant records, ensuring seamless onboarding and management of multiple tenants within the Point of Sale system.{" "}
               </p>
+
+            </div>
+            <div className="col-md-6 align-self-center">
+              <img
+                src="/images/tenant list.png"
+                alt="image"
+                className="img-fluid flex-shrink-0"
+                style={{ border: "1px solid", borderRadius: "5px" }}
+              />
             </div>
           </div>
           <div className="row g-4">
@@ -147,116 +218,23 @@ const Report_Module = () => {
             </div>
             <span className="w-100"></span>
             <div className="col-md-6 align-self-center">
-              <h4><u>Margin/Profit Report</u></h4>
-              <p>
-                {" "}
-                The Margin/Profit Report feature provides a detailed breakdown of profit margins, displayed in a structured table with fields like Product Name, Quantity, Cost, Total, Margin, and Profit. It includes pagination, advanced filtering (by user, customers, products, and date) for precise data analysis. Additionally, it supports export to PDF and Excel,
-                ensuring seamless reporting and efficient tracking of business profitability.{" "}
-              </p>
-
-            </div>
-            <div className="col-md-6 align-self-center">
               <img
-                src="/images/margin pic.png"
-                alt="image"
-                className="img-fluid flex-shrink-0"
-                style={{ border: "1px solid", borderRadius: "5px" }}
-              />
-            </div>
-          </div>
-
-          <div className="row g-4">
-            <div className="col-md-7 col-xl-5">
-
-            </div>
-            <span className="w-100"></span>
-            <div className="col-md-6 align-self-center">
-              <img
-                src="/images/customer report pic.png"
+                src="/images/admin create tenant.png"
                 alt="image"
                 className="img-fluid flex-shrink-0"
                 style={{ border: "1px solid", borderRadius: "5px" }}
               />
             </div>
             <div className="col-md-6 align-self-center">
-              <h4><u>Customer Report </u></h4>
+              <h4><u>Create New Tenant</u></h4>
               <p>
                 {" "}
-                The Customer Report feature provides a comprehensive list of customer transactions, displayed in a structured table with fields like Customer Name, Order #, Total Amount, and Order Date. It includes pagination, advanced filtering (by product categories, customers, products, users, and date) for refined data analysis. Additionally, it supports export to PDF and Excel,
-                enabling seamless reporting and efficient customer transaction tracking.{" "}
+                The Admin Module allows administrators to create a new tenant by entering essential details such as Company Name, First Name, Last Name, Email, and Password. This feature ensures seamless onboarding, enabling multi-tenant
+                management while maintaining security and organizational control within the Point of Sale system.{" "}
               </p>
             </div>
           </div>
-
-          <div className="row g-4">
-            <div className="col-md-7 col-xl-5">
-            </div>
-            <span className="w-100"></span>
-            <div className="col-md-6 align-self-center">
-              <h4><u>Users Report </u></h4>
-              <p>
-                {" "}
-                The Users Report feature provides a detailed overview of user-related transactions, displayed in a structured table with fields like User Name, Order #, Total Amount, and Order Date. It includes pagination, advanced filtering (by customers, products, users, and date) for precise data analysis. Additionally, it supports export to PDF and Excel,
-                ensuring seamless reporting and efficient tracking of user-based transactions.{" "}
-              </p>
-
-            </div>
-            <div className="col-md-6 align-self-center">
-              <img
-                src="/images/user report pic.png"
-                alt="image"
-                className="img-fluid flex-shrink-0"
-                style={{ border: "1px solid", borderRadius: "5px" }}
-              />
-            </div>
-          </div>
-
-          <div className="row g-4">
-            <div className="col-md-7 col-xl-5">
-
-            </div>
-            <span className="w-100"></span>
-            <div className="col-md-6 align-self-center">
-              <img
-                src="/images/return sale orders pic.png"
-                alt="image"
-                className="img-fluid flex-shrink-0"
-                style={{ border: "1px solid", borderRadius: "5px" }}
-              />
-            </div>
-            <div className="col-md-6 align-self-center">
-              <h4><u>Return Sale Orders Report</u></h4>
-              <p>
-                {" "}
-                The Return Sale Report feature provides a detailed list of all returned sales transactions, displayed in a structured table with fields like Order #, Total Amount, and Order Date. It includes pagination and date-based filtering for efficient data retrieval. Additionally, it supports export to PDF and Excel, ensuring seamless reporting
-                and accurate tracking of returned sales for better financial management.{" "}
-              </p>
-            </div>
-          </div>
-
-          <div className="row g-4">
-            <div className="col-md-7 col-xl-5">
-            </div>
-            <span className="w-100"></span>
-            <div className="col-md-6 align-self-center">
-              <h4><u>Return Purchase Orders Report</u></h4>
-              <p>
-                {" "}
-                The Return Purchase Orders Report feature provides a detailed list of all returned purchase orders, displayed in a structured table with fields like Order #, Total Amount, and Order Date. It includes pagination and date filtering for efficient data retrieval. Additionally, it supports export to PDF and Excel,
-                enabling seamless reporting and effective tracking of returned purchase transactions.{" "}
-              </p>
-
-            </div>
-            <div className="col-md-6 align-self-center">
-              <img
-                src="/images/return purchase orders pic.png"
-                alt="image"
-                className="img-fluid flex-shrink-0"
-                style={{ border: "1px solid", borderRadius: "5px" }}
-              />
-            </div>
-          </div>
-
+          <hr />
         </div>
       </div>
 
@@ -460,4 +438,4 @@ const Report_Module = () => {
   );
 };
 
-export default Report_Module;
+export default Admin_Module;
