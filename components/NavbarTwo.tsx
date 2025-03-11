@@ -65,7 +65,7 @@ const NavbarTwo = ({ rtlurl }) => {
 
               {/* Primary Menu */}
               <nav className="primary-menu align-items-center">
-                <a href="#" className="logo">
+                <Link href="#" className="logo">
                   <img
                     src="/images/UZI-systems-Logo1.png"
                     alt="Coded Exit Ltd."
@@ -78,49 +78,49 @@ const NavbarTwo = ({ rtlurl }) => {
                     className="logo__img logo__light"
                     style={{ width: "260px", height: "100px", marginTop: "-30px" }}
                   />
-                </a>
+                </Link>
 
                 <ul className="list primary-menu__list">
                   <li>
-                    <a
+                    <Link
                       href="/"
                       className="primary-menu__link"
                     >
                       Home
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
+                    <Link
                       href="/ourProducts"
                       className="primary-menu__link"
                     >
                       Products
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
+                    <Link
                       href="/services/"
                       className="primary-menu__link"
                     >
                       Services
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
+                    <Link
                       href="/about-us/"
                       className="primary-menu__link"
                     >
                       About
-                    </a>
+                    </Link>
                   </li>
 
                   <li>
-                    <a
+                    <Link
                       href="/blog/"
                       className="primary-menu__link"
                     >
                       Blogs
-                    </a>
+                    </Link>
                   </li>
 
 

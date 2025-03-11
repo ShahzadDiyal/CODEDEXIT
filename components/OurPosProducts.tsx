@@ -26,7 +26,7 @@
         </div>
         <div className="container">
           <div className="row mb-3" style={{}}>
-            <img src="/images/pos.jpg" alt="" style={{ width: "100%", height: "600px", borderRadius: "5px" }} />
+            <img src="/images/software-products-pic.jpg" alt="" style={{ width: "100%", height: "600px", borderRadius: "5px" }} />
           </div>
           <div className="row g-3 g-xxl-4 justify-content-center">
             <div className="col-md-6 col-lg-4">

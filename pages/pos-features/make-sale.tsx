@@ -58,7 +58,7 @@ const Make_Sale_Module = () => {
       {/* <!-- Banner End --> */}
       <div className="section">
         <div className="container">
-          <div className="row g-4" style={{ border: "1px solid", borderRadius: "5px", padding: "0 25px 25px 25px" }}>
+          <div className="row g-4 padding-around" style={{ border: "1px solid", borderRadius: "5px" }}>
             <div className="col-md-7 col-xl-5">
 
             </div>
