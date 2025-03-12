@@ -7,6 +7,7 @@ import Howitwork from "@/components/Howitwork";
 import Link from "next/link";
 
 import { useEffect } from 'react';
+import Technologies from "@/components/Technologies";
 
 const choose_us_1 = () => {
   useEffect(() => {
@@ -272,7 +273,7 @@ const choose_us_1 = () => {
       {/* <!-- Work Process Section  --> */}
       <Howitwork />
       {/* <!-- Consult Section  --> */}
-      <Consult />
+      <Technologies />
       {/* <!-- Brand Section  --> */}
       <Companies />
       {/* Footer */}

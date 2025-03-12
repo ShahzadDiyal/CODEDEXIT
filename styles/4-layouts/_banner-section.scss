@@ -1,12 +1,14 @@
 .banner-section {
     position: relative;
-    isolation: isolate;
+    // isolation: isolate;
     background-image: url(/images/light.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 60px;
-
+    // padding: 60px;
+    width: 100%;
+    height: 200px;
+    
     &::after {
         content: '';
         position: absolute;

@@ -3,6 +3,7 @@ import Consult from "@/components/Consult";
 import Footer from "@/components/Footer";
 import Link from "next/link";
 import { useState, useEffect } from "react";
+import Technologies from "@/components/Technologies";
 const faq_1_data = [
   {
     id: 1,
@@ -308,7 +309,7 @@ const faq = () => {
         </div>
       </div>
       {/* <!-- Consult Section  --> */}
-      <Consult />
+      <Technologies />
       {/* <!-- Resource Section --> */}
       <div className="section">
         <div className="section__gap-bottom">

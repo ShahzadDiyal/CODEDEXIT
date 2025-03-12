@@ -1,7 +1,47 @@
 import Link from 'next/link';
-import React from 'react';
+import React, { useState } from 'react';
+import { addDoc , collection , db} from '../lib/firebase'
+import { resolve } from 'path';
+
 
 const Book_a_demo = () => {
+  const [isLoading,setIsLoading] = useState(false);
+  const [isStatus, setIsStatus] = useState("");
+  const [isError, setIsError] = useState(false);
+  const [formData , setFormData] = useState({
+    firstName : "",
+    lastName: "",
+    email:"",
+    phone:"",
+    companyName:"",
+    description:""
+  })
+
+  const handleChange = (e) =>{
+    setFormData({...formData, [e.target.name]: e.target.value });
+  }
+
+  const handleSubmit = async (e) =>{
+    e.preventDefault();
+    setIsLoading(true)
+    setIsStatus(""); 
+    setIsError(false);
+
+
+    try {
+      await addDoc(collection(db,"Book A Demo"), formData)
+      setFormData({firstName:"", lastName:"", email: "", phone: "", companyName: "", description: "" })
+      setIsStatus("✅ Your request for POS Demo is submitted successfully! we will get in touch with you as soon as possible!");
+      setIsError(false);
+    } catch (error) {
+      setIsStatus("❌ " + error);
+      setIsError(true);
+    } finally{
+      setIsLoading(false);
+    }
+  }
+
+
     return (
         <section className="section red-bg">
         <div className="container">
@@ -67,10 +107,14 @@ const Book_a_demo = () => {
             <div className="col-lg-6">
               <form
                 action="#"
+                onSubmit={handleSubmit}
                 className="contact-form-1 row g-4 bg-base p-2 py-5 py-md-10 px-xxl-10 rounded-4">
                  <div className="col-md-12">
                   <input
                     type="text"
+                    name='companyName'
+                    value={formData.companyName}
+                    onChange={handleChange}
                     className="form-control contact-form-1__input rounded-pill"
                     placeholder="Company Name"
                   />
@@ -78,6 +122,9 @@ const Book_a_demo = () => {
                 <div className="col-md-6">
                   <input
                     type="text"
+                    name='firstName'
+                    value={formData.firstName}
+                    onChange={handleChange}
                     className="form-control rounded-pill contact-form-1__input"
                     placeholder="First Name*"
                     required
@@ -86,6 +133,9 @@ const Book_a_demo = () => {
                 <div className="col-md-6">
                   <input
                     type="text"
+                    name='lastName'
+                    value={formData.lastName}
+                    onChange={handleChange}
                     className="form-control contact-form-1__input rounded-pill"
                     placeholder="First Name*"
                     required
@@ -94,6 +144,9 @@ const Book_a_demo = () => {
                 <div className="col-md-6">
                   <input
                     type="email"
+                    name='email'
+                    value={formData.email}
+                    onChange={handleChange}
                     className="form-control contact-form-1__input rounded-pill"
                     placeholder="Email*"
                     required
@@ -102,6 +155,9 @@ const Book_a_demo = () => {
                 <div className="col-md-6">
                   <input
                     type="number"
+                    name='phone'
+                    value={formData.phone}
+                    onChange={handleChange}
                     className="form-control contact-form-1__input rounded-pill"
                     placeholder="Phone*"
                     required
@@ -120,6 +176,9 @@ const Book_a_demo = () => {
                 
                 <div className="col-12">
                   <textarea
+                     name='description'
+                     value={formData.description}
+                     onChange={handleChange}
                     className="form-control contact-form-1__input rounded-8"
                     rows={3}
                     placeholder="Let us know what you need"></textarea>
@@ -160,11 +219,21 @@ const Book_a_demo = () => {
                 </div>
                 <div className="col-12">
                   <div className="text-center mt-6 ">
-                    <button className="bttn bttn--warning w-100 bttn-md bttn-pill fw-md" >
-                      {" "}
-                      Send Message{" "}
+                    <button type='submit' className="bttn bttn--warning w-100 bttn-md bttn-pill fw-md" style={{height:"50px"}} disabled={isLoading}>
+                    {isLoading ? (
+                          <span className="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                        ) : (
+                         " Book a Demo Today!"
+                        )}
                     </button>
                   </div>
+                  {isStatus && (
+                    <div className="text-center mt-3">
+                      <p style={{ color: isError ? "red" : "1fff41", fontWeight: "bold" }}>
+                        {isStatus}
+                      </p>
+                    </div>
+                  )}
                 </div>
               </form>
             </div>

@@ -72,11 +72,11 @@ const Letstalk = () => {
                 <input
                   type="text"
                   className="form-control contact-form-1__input rounded-pill"
-                  placeholder="Enter a Company Name you want to create*"
+                  placeholder="Enter a Company Name you want to Register*"
                   required
                 />
               </div>
-              <div className="col-12">
+              <div className="col-md-6">
                 <input
                   type="text"
                   className="form-control rounded-pill contact-form-1__input"
@@ -84,7 +84,7 @@ const Letstalk = () => {
                   required
                 />
               </div>
-              <div className="col-12">
+              <div className="col-md-6">
                 <input
                   type="text"
                   className="form-control rounded-pill contact-form-1__input"
@@ -92,7 +92,7 @@ const Letstalk = () => {
                   required
                 />
               </div>
-              <div className="col-md-12">
+              <div className="col-md-6">
                 <input
                   type="email"
                   className="form-control contact-form-1__input rounded-pill"
@@ -100,8 +100,14 @@ const Letstalk = () => {
                   required
                 />
               </div>
-
-
+              <div className="col-md-6">
+                <input
+                  type="number"
+                  className="form-control contact-form-1__input rounded-pill"
+                  placeholder="Enter your Number*"
+                  required
+                />
+              </div>
               <div className="col-12">
                 <textarea
                   className="form-control contact-form-1__input rounded-8"
@@ -132,6 +138,7 @@ const Letstalk = () => {
                     type="checkbox"
                     value=""
                     id="accept-terms"
+                    required
                   />
                   <label
                     className="form-check-label clr-light"

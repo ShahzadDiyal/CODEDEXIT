@@ -2,14 +2,13 @@ import Navbar from "@/components/NavbarTwo";
 import Testimonial from "@/components/Testimonial";
 import Footer from "@/components/Footer";
 import Link from "next/link";
-
+import { addDoc, collection, db } from '../lib/firebase'
 import { useEffect, useState } from 'react';
 
-
-
-
-
 const contact_us = () => {
+  const [isLoading, setIsLoading] = useState(false);
+  const [status, setStatus] = useState("");
+  const [isError, setIsError] = useState(false);
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -17,7 +16,6 @@ const contact_us = () => {
     message: "",
   });
 
-  const [status, setStatus] = useState("");
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -25,38 +23,29 @@ const contact_us = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setStatus("Sending...");
-
+    setIsLoading(true);
+    setStatus(""); 
+    setIsError(false);
+  
     try {
-        const response = await fetch("/api/sendEmail", {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify(formData),
-        });
-
-        const data = await response.json();
-
-        if (response.ok) {
-            setStatus("Your request has been sent successfully!");
-            setFormData({ name: "", email: "", service: "", message: "" });
-        } else {
-            setStatus(`Error: ${data.message}`);
-        }
+      await addDoc(collection(db, "Main Contact Us Form"), formData);
+      setFormData({ name: "", email: "", service: "", message: "" });
+      setStatus("✅ Form submitted successfully!");
+      setIsError(false);
     } catch (error) {
-        setStatus("Error: Something went wrong.");
+      setStatus("❌ " + error);
+      setIsError(true);
+    } finally {
+      setIsLoading(false); 
     }
-};
-
-
-
-
-
+  };
+  
   useEffect(() => {
     document.documentElement.setAttribute("dir", "ltr");
   }, []);
   return (
     <>
-      <Navbar rtlurl="/rtl/contact-us"/>
+      <Navbar rtlurl="/rtl/contact-us" />
       {/* Banner */}
       <section className="banner-section section--sm">
         <div className="container">
@@ -175,30 +164,25 @@ const contact_us = () => {
                       required
                     ></textarea>
                   </div>
-                  {/* <div className="col-12">
-                    <div className="form-check">
-                      <input className="form-check-input" type="checkbox" id="newsletter-subscribe" />
-                      <label className="form-check-label clr-light" htmlFor="newsletter-subscribe">
-                        I would like to be updated on the latest products, event announcements
-                      </label>
-                    </div>
-                  </div>
-                  <div className="col-12">
-                    <div className="form-check">
-                      <input className="form-check-input" type="checkbox" id="accept-terms" required />
-                      <label className="form-check-label clr-light" htmlFor="accept-terms">
-                        I have read and accepted the Terms & Conditions and Privacy Policy
-                      </label>
-                    </div>
-                  </div> */}
+
                   <div className="col-12">
                     <div className="text-center mt-6">
-                      <button type="submit" className="bttn bttn--warning bttn-md bttn-pill fw-md">
-                        Submit
+                      <button type="submit" className="bttn bttn--warning bttn-md bttn-pill fw-md w-100" style={{height:"50px"}} disabled={isLoading}>
+                        {isLoading ? (
+                          <span className="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                        ) : (
+                          "Submit"
+                        )}
                       </button>
-                      <p>{status}</p>
                     </div>
                   </div>
+                  {status && (
+                    <div className="text-center mt-3">
+                      <p style={{ color: isError ? "red" : "1fff41", fontWeight: "bold" }}>
+                        {status}
+                      </p>
+                    </div>
+                  )}
                 </div>
               </form>
 
@@ -227,7 +211,7 @@ const contact_us = () => {
                     </span>
                   </Link>
                 </li>
-               
+
                 <li>
                   <Link
                     href="register-a-company"
