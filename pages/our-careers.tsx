@@ -77,23 +77,23 @@ const Our_Careers = () => {
           <div className="row justify-content-xxl-between">
             <div className="col-12">
 
-            <h3 className="mt-2 clr-base mb-4 text-center">
-                  {" "}
-                  JOIN HANDS WITH CODEDEXIT Ltd INNOVATE, SCALE, SUCCEED!{" "}
-                </h3>
+              <h3 className="mt-2 clr-base mb-4 text-center">
+                {" "}
+                JOIN HANDS WITH CODEDEXIT Ltd INNOVATE, SCALE, SUCCEED!{" "}
+              </h3>
               <figure className="about-company-1__img">
                 <img
                   src="/images/ourcareers.jpg"
                   alt="image"
                   className="img-fluid"
-                  style={{borderRadius:"10px", border:"1px solid"}}
+                  style={{ borderRadius: "10px", border: "1px solid" }}
                 />
-                
+
               </figure>
             </div>
             <div className="col-12">
               <div className="section__gap-bottom pb-lg-0 position-sticky top-0">
-                
+
                 <h4 className="text-center mb-3 clr-base"><u> Why Choose Us?</u></h4>
                 <p className="mb-5 text-center">
                   {" "}

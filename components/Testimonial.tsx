@@ -25,6 +25,95 @@ const feedbackData = [
     review: "Impressive field solutions that boosted our productivity and streamlined processes. Truly a game-changer for our business!",
     company: "Biffco Ltd."
   },
+
+  {
+    id: 4,
+    img: '/images/team-4.png',
+    name: 'Sophia Reynolds',
+    review: 'Their AI solutions revolutionized our business! Predictive analytics and automation improved efficiency beyond expectations. Highly recommended!',
+    company: 'NeuralTech Inc.'
+  },
+  {
+    id: 5,
+    img: '/images/team-5.png',
+    name: 'Liam Bennett',
+    review: 'Exceptional AI services! Their innovative approach enhanced our data processing and decision-making capabilities like never before.',
+    company: 'Quantum Analytics'
+  },
+  {
+    id: 6,
+    img: '/images/team-6.png',
+    name: 'Emily Carter',
+    review: 'Our website was transformed into a high-performing, user-friendly platform. Their expertise in web development is truly impressive!',
+    company: 'Visionary Designs'
+  },
+  {
+    id: 7,
+    img: '/images/team-7.png',
+    name: 'Daniel Foster',
+    review: 'From concept to execution, their web development team delivered a flawless and responsive website that exceeded our expectations!',
+    company: 'TechSphere Ltd.'
+  },
+  {
+    id: 8,
+    img: '/images/team-8.png',
+    name: 'Olivia Brooks',
+    review: 'Their app development team built a seamless, high-performing mobile application that improved customer engagement and satisfaction.',
+    company: 'NextGen Solutions'
+  },
+  {
+    id: 9,
+    img: '/images/element-13.png',
+    name: 'Ethan Parker',
+    review: 'Brilliant app development services! Our mobile app is smooth, user-friendly, and packed with features that customers love.',
+    company: 'SwiftApps Inc.'
+  },
+  {
+    id: 10,
+    img: '/images/element-14.png',
+    name: 'Ava Mitchell',
+    review: 'Their custom software development tailored our workflow perfectly! Increased productivity and efficiency like never before.',
+    company: 'Innovate Solutions'
+  },
+  {
+    id: 11,
+    img: '/images/element-15.png',
+    name: 'Noah Harris',
+    review: 'Top-notch custom software! It streamlined our processes, eliminated inefficiencies, and gave us a competitive edge.',
+    company: 'Enterprise Dynamics'
+  },
+  {
+    id: 12,
+    img: '/images/element-16.png',
+    name: 'Mia Thompson',
+    review: 'Their POS system transformed our retail operations, making transactions seamless and inventory management effortless!',
+    company: 'Retail Masters'
+  },
+  {
+    id: 13,
+    img: '/images/kamran-qa.jpg',
+    name: 'Lucas Bennett',
+    review: 'A game-changing POS solution! Easy to use, highly secure, and packed with features that improved our sales operations.',
+    company: 'FastTrack Retail'
+  },
+  {
+    id: 14,
+    img: '/images/shahzad.png',
+    name: 'Emma Wilson',
+    review: 'Their SaaS products are exceptional! Scalable, user-friendly, and have significantly improved our business efficiency.',
+    company: 'CloudSync Ltd.'
+  },
+  {
+    id: 15,
+    img: '/images/rizwanzamanpic.jpg',
+    name: 'James Robinson',
+    review: 'Reliable and feature-rich SaaS solutions! Their products helped automate our processes, saving time and resources.',
+    company: 'SkyNet Solutions'
+  }
+
+
+
+
 ]
 
 const Testimonail = () => {
@@ -34,7 +123,7 @@ const Testimonail = () => {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-md-10 col-lg-8 col-xxl-7">
-              <span className="d-block h5 lh-1 fw-semibold clr-base text-center" style={{fontSize:"30px"}}>
+              <span className="d-block h5 lh-1 fw-semibold clr-base text-center" style={{ fontSize: "30px" }}>
                 {" "}
                 Our Testimonials{" "}
               </span>
