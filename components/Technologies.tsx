@@ -30,7 +30,7 @@ const Technologies = () => {
     try {
       await addDoc(collection(db, "Technologies - Contact Form Data"), formData)
       setFormData({ name: "", phone: "", email: "", service: "", message: "" })
-      setIsStatus("✅ Thank you for contact us! we will get in touch with you as soon as possible!");
+      setIsStatus("✅ Thank you for contacting us! we will get in touch with you as soon as possible!");
       setIsError(false);
     } catch (error) {
       setIsStatus("❌ " + error);

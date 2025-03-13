@@ -1,16 +1,35 @@
-import Navbar from "@/components/NavbarTwo";
+import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Link from "next/link";
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
+import { useRouter } from "next/router";
 
 const terms_condition = () => {
+  const router = useRouter();
+  const [activeLink, setActiveLink] = useState("");
+
+  // Detect initial hash on page load
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      setActiveLink(window.location.hash || "#terms");
+    }
+  }, []);
+
+  // Update active link when clicking a menu item
+  const handleSetActive = (id) => {
+    if (activeLink !== id) {
+      setActiveLink(id);
+      router.replace(`/terms-condition${id}`, undefined, { shallow: true });
+    }
+  };
+
   useEffect(() => {
     document.documentElement.setAttribute("dir", "ltr");
   }, []);
   return (
     <>
       {/* Navbar Section */}
-      <Navbar rtlurl="/rtl/terms-condition" />
+      <Navbar rtlurl="/rtl/terms-condition" scrollToSection={undefined} sections={undefined} />
       {/* Banner section */}
       <section className="banner-section section--sm">
         <div className="container">
@@ -50,33 +69,40 @@ const terms_condition = () => {
           <div className="row g-6 justify-content-md-between">
             <div className="col-md-5 col-lg-4 col-xl-3">
               <aside className="terms-sidebar position-sticky top-60">
+
                 <nav className="terms-sidebar__nav">
                   <ul className="list list-group" id="list-example">
-                    <li>
-                      <Link
-                        href="#terms"
-                        className="terms-sidebar__link t-link px-3 py-2 rounded-pill text-center d-flex justify-content-center active ">
-                        {" "}
-                        Terms & Condition{" "}
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="#privacy"
-                        className="terms-sidebar__link t-link px-3 py-2 rounded-pill text-center d-flex justify-content-center">
-                        {" "}
-                        Privacy Policy{" "}
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="#policy"
-                        className="terms-sidebar__link t-link px-3 py-2 rounded-pill text-center d-flex justify-content-center">
-                        {" "}
-                        User Policy{" "}
-                      </Link>
-                    </li>
+                    {[
+                      { id: "#terms", text: "Terms & Condition" },
+                      { id: "#privacy", text: "Privacy Policy" },
+                      { id: "#policy", text: "User Policy" },
+                    ].map((item) => (
+                      <li key={item.id}>
+                        <Link
+                          href={`/terms-condition${item.id}`}
+                          className={`terms-sidebar__link t-link px-3 py-2 rounded-pill text-center d-flex justify-content-center ${activeLink === item.id ? "active" : ""
+                            }`}
+                          onClick={(e) => {
+                            e.preventDefault(); 
+                            handleSetActive(item.id);
+                          }}
+                        >
+                          {item.text}
+                        </Link>
+                      </li>
+                    ))}
                   </ul>
+
+                  <style jsx>{`
+        .terms-sidebar__link {
+          color: black;
+          transition: 0.3s;
+        }
+        .terms-sidebar__link.active {
+          background-color: green;
+          color: white;
+        }
+      `}</style>
                 </nav>
               </aside>
             </div>
@@ -84,34 +110,35 @@ const terms_condition = () => {
               <h3 className="mb-5" id="terms"> Terms and Conditions </h3>
               <p className="mb-10">
                 {" "}
-                Welcome to Coded Exit Ltd! By accessing or using our services, you agree to comply with these Terms and Conditions. Please read them carefully.
+                Welcome to CODEDDEXIT Ltd! By accessing or using our services, you agree to comply with these Terms and Conditions. Please read them carefully.
 
                 {" "}
               </p>
-              <h4 className="mb-5"> Use Terms for Coded Exit Ltd services </h4>
+              <h4 className="mb-5">Service Usage and Compliance with Legal and Ethical Standards</h4>
               <p className="mb-10">
                 {" "}
-                Coded Exit Ltd provides innovative technology solutions. By using our website and services, you agree to adhere to these
-                terms. We reserve the right to update these terms at any time.{" "}
+                Users must comply with all applicable local, national, and international laws when using CODEDDEXIT Ltd services. Any form of unauthorized access, unethical use, data breaches, or illegal activities 
+                is strictly prohibited. Violation of these terms may result in account suspension or legal action.{" "}
               </p>
 
-              <h4 className="mb-5"> Acceptance of Terms </h4>
+              <h4 className="mb-5"> Account Responsibility, Security, and Protection of Credentials</h4>
               <p className="mb-10">
                 {" "}
-                By using Coded Exit Ltd’s services, you agree to comply with these terms. We reserve the right to update these terms at any time. Continued use constitutes acceptance of changes.
-                If you do not agree, please refrain from using our services.{" "}
+                Users are solely responsible for maintaining the confidentiality of their account credentials, including usernames, passwords, and any authentication details. Any unauthorized access, suspicious activity, or security breach must be reported immediately to 
+                prevent misuse of services. CODEDDEXIT Ltd is not liable for damages resulting from compromised accounts.{" "}
               </p>
 
-              <h4 className="mb-5">Service Usage and Restrictions </h4>
+              <h4 className="mb-5"> Liability Limitation, No Warranty, and Service Availability
+              </h4>
               <p className="mb-10">
                 {" "}
-                Coded Exit Ltd provides IT solutions, field service management, AI, and cloud services. Users must not misuse our services for illegal activities, unauthorized access, or system disruptions.
-                Violations may lead to suspension or termination of services.{" "}
+                CODEDDEXIT Ltd provides all its SaaS products, IT solutions, and custom software services on an “as is” basis, without any express or implied warranties. We do not guarantee uninterrupted service, nor do we hold liability for indirect,
+                 incidental, or consequential damages arising from system downtimes or technical failures.{" "}
               </p>
 
               <h3 className="mb-5" id="privacy"> Privacy Policy </h3>
               <p className="mb-5">
-                Coded Exit Ltd is committed to protecting your privacy. We collect and use personal
+                CODEDDEXIT Ltd is committed to protecting your privacy. We collect and use personal
                 information only to enhance our services, improve security, and ensure compliance
                 with industry standards. Your data is stored securely and never shared with
                 unauthorized third parties. By using our services, you agree to our data handling
@@ -119,51 +146,54 @@ const terms_condition = () => {
                 more about how we manage your information.
               </p>
 
-              <h4 className="mb-5">Data Collection and Usage</h4>
+              <h4 className="mb-5">Data Collection, Usage, and Information Handling Practices</h4>
               <p className="mb-10">
                 {" "}
-                We collect essential user data to improve our services, ensuring compliance with security protocols.
-                Your data is never shared with unauthorized third parties.{" "}
+                We collect and process user data, including personal details and technical usage metrics, to enhance service performance, security, and customer experience. Information may be gathered through direct input, automated logs, and tracking 
+                technologies, ensuring transparency and compliance with data protection regulations.{" "}
               </p>
 
-              <h4 className="mb-5">Security and Confidentiality</h4>
+              <h4 className="mb-5">Data Protection, Security Measures, and Confidentiality Assurance</h4>
               <p className="mb-10">
                 {" "}
-                Coded Exit Ltd implements strict security measures to protect personal and business data. Users are responsible for maintaining their account
-                confidentiality and must report any security breaches immediately.{" "}
+                CODEDDEXIT Ltd prioritizes the confidentiality and security of user data by implementing encryption, access controls, and other industry-standard security practices. We do not share, sell, or distribute personal data to third 
+                parties without user consent, except when required by law or legal enforcement agencies.{" "}
               </p>
 
-              <h4 className="mb-5"> Cookies and Tracking </h4>
+              <h4 className="mb-5">User Rights, Access to Information, and Data Modification Requests</h4>
               <p className="mb-10">
-                Coded Exit Ltd uses cookies and tracking technologies to enhance user experience,
-                analyze website traffic, and improve service efficiency. These cookies help us
-                understand user preferences, ensuring a personalized and secure browsing experience.
-                By using our services, you consent to our use of cookies in accordance with our
-                Privacy Policy. You can manage cookie settings in your browser at any time.
+              Users have the right to access, update, or delete their personal information stored within our system, subject to verification and legal compliance. Requests for data modifications or removals must be submitted 
+              through proper channels, and CODEDDEXIT Ltd will process them within the required regulatory timeframe.
               </p>
               <h3 className="mb-5" id="policy"> User Policy </h3>
               <p className="mb-10">
-                Coded Exit Ltd is dedicated to providing secure and efficient technology solutions.
+                CODEDDEXIT Ltd is dedicated to providing secure and efficient technology solutions.
                 Users must ensure ethical and lawful use of our services, including field service
                 management, IT solutions, AI, and cloud services. Misuse of our platform, including
                 unauthorized access, data breaches, or fraudulent activities, is strictly prohibited.
                 Users are responsible for safeguarding their account credentials and reporting
                 security issues immediately. Failure to comply with our policies may result in
-                account suspension or termination. By using Coded Exit Ltd’s services, you agree to
+                account suspension or termination. By using CODEDDEXIT Ltd services, you agree to
                 follow our guidelines and maintain the integrity of our platform.
               </p>
 
-              <h4 className="mb-5"> User Responsibilities </h4>
+              <h4 className="mb-5">  Service Commitment, Quality Assurance, and Customer Satisfaction </h4>
               <p className="mb-10">
                 {" "}
-                Users must provide accurate information, comply with all applicable laws, and use Coded Exit Ltd’s services ethically. Misuse of services,
-                including fraudulent activities, will result in immediate account suspension.{" "}
+                CODEDDEXIT Ltd is committed to providing reliable, high-quality SaaS products, IT services, cloud solutions, and AI-based technologies. We continuously enhance our platforms to ensure efficiency, security, and a seamless
+                 user experience, aligning with industry best practices and evolving customer needs.{" "}
               </p>
-              <h4 className="mb-5"> Account Management </h4>
+              <h4 className="mb-5"> Policy Updates, Modifications, and Continuous Improvements</h4>
               <p className="mb-10">
                 {" "}
-                Users are responsible for safeguarding their account credentials. Unauthorized access or data breaches caused by negligence may lead to penalties.
-                Coded Exit Ltd reserves the right to suspend accounts violating our policies.{" "}
+                CODEDDEXIT Ltd reserves the right to update, modify, or revise its services, terms, and policies at any time to maintain compliance with technological advancements, legal regulations, and business requirements. 
+                Users will be informed of significant changes through official communication channels.{" "}
+              </p>
+              <h4 className="mb-5"> Compliance, Industry Standards, and Dedicated Customer Support</h4>
+              <p className="mb-10">
+                {" "}
+                Our services adhere to international industry standards, security protocols, and regulatory guidelines. We provide dedicated customer support to assist users with queries, technical assistance, 
+                and service-related concerns, ensuring seamless service delivery and user satisfaction.{" "}
               </p>
             </div>
 

@@ -119,7 +119,7 @@ const NavbarTwo = ({ rtlurl }) => {
                       href="/blog/"
                       className="primary-menu__link"
                     >
-                      Blogs
+                      Blog
                     </Link>
                   </li>
 

@@ -54,7 +54,7 @@ const Footer = () => {
                           href="services"
                           className="t-link clr-light :clr-accent">
                           {" "}
-                          Service{" "}
+                          Services{" "}
                         </Link>
                       </li>
                       
@@ -73,10 +73,10 @@ const Footer = () => {
                       </li>
                       <li>
                         <Link
-                          href="why-choose-us"
+                          href="our-careers"
                           className="t-link clr-light :clr-accent">
                           {" "}
-                          why Choose us?{" "}
+                          Our Careers{" "}
                         </Link>
                       </li>
                      
