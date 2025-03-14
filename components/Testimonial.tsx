@@ -110,10 +110,6 @@ const feedbackData = [
     review: 'Reliable and feature-rich SaaS solutions! Their products helped automate our processes, saving time and resources.',
     company: 'SkyNet Solutions'
   }
-
-
-
-
 ]
 
 const Testimonail = () => {

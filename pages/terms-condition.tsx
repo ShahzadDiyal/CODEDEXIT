@@ -196,7 +196,27 @@ const terms_condition = () => {
                 and service-related concerns, ensuring seamless service delivery and user satisfaction.{" "}
               </p>
             </div>
+            <div className="section__gap-top">
+              <div className="container">
+                <div className="row justify-content-center">
+                  <div className="col-md-10 col-xl-8">
+                    <div className="group group-row flex-wrap justify-content-center align-items-center">
 
+                      <Link
+                        href="contact-us"
+                        className="bttn bttn--stroke-outline bttn-md bttn-pill fw-md flex-shrink-0 align-items-center">
+                        <span className="bttn__arrow"> Contact Us </span>
+                      </Link>
+                      <Link
+                        href="ourProducts"
+                        className="bttn bttn--stroke-outline bttn-md bttn-pill fw-md flex-shrink-0 align-items-center">
+                        <span className="bttn__arrow"> Our Products </span>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
