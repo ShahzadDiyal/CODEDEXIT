@@ -242,7 +242,7 @@ const Footer = () => {
               <div className="col-md-6">
                 <p className="clr-light text-center text-md-start">
                   {" "}
-                  Copyright 2023 <u> CODEDDEXIT Ltd</u> All Rights Reserved.{" "}
+                  Copyright 2023 <u> CODEDEXIT Ltd</u> All Rights Reserved.{" "}
                 </p>
               </div>
               <div className="col-md-6">

@@ -7,115 +7,159 @@ import Technologies from "@/components/Technologies";
 const faq_1_data = [
   {
     id: 1,
-    question: "What services does Coded Exit Ltd offer?",
-    answer:
-      "Coded Exit Ltd provides field service management, IT solutions, AI development, cloud solutions, and more to help businesses streamline operations and enhance efficiency.",
+    question: "What services does Coded Exit Ltd provide?",
+    answer: "Coded Exit Ltd specializes in custom software solutions, website development, mobile app development, cloud solutions, AI-based services, and SaaS products to help businesses scale efficiently."
   },
   {
     id: 2,
-    question: "How can Coded Exit Ltd improve my field service operations?",
-    answer:
-      "Our field service management solutions optimize scheduling, dispatching, and tracking, ensuring faster service delivery and improved customer satisfaction.",
+    question: "Can you develop custom software tailored to my business needs?",
+    answer: "Yes! We create fully customized software solutions to align with your specific business requirements, improving operations and workflow efficiency."
   },
   {
     id: 3,
-    question: "What industries do you serve?",
-    answer:
-      "We cater to various industries, including logistics, healthcare, retail, manufacturing, and IT, offering customized tech solutions to meet specific needs.",
+    question: "What types of websites do you develop?",
+    answer: "We build all types of websites, including e-commerce platforms, business websites, enterprise portals, and custom web applications with modern UI/UX designs."
   },
   {
     id: 4,
-    question: "Do you offer AI-based solutions?",
-    answer:
-      "Yes! Our AI solutions help businesses automate processes, enhance decision-making, and improve customer interactions using advanced machine learning models.",
+    question: "Do you develop mobile applications for both Android and iOS?",
+    answer: "Absolutely! We develop cross-platform and native mobile applications for Android and iOS, ensuring high performance and user engagement."
   },
   {
     id: 5,
-    question: " What cloud solutions do you provide?",
-    answer:
-      "We offer cloud migration, infrastructure management, and scalable cloud applications to help businesses achieve flexibility and security.",
+    question: "What cloud solutions does Coded Exit Ltd offer?",
+    answer: "We provide cloud migration, infrastructure management, cloud storage solutions, and scalable cloud applications to enhance flexibility and security."
   },
   {
     id: 6,
-    question: "Can you customize solutions for my business?",
-    answer:
-      "Absolutely! We tailor our solutions to fit your unique business needs, ensuring seamless integration and maximum efficiency.",
+    question: "How do your AI solutions benefit businesses?",
+    answer: "Our AI services help businesses automate processes, enhance data-driven decision-making, and improve customer interactions using advanced machine learning and deep learning models."
   },
   {
     id: 7,
-    question: "How secure are Coded Exit Ltd’s IT solutions?",
-    answer:
-      "Security is our top priority. We implement robust cybersecurity measures, data encryption, and compliance standards to protect your business.",
+    question: "What industries does Coded Exit Ltd serve?",
+    answer: "We work with various industries, including healthcare, e-commerce, finance, logistics, education, and enterprise businesses, providing tailored technology solutions."
   },
   {
     id: 8,
-    question: "What makes Coded Exit Ltd different from competitors?",
-    answer:
-      "Our expertise, customer-centric approach, and commitment to innovation set us apart. We provide scalable, cutting-edge solutions tailored to your growth.",
+    question: "Can you integrate AI into our existing software?",
+    answer: "Yes, we specialize in AI integrations, enhancing existing software with intelligent automation, chatbots, predictive analytics, and more."
   },
   {
     id: 9,
-    question: "How can I get started with Coded Exit Ltd?",
-    answer:
-      "Simply contact us through our website or email, and our team will assist you in choosing the right solution for your business needs.",
+    question: "What makes Coded Exit Ltd’s SaaS products unique?",
+    answer: "Our SaaS products are highly scalable, user-friendly, and feature-rich, designed to streamline business operations and improve productivity with minimal setup."
   },
   {
     id: 10,
-    question: "Do you offer ongoing support and maintenance?",
-    answer:
-      "Yes! We provide dedicated support, regular updates, and maintenance to ensure your systems run smoothly at all times.",
+    question: "Do you offer website and app maintenance services?",
+    answer: "Yes, we provide ongoing maintenance, updates, and support to ensure your website or app runs smoothly and remains secure."
   },
-];
+  {
+    id: 11,
+    question: "How does your custom software development process work?",
+    answer: "We follow a structured development approach, including requirement analysis, UI/UX design, development, testing, and deployment, ensuring a tailored and high-quality solution."
+  },
+  {
+    id: 12,
+    question: "What technologies do you use for software and app development?",
+    answer: "We utilize modern technologies, including React, Angular, Node.js, Python, Java, Flutter, and cloud platforms like AWS and Azure for robust development."
+  },
+  {
+    id: 13,
+    question: "How secure are the solutions you provide?",
+    answer: "Security is our top priority. We implement the latest encryption, authentication, and cybersecurity protocols to ensure your data remains safe and protected."
+  },
+  {
+    id: 14,
+    question: "Do you provide cloud-based solutions for startups?",
+    answer: "Yes! We offer cost-effective and scalable cloud solutions for startups, enabling them to grow efficiently without heavy infrastructure investments."
+  },
+  {
+    id: 15,
+    question: "How can I get started with Coded Exit Ltd?",
+    answer: "Simply contact us through our website, email, or phone, and our team will assist you in finding the right solution for your business needs."
+  }
+]
+;
 const faq_2_data = [
   {
     id: 1,
-    question: "How does Coded Exit Ltd ensure the security of my business data?",
-    answer:
-      "We implement advanced encryption, multi-layered security protocols, and regular audits to safeguard your data from cyber threats and unauthorized access.",
+    question: "What makes Coded Exit Ltd’s custom software solutions unique?",
+    answer: "Our custom software is designed to fit your specific business needs, ensuring seamless integration, scalability, and long-term reliability."
   },
   {
     id: 2,
-    question: "Are Coded Exit Ltd’s cloud solutions reliable and scalable?",
-    answer:
-      "Yes! Our cloud solutions are built for high availability, scalability, and resilience, ensuring your business operations run smoothly without downtime.",
+    question: "How do your cloud solutions improve business efficiency?",
+    answer: "We offer scalable, secure, and cost-effective cloud solutions that enable remote access, data storage, and automated backups for maximum efficiency."
   },
   {
     id: 3,
-    question: "How does Coded Exit Ltd help improve operational efficiency?",
-    answer:
-      "We streamline workflows, automate repetitive tasks, and optimize resource allocation to enhance productivity and reduce operational costs.",
+    question: "What industries can benefit from Coded Exit Ltd’s software solutions?",
+    answer: "We serve industries like healthcare, e-commerce, finance, logistics, and education, providing tailored tech solutions to meet industry-specific challenges."
   },
   {
     id: 4,
-    question: "Do your IT solutions comply with industry security standards?",
-    answer:
-      "Absolutely! Our solutions follow global security frameworks like ISO, GDPR, and NIST to ensure compliance and protect sensitive business data.",
+    question: "Do you offer AI-powered automation for business processes?",
+    answer: "Yes, our AI solutions automate repetitive tasks, analyze data, and enhance decision-making, helping businesses increase productivity and reduce costs."
   },
   {
     id: 5,
-    question: "How does Coded Exit Ltd prevent downtime and system failures?",
-    answer:
-      "We use proactive monitoring, failover mechanisms, and disaster recovery strategies to minimize disruptions and ensure seamless business continuity.",
+    question: "What types of mobile apps does Coded Exit Ltd develop?",
+    answer: "We develop native and cross-platform mobile apps with intuitive UI/UX, optimized performance, and advanced features for both Android and iOS users."
   },
   {
     id: 6,
-    question: "Can Coded Exit Ltd integrate its solutions with existing business systems?",
-    answer:
-      "Yes, our solutions are designed for seamless integration with your current software and infrastructure, ensuring a smooth transition without disruptions.",
+    question: "Can you migrate my existing system to the cloud?",
+    answer: "Absolutely! We provide smooth cloud migration services with minimal downtime, ensuring enhanced security and performance for your business applications."
   },
   {
     id: 7,
-    question: "How do you maintain reliability in field service management?",
-    answer:
-      "Our solutions offer real-time tracking, predictive maintenance, and automated scheduling to enhance service reliability and customer satisfaction.",
+    question: "How does Coded Exit Ltd help startups with digital transformation?",
+    answer: "We offer cost-effective SaaS, cloud, and AI solutions that enable startups to build scalable and efficient digital infrastructures from the ground up."
   },
   {
     id: 8,
-    question: "What measures does Coded Exit Ltd take to prevent cybersecurity threats?",
-    answer:
-      "We deploy AI-powered threat detection, regular security updates, and employee training programs to prevent cyberattacks and ensure robust defense mechanisms.",
+    question: "Do you provide maintenance and support for deployed software?",
+    answer: "Yes, we offer continuous monitoring, regular updates, and 24/7 support to ensure your software remains up-to-date and performs optimally."
   },
+  {
+    id: 9,
+    question: "How does your SaaS platform benefit businesses?",
+    answer: "Our SaaS products offer easy access, reduced infrastructure costs, and automated updates, allowing businesses to operate smoothly without IT burdens."
+  },
+  {
+    id: 10,
+    question: "Can Coded Exit Ltd build e-commerce websites?",
+    answer: "Yes! We develop high-performance e-commerce platforms with secure payment gateways, user-friendly navigation, and advanced analytics integration."
+  },
+  {
+    id: 11,
+    question: "How does your AI technology improve customer experience?",
+    answer: "We implement AI-driven chatbots, recommendation engines, and predictive analytics to enhance user interactions and streamline customer service."
+  },
+  {
+    id: 12,
+    question: "Do you offer API development and integration services?",
+    answer: "Yes, we design and integrate secure, scalable APIs to connect your software with third-party services for enhanced functionality and automation."
+  },
+  {
+    id: 13,
+    question: "What security measures do you implement for SaaS applications?",
+    answer: "We use end-to-end encryption, multi-factor authentication, and regular security audits to keep your SaaS applications secure from cyber threats."
+  },
+  {
+    id: 14,
+    question: "How do you ensure seamless website performance?",
+    answer: "We use optimized coding, fast-loading design, caching techniques, and cloud hosting to ensure your website performs flawlessly under all conditions."
+  },
+  {
+    id: 15,
+    question: "How can I request a consultation with Coded Exit Ltd?",
+    answer: "You can contact us through our website, email, or phone, and our team will schedule a consultation to discuss your project requirements in detail."
+  }
 ];
+
 const faq = () => {
   const [active, setActive] = useState<null | number>(0);
   const [active1, setActive1] = useState<null | number>(0);
@@ -300,7 +344,7 @@ const faq = () => {
             </div>
             <div className="col-lg-6 col-xl-5">
               <img
-                src="/images/faq-img.png"
+                src="/images/faqss.png"
                 alt="image"
                 className="img-fluid w-100"
               />

@@ -110,14 +110,14 @@ const terms_condition = () => {
               <h3 className="mb-5" id="terms"> Terms and Conditions </h3>
               <p className="mb-10">
                 {" "}
-                Welcome to CODEDDEXIT Ltd! By accessing or using our services, you agree to comply with these Terms and Conditions. Please read them carefully.
+                Welcome to CODEDEXIT Ltd! By accessing or using our services, you agree to comply with these Terms and Conditions. Please read them carefully.
 
                 {" "}
               </p>
               <h4 className="mb-5">Service Usage and Compliance with Legal and Ethical Standards</h4>
               <p className="mb-10">
                 {" "}
-                Users must comply with all applicable local, national, and international laws when using CODEDDEXIT Ltd services. Any form of unauthorized access, unethical use, data breaches, or illegal activities
+                Users must comply with all applicable local, national, and international laws when using CODEDEXIT Ltd services. Any form of unauthorized access, unethical use, data breaches, or illegal activities
                 is strictly prohibited. Violation of these terms may result in account suspension or legal action.{" "}
               </p>
 
@@ -125,20 +125,20 @@ const terms_condition = () => {
               <p className="mb-10">
                 {" "}
                 Users are solely responsible for maintaining the confidentiality of their account credentials, including usernames, passwords, and any authentication details. Any unauthorized access, suspicious activity, or security breach must be reported immediately to
-                prevent misuse of services. CODEDDEXIT Ltd is not liable for damages resulting from compromised accounts.{" "}
+                prevent misuse of services. CODEDEXIT Ltd is not liable for damages resulting from compromised accounts.{" "}
               </p>
 
               <h4 className="mb-5"> Liability Limitation, No Warranty, and Service Availability
               </h4>
               <p className="mb-10">
                 {" "}
-                CODEDDEXIT Ltd provides all its SaaS products, IT solutions, and custom software services on an “as is” basis, without any express or implied warranties. We do not guarantee uninterrupted service, nor do we hold liability for indirect,
+                CODEDEXIT Ltd provides all its SaaS products, IT solutions, and custom software services on an “as is” basis, without any express or implied warranties. We do not guarantee uninterrupted service, nor do we hold liability for indirect,
                 incidental, or consequential damages arising from system downtimes or technical failures.{" "}
               </p>
 
               <h3 className="mb-5" id="privacy"> Privacy Policy </h3>
               <p className="mb-5">
-                CODEDDEXIT Ltd is committed to protecting your privacy. We collect and use personal
+                CODEDEXIT Ltd is committed to protecting your privacy. We collect and use personal
                 information only to enhance our services, improve security, and ensure compliance
                 with industry standards. Your data is stored securely and never shared with
                 unauthorized third parties. By using our services, you agree to our data handling
@@ -156,37 +156,37 @@ const terms_condition = () => {
               <h4 className="mb-5">Data Protection, Security Measures, and Confidentiality Assurance</h4>
               <p className="mb-10">
                 {" "}
-                CODEDDEXIT Ltd prioritizes the confidentiality and security of user data by implementing encryption, access controls, and other industry-standard security practices. We do not share, sell, or distribute personal data to third
+                CODEDEXIT Ltd prioritizes the confidentiality and security of user data by implementing encryption, access controls, and other industry-standard security practices. We do not share, sell, or distribute personal data to third
                 parties without user consent, except when required by law or legal enforcement agencies.{" "}
               </p>
 
               <h4 className="mb-5">User Rights, Access to Information, and Data Modification Requests</h4>
               <p className="mb-10">
                 Users have the right to access, update, or delete their personal information stored within our system, subject to verification and legal compliance. Requests for data modifications or removals must be submitted
-                through proper channels, and CODEDDEXIT Ltd will process them within the required regulatory timeframe.
+                through proper channels, and CODEDEXIT Ltd will process them within the required regulatory timeframe.
               </p>
               <h3 className="mb-5" id="policy"> User Policy </h3>
               <p className="mb-10">
-                CODEDDEXIT Ltd is dedicated to providing secure and efficient technology solutions.
+                CODEDEXIT Ltd is dedicated to providing secure and efficient technology solutions.
                 Users must ensure ethical and lawful use of our services, including field service
                 management, IT solutions, AI, and cloud services. Misuse of our platform, including
                 unauthorized access, data breaches, or fraudulent activities, is strictly prohibited.
                 Users are responsible for safeguarding their account credentials and reporting
                 security issues immediately. Failure to comply with our policies may result in
-                account suspension or termination. By using CODEDDEXIT Ltd services, you agree to
+                account suspension or termination. By using CODEDEXIT Ltd services, you agree to
                 follow our guidelines and maintain the integrity of our platform.
               </p>
 
               <h4 className="mb-5">  Service Commitment, Quality Assurance, and Customer Satisfaction </h4>
               <p className="mb-10">
                 {" "}
-                CODEDDEXIT Ltd is committed to providing reliable, high-quality SaaS products, IT services, cloud solutions, and AI-based technologies. We continuously enhance our platforms to ensure efficiency, security, and a seamless
+                CODEDEXIT Ltd is committed to providing reliable, high-quality SaaS products, IT services, cloud solutions, and AI-based technologies. We continuously enhance our platforms to ensure efficiency, security, and a seamless
                 user experience, aligning with industry best practices and evolving customer needs.{" "}
               </p>
               <h4 className="mb-5"> Policy Updates, Modifications, and Continuous Improvements</h4>
               <p className="mb-10">
                 {" "}
-                CODEDDEXIT Ltd reserves the right to update, modify, or revise its services, terms, and policies at any time to maintain compliance with technological advancements, legal regulations, and business requirements.
+                CODEDEXIT Ltd reserves the right to update, modify, or revise its services, terms, and policies at any time to maintain compliance with technological advancements, legal regulations, and business requirements.
                 Users will be informed of significant changes through official communication channels.{" "}
               </p>
               <h4 className="mb-5"> Compliance, Industry Standards, and Dedicated Customer Support</h4>
