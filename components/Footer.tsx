@@ -79,7 +79,14 @@ const Footer = () => {
                           Our Careers{" "}
                         </Link>
                       </li>
-                     
+                      <li>
+                        <Link
+                          href="faq"
+                          className="t-link clr-light :clr-accent">
+                          {" "}
+                          FAQ{" "}
+                        </Link>
+                      </li>
                     </ul>
                   </div>
                   <div className="col-sm-6 col-md-3 col-xl-2">
@@ -109,14 +116,7 @@ const Footer = () => {
                          Register a Company{" "}
                         </Link>
                       </li>
-                      <li>
-                        <Link
-                          href="faq"
-                          className="t-link clr-light :clr-accent">
-                          {" "}
-                          FAQ{" "}
-                        </Link>
-                      </li>
+                      
                       
                     </ul>
                   </div>

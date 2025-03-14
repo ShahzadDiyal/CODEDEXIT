@@ -94,14 +94,15 @@ const Our_Careers = () => {
             <div className="col-12">
               <div className="section__gap-bottom pb-lg-0 position-sticky top-0">
 
-                <h4 className="text-center mb-3 clr-base"><u> Why Choose Us?</u></h4>
+                <h3 className="text-center mb-3 clr-base m-3 p-3"><u> Why Choose Us?</u></h3>
                 <p className="mb-5 text-center">
                   {" "}
                   At CODEDEXIT Ltd, we excel in cutting-edge SaaS solutions, custom software development, and IT services, designed to drive your business forward. From enterprise-grade applications and AI-driven innovations to scalable cloud platforms and digital transformation, we craft solutions that empower businesses to thrive. With a focus on efficiency, security, and innovation, we are your trusted
                   technology partner, helping you stay ahead in today’s competitive digital landscape. {" "}
                 </p>
-                <h4 className="text-center clr-base"><u>Our Expertise</u></h4>
                 <hr />
+                <h3 className="text-center clr-base m-3 p-3"><u>Our Expertise</u></h3>
+               
                 <div className="row">
                   <div className="col-md-6 col-xl-6 col-lg-6 align-self-center">
                     <h4 className="clr-base">SaaS Solutions</h4>
@@ -210,7 +211,7 @@ const Our_Careers = () => {
                   </div>
                 </div>
                 <hr />
-                <h4 className="text-center clr-base"><u>Industries We Serve</u></h4>
+                <h3 className="text-center clr-base m-3 p-3"><u>Industries We Serve</u></h3>
                 <p className="mb-5 text-center mt-2" style={{ justifySelf: "center", width: "70%" }}>
                   {" "}
                   We provide custom software, cloud solutions, AI, and automation to optimize
@@ -482,202 +483,7 @@ const Our_Careers = () => {
           <div className="row g-0">
             <div className="col-12">
               <div className="year-review">
-                {/* <div onMouseOver={handleMouseOver} className="year-review__column">
-                  <div className="year-review__year"> 2010 </div>
-                  <div className="year-review__content">
-                    <div className="year-review__content-body">
-                      <h2 className="text-xl-center clr-light mb-8">2010</h2>
-                      <ul className="list list-xs list-disc list-disc--light">
-                        <li className="align-items-center">
-                          <span className="d-block clr-light">
-                            {" "}
-                            We win our first unicorn client{" "}
-                          </span>
-                        </li>
-                        <li className="align-items-center">
-                          <span className="d-block clr-light">
-                            {" "}
-                            Our count of IPO’ed clients swells to 10{" "}
-                          </span>
-                        </li>
-                        <li className="align-items-center">
-                          <span className="d-block clr-light">
-                            {" "}
-                            Coded Exit ltd dives into the IoT domain{" "}
-                          </span>
-                        </li>
-                        <li className="align-items-center">
-                          <span className="d-block clr-light">
-                            {" "}
-                            We join forces with CTO Connection{" "}
-                          </span>
-                        </li>
-                      </ul>
-                    </div>
-                    <div className="year-review__content-footer mt-8 mt-xl-12">
-                      <h4 className="text-xl-center clr-light"> 1000 </h4>
-                      <hr className="year-review__seperator" />
-                      <p className="text--xlcenter clr-light">Devs</p>
-                    </div>
-                  </div>
-                </div> */}
-                {/* <div onMouseOver={handleMouseOver} className="year-review__column">
-                  <div className="year-review__year"> 2011 </div>
-                  <div className="year-review__content">
-                    <div className="year-review__content-body">
-                      <h2 className="text-xl-center clr-light mb-8">2011</h2>
-                      <ul className="list list-xs list-disc list-disc--light">
-                        <li className="align-items-center">
-                          <span className="d-block clr-light">
-                            {" "}
-                            We win our first unicorn client{" "}
-                          </span>
-                        </li>
-                        <li className="align-items-center">
-                          <span className="d-block clr-light">
-                            {" "}
-                            Our count of IPO’ed clients swells to 10{" "}
-                          </span>
-                        </li>
-                        <li className="align-items-center">
-                          <span className="d-block clr-light">
-                            {" "}
-                            Coded Exit ltd dives into the IoT domain{" "}
-                          </span>
-                        </li>
-                        <li className="align-items-center">
-                          <span className="d-block clr-light">
-                            {" "}
-                            We join forces with CTO Connection{" "}
-                          </span>
-                        </li>
-                      </ul>
-                    </div>
-                    <div className="year-review__content-footer mt-8 mt-xl-12">
-                      <h4 className="text-xl-center clr-light"> 1080 </h4>
-                      <hr className="year-review__seperator" />
-                      <p className="text-xl-center clr-light">Devs</p>
-                    </div>
-                  </div>
-                </div>
                 <div onMouseOver={handleMouseOver} className="year-review__column">
-                  <div className="year-review__year"> 2012 </div>
-                  <div className="year-review__content">
-                    <div className="year-review__content-body">
-                      <h2 className="text-xl-center clr-light mb-8">2012</h2>
-                      <ul className="list list-xs list-disc list-disc--light">
-                        <li className="align-items-center">
-                          <span className="d-block clr-light">
-                            {" "}
-                            We win our first unicorn client{" "}
-                          </span>
-                        </li>
-                        <li className="align-items-center">
-                          <span className="d-block clr-light">
-                            {" "}
-                            Our count of IPO’ed clients swells to 10{" "}
-                          </span>
-                        </li>
-                        <li className="align-items-center">
-                          <span className="d-block clr-light">
-                            {" "}
-                            Coded Exit ltd dives into the IoT domain{" "}
-                          </span>
-                        </li>
-                        <li className="align-items-center">
-                          <span className="d-block clr-light">
-                            {" "}
-                            We join forces with CTO Connection{" "}
-                          </span>
-                        </li>
-                      </ul>
-                    </div>
-                    <div className="year-review__content-footer mt-8 mt-xl-12">
-                      <h4 className="text-xl-center clr-light"> 1000 </h4>
-                      <hr className="year-review__seperator" />
-                      <p className="text-xl-center clr-light">Devs</p>
-                    </div>
-                  </div>
-                </div>
-                <div onMouseOver={handleMouseOver} className="year-review__column">
-                  <div className="year-review__year"> 2013 </div>
-                  <div className="year-review__content">
-                    <div className="year-review__content-body">
-                      <h2 className="text-xl-center clr-light mb-8">2013</h2>
-                      <ul className="list list-xs list-disc list-disc--light">
-                        <li className="align-items-center">
-                          <span className="d-block clr-light">
-                            {" "}
-                            We win our first unicorn client{" "}
-                          </span>
-                        </li>
-                        <li className="align-items-center">
-                          <span className="d-block clr-light">
-                            {" "}
-                            Our count of IPO’ed clients swells to 10{" "}
-                          </span>
-                        </li>
-                        <li className="align-items-center">
-                          <span className="d-block clr-light">
-                            {" "}
-                            Coded Exit ltd dives into the IoT domain{" "}
-                          </span>
-                        </li>
-                        <li className="align-items-center">
-                          <span className="d-block clr-light">
-                            {" "}
-                            We join forces with CTO Connection{" "}
-                          </span>
-                        </li>
-                      </ul>
-                    </div>
-                    <div className="year-review__content-footer mt-8 mt-xl-12">
-                      <h4 className="text-xl-center clr-light"> 2100 </h4>
-                      <hr className="year-review__seperator" />
-                      <p className="text-xl-center clr-light">Devs</p>
-                    </div>
-                  </div>
-                </div>
-                <div onMouseOver={handleMouseOver} className="year-review__column">
-                  <div className="year-review__year"> 2014 </div>
-                  <div className="year-review__content">
-                    <div className="year-review__content-body">
-                      <h2 className="text-xl-center clr-light mb-8">2014</h2>
-                      <ul className="list list-xs list-disc list-disc--light">
-                        <li className="align-items-center">
-                          <span className="d-block clr-light">
-                            {" "}
-                            We win our first unicorn client{" "}
-                          </span>
-                        </li>
-                        <li className="align-items-center">
-                          <span className="d-block clr-light">
-                            {" "}
-                            Our count of IPO’ed clients swells to 10{" "}
-                          </span>
-                        </li>
-                        <li className="align-items-center">
-                          <span className="d-block clr-light">
-                            {" "}
-                            Coded Exit ltd dives into the IoT domain{" "}
-                          </span>
-                        </li>
-                        <li className="align-items-center">
-                          <span className="d-block clr-light">
-                            {" "}
-                            We join forces with CTO Connection{" "}
-                          </span>
-                        </li>
-                      </ul>
-                    </div>
-                    <div className="year-review__content-footer mt-8 mt-xl-12">
-                      <h4 className="text-xl-center clr-light"> 2600 </h4>
-                      <hr className="year-review__seperator" />
-                      <p className="text-xl-center clr-light">Devs</p>
-                    </div>
-                  </div>
-                </div> */}
-                <div onMouseOver={handleMouseOver} className="year-review__column active">
                   <div className="year-review__year"> 2015 </div>
                   <div className="year-review__content">
                     <div className="year-review__content-body">
@@ -686,37 +492,37 @@ const Our_Careers = () => {
                         <li className="align-items-center">
                           <span className="d-block clr-light">
                             {" "}
-                            We win our first unicorn client{" "}
+                            Launched our first SaaS-based Point of Sale (POS) software{" "}
                           </span>
                         </li>
                         <li className="align-items-center">
                           <span className="d-block clr-light">
                             {" "}
-                            Our count of IPO’ed clients swells to 10{" "}
+                            Delivered custom software solutions to 50+ clients{" "}
                           </span>
                         </li>
                         <li className="align-items-center">
                           <span className="d-block clr-light">
                             {" "}
-                            Coded Exit ltd dives into the IoT domain{" "}
+                            Expanded our team to 100+ skilled developers{" "}
                           </span>
                         </li>
                         <li className="align-items-center">
                           <span className="d-block clr-light">
                             {" "}
-                            We join forces with CTO Connection{" "}
+                            Partnered with leading retail brands for POS solutions{" "}
                           </span>
                         </li>
                       </ul>
                     </div>
                     <div className="year-review__content-footer mt-8 mt-xl-12">
-                      <h4 className="text-xl-center clr-light"> 2700 </h4>
+                      <h4 className="text-xl-center clr-light"> 100 </h4>
                       <hr className="year-review__seperator" />
                       <p className="text-xl-center clr-light">Devs</p>
                     </div>
                   </div>
                 </div>
-                <div onMouseOver={handleMouseOver} className="year-review__column ">
+                <div onMouseOver={handleMouseOver} className="year-review__column">
                   <div className="year-review__year"> 2016 </div>
                   <div className="year-review__content">
                     <div className="year-review__content-body">
@@ -725,31 +531,31 @@ const Our_Careers = () => {
                         <li className="align-items-center">
                           <span className="d-block clr-light">
                             {" "}
-                            We win our first unicorn client{" "}
+                            Introduced AI-driven analytics for business intelligence{" "}
                           </span>
                         </li>
                         <li className="align-items-center">
                           <span className="d-block clr-light">
                             {" "}
-                            Our count of IPO’ed clients swells to 10{" "}
+                            Developed 100+ mobile apps for global clients{" "}
                           </span>
                         </li>
                         <li className="align-items-center">
                           <span className="d-block clr-light">
                             {" "}
-                            Coded Exit ltd dives into the IoT domain{" "}
+                            Launched cloud-based solutions for SMEs{" "}
                           </span>
                         </li>
                         <li className="align-items-center">
                           <span className="d-block clr-light">
                             {" "}
-                            We join forces with CTO Connection{" "}
+                            Recognized as a top software development company{" "}
                           </span>
                         </li>
                       </ul>
                     </div>
                     <div className="year-review__content-footer mt-8 mt-xl-12">
-                      <h4 className="text-xl-center clr-light"> 2900 </h4>
+                      <h4 className="text-xl-center clr-light"> 150 </h4>
                       <hr className="year-review__seperator" />
                       <p className="text-xl-center clr-light">Devs</p>
                     </div>
@@ -764,31 +570,31 @@ const Our_Careers = () => {
                         <li className="align-items-center">
                           <span className="d-block clr-light">
                             {" "}
-                            We win our first unicorn client{" "}
+                            Expanded our AI and machine learning services{" "}
                           </span>
                         </li>
                         <li className="align-items-center">
                           <span className="d-block clr-light">
                             {" "}
-                            Our count of IPO’ed clients swells to 10{" "}
+                            Partnered with 10+ Fortune 500 companies{" "}
                           </span>
                         </li>
                         <li className="align-items-center">
                           <span className="d-block clr-light">
                             {" "}
-                            Coded Exit ltd dives into the IoT domain{" "}
+                            Launched a global talent acquisition program{" "}
                           </span>
                         </li>
                         <li className="align-items-center">
                           <span className="d-block clr-light">
                             {" "}
-                            We join forces with CTO Connection{" "}
+                            Achieved ISO 9001 certification{" "}
                           </span>
                         </li>
                       </ul>
                     </div>
                     <div className="year-review__content-footer mt-8 mt-xl-12">
-                      <h4 className="text-xl-center clr-light"> 3100 </h4>
+                      <h4 className="text-xl-center clr-light"> 200 </h4>
                       <hr className="year-review__seperator" />
                       <p className="text-xl-center clr-light">Devs</p>
                     </div>
@@ -803,31 +609,31 @@ const Our_Careers = () => {
                         <li className="align-items-center">
                           <span className="d-block clr-light">
                             {" "}
-                            We win our first unicorn client{" "}
+                            Launched a next-gen e-commerce platform{" "}
                           </span>
                         </li>
                         <li className="align-items-center">
                           <span className="d-block clr-light">
                             {" "}
-                            Our count of IPO’ed clients swells to 10{" "}
+                            Expanded our cloud solutions to 20+ countries{" "}
                           </span>
                         </li>
                         <li className="align-items-center">
                           <span className="d-block clr-light">
                             {" "}
-                            Coded Exit ltd dives into the IoT domain{" "}
+                            Developed AI-powered chatbots for customer support{" "}
                           </span>
                         </li>
                         <li className="align-items-center">
                           <span className="d-block clr-light">
                             {" "}
-                            We join forces with CTO Connection{" "}
+                            Surpassed $10M in annual revenue{" "}
                           </span>
                         </li>
                       </ul>
                     </div>
                     <div className="year-review__content-footer mt-8 mt-xl-12">
-                      <h4 className="text-xl-center clr-light"> 3300 </h4>
+                      <h4 className="text-xl-center clr-light"> 250 </h4>
                       <hr className="year-review__seperator" />
                       <p className="text-xl-center clr-light">Devs</p>
                     </div>
@@ -842,37 +648,37 @@ const Our_Careers = () => {
                         <li className="align-items-center">
                           <span className="d-block clr-light">
                             {" "}
-                            We win our first unicorn client{" "}
+                            Launched a SaaS-based HR management system{" "}
                           </span>
                         </li>
                         <li className="align-items-center">
                           <span className="d-block clr-light">
                             {" "}
-                            Our count of IPO’ed clients swells to 10{" "}
+                            Developed 50+ custom software solutions for enterprises{" "}
                           </span>
                         </li>
                         <li className="align-items-center">
                           <span className="d-block clr-light">
                             {" "}
-                            Coded Exit ltd dives into the IoT domain{" "}
+                            Expanded our mobile app development services{" "}
                           </span>
                         </li>
                         <li className="align-items-center">
                           <span className="d-block clr-light">
                             {" "}
-                            We join forces with CTO Connection{" "}
+                            Recognized as a top AI solutions provider{" "}
                           </span>
                         </li>
                       </ul>
                     </div>
                     <div className="year-review__content-footer mt-8 mt-xl-12">
-                      <h4 className="text-xl-center clr-light"> 3500 </h4>
+                      <h4 className="text-xl-center clr-light"> 300 </h4>
                       <hr className="year-review__seperator" />
                       <p className="text-xl-center clr-light">Devs</p>
                     </div>
                   </div>
                 </div>
-                <div onMouseOver={handleMouseOver} className="year-review__column">
+                <div onMouseOver={handleMouseOver} className="year-review__column active">
                   <div className="year-review__year"> 2020 </div>
                   <div className="year-review__content">
                     <div className="year-review__content-body">
@@ -881,31 +687,31 @@ const Our_Careers = () => {
                         <li className="align-items-center">
                           <span className="d-block clr-light">
                             {" "}
-                            We win our first unicorn client{" "}
+                            Launched AI-driven predictive analytics tools{" "}
                           </span>
                         </li>
                         <li className="align-items-center">
                           <span className="d-block clr-light">
                             {" "}
-                            Our count of IPO’ed clients swells to 10{" "}
+                            Expanded our SaaS offerings to 30+ industries{" "}
                           </span>
                         </li>
                         <li className="align-items-center">
                           <span className="d-block clr-light">
                             {" "}
-                            Coded Exit ltd dives into the IoT domain{" "}
+                            Partnered with global tech giants for cloud solutions{" "}
                           </span>
                         </li>
                         <li className="align-items-center">
                           <span className="d-block clr-light">
                             {" "}
-                            We join forces with CTO Connection{" "}
+                            Surpassed $20M in annual revenue{" "}
                           </span>
                         </li>
                       </ul>
                     </div>
                     <div className="year-review__content-footer mt-8 mt-xl-12">
-                      <h4 className="text-xl-center clr-light"> 3800 </h4>
+                      <h4 className="text-xl-center clr-light"> 400 </h4>
                       <hr className="year-review__seperator" />
                       <p className="text-xl-center clr-light">Devs</p>
                     </div>
@@ -920,31 +726,187 @@ const Our_Careers = () => {
                         <li className="align-items-center">
                           <span className="d-block clr-light">
                             {" "}
-                            We win our first unicorn client{" "}
+                            Launched a next-gen IoT platform{" "}
                           </span>
                         </li>
                         <li className="align-items-center">
                           <span className="d-block clr-light">
                             {" "}
-                            Our count of IPO’ed clients swells to 10{" "}
+                            Developed 100+ AI-powered applications{" "}
                           </span>
                         </li>
                         <li className="align-items-center">
                           <span className="d-block clr-light">
                             {" "}
-                            Coded Exit ltd dives into the IoT domain{" "}
+                            Expanded our team to 500+ professionals{" "}
                           </span>
                         </li>
                         <li className="align-items-center">
                           <span className="d-block clr-light">
                             {" "}
-                            We join forces with CTO Connection{" "}
+                            Recognized as a leader in cloud innovation{" "}
                           </span>
                         </li>
                       </ul>
                     </div>
                     <div className="year-review__content-footer mt-8 mt-xl-12">
-                      <h4 className="text-xl-center clr-light"> 4050 </h4>
+                      <h4 className="text-xl-center clr-light"> 500 </h4>
+                      <hr className="year-review__seperator" />
+                      <p className="text-xl-center clr-light">Devs</p>
+                    </div>
+                  </div>
+                </div>
+                <div onMouseOver={handleMouseOver} className="year-review__column">
+                  <div className="year-review__year"> 2022 </div>
+                  <div className="year-review__content">
+                    <div className="year-review__content-body">
+                      <h2 className="text-xl-center clr-light mb-8">2022</h2>
+                      <ul className="list list-xs list-disc list-disc--light">
+                        <li className="align-items-center">
+                          <span className="d-block clr-light">
+                            {" "}
+                            Launched a blockchain-based supply chain solution{" "}
+                          </span>
+                        </li>
+                        <li className="align-items-center">
+                          <span className="d-block clr-light">
+                            {" "}
+                            Expanded our AI services to healthcare and finance{" "}
+                          </span>
+                        </li>
+                        <li className="align-items-center">
+                          <span className="d-block clr-light">
+                            {" "}
+                            Partnered with 50+ global enterprises{" "}
+                          </span>
+                        </li>
+                        <li className="align-items-center">
+                          <span className="d-block clr-light">
+                            {" "}
+                            Surpassed $50M in annual revenue{" "}
+                          </span>
+                        </li>
+                      </ul>
+                    </div>
+                    <div className="year-review__content-footer mt-8 mt-xl-12">
+                      <h4 className="text-xl-center clr-light"> 600 </h4>
+                      <hr className="year-review__seperator" />
+                      <p className="text-xl-center clr-light">Devs</p>
+                    </div>
+                  </div>
+                </div>
+                <div onMouseOver={handleMouseOver} className="year-review__column">
+                  <div className="year-review__year"> 2023 </div>
+                  <div className="year-review__content">
+                    <div className="year-review__content-body">
+                      <h2 className="text-xl-center clr-light mb-8">2023</h2>
+                      <ul className="list list-xs list-disc list-disc--light">
+                        <li className="align-items-center">
+                          <span className="d-block clr-light">
+                            {" "}
+                            Launched a generative AI platform for businesses{" "}
+                          </span>
+                        </li>
+                        <li className="align-items-center">
+                          <span className="d-block clr-light">
+                            {" "}
+                            Expanded our SaaS offerings to 50+ countries{" "}
+                          </span>
+                        </li>
+                        <li className="align-items-center">
+                          <span className="d-block clr-light">
+                            {" "}
+                            Developed 200+ custom software solutions{" "}
+                          </span>
+                        </li>
+                        <li className="align-items-center">
+                          <span className="d-block clr-light">
+                            {" "}
+                            Recognized as a top innovator in AI and ML{" "}
+                          </span>
+                        </li>
+                      </ul>
+                    </div>
+                    <div className="year-review__content-footer mt-8 mt-xl-12">
+                      <h4 className="text-xl-center clr-light"> 700 </h4>
+                      <hr className="year-review__seperator" />
+                      <p className="text-xl-center clr-light">Devs</p>
+                    </div>
+                  </div>
+                </div>
+                <div onMouseOver={handleMouseOver} className="year-review__column">
+                  <div className="year-review__year"> 2024 </div>
+                  <div className="year-review__content">
+                    <div className="year-review__content-body">
+                      <h2 className="text-xl-center clr-light mb-8">2024</h2>
+                      <ul className="list list-xs list-disc list-disc--light">
+                        <li className="align-items-center">
+                          <span className="d-block clr-light">
+                            {" "}
+                            Launched a quantum computing research division{" "}
+                          </span>
+                        </li>
+                        <li className="align-items-center">
+                          <span className="d-block clr-light">
+                            {" "}
+                            Expanded our IoT solutions to smart cities{" "}
+                          </span>
+                        </li>
+                        <li className="align-items-center">
+                          <span className="d-block clr-light">
+                            {" "}
+                            Partnered with global governments for tech innovation{" "}
+                          </span>
+                        </li>
+                        <li className="align-items-center">
+                          <span className="d-block clr-light">
+                            {" "}
+                            Surpassed $100M in annual revenue{" "}
+                          </span>
+                        </li>
+                      </ul>
+                    </div>
+                    <div className="year-review__content-footer mt-8 mt-xl-12">
+                      <h4 className="text-xl-center clr-light"> 800 </h4>
+                      <hr className="year-review__seperator" />
+                      <p className="text-xl-center clr-light">Devs</p>
+                    </div>
+                  </div>
+                </div>
+                <div onMouseOver={handleMouseOver} className="year-review__column">
+                  <div className="year-review__year"> 2025 </div>
+                  <div className="year-review__content">
+                    <div className="year-review__content-body">
+                      <h2 className="text-xl-center clr-light mb-8">2025</h2>
+                      <ul className="list list-xs list-disc list-disc--light">
+                        <li className="align-items-center">
+                          <span className="d-block clr-light">
+                            {" "}
+                            Launched a global AI-powered SaaS ecosystem{" "}
+                          </span>
+                        </li>
+                        <li className="align-items-center">
+                          <span className="d-block clr-light">
+                            {" "}
+                            Expanded our team to 1000+ professionals{" "}
+                          </span>
+                        </li>
+                        <li className="align-items-center">
+                          <span className="d-block clr-light">
+                            {" "}
+                            Partnered with 100+ Fortune 500 companies{" "}
+                          </span>
+                        </li>
+                        <li className="align-items-center">
+                          <span className="d-block clr-light">
+                            {" "}
+                            Recognized as a global leader in software innovation{" "}
+                          </span>
+                        </li>
+                      </ul>
+                    </div>
+                    <div className="year-review__content-footer mt-8 mt-xl-12">
+                      <h4 className="text-xl-center clr-light"> 1000 </h4>
                       <hr className="year-review__seperator" />
                       <p className="text-xl-center clr-light">Devs</p>
                     </div>

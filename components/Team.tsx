@@ -13,7 +13,7 @@ const Team = () => {
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-md-9 col-lg-8 col-xxl-7">
-                <span className="d-block h5 lh-1 fw-semibold clr-base text-center"  style={{fontSize:"30px"}}>
+                <span className="d-block h5 lh-1 fw-semibold clr-base text-center "  style={{fontSize:"30px"}}>
                   {" "}
                   Our Team{" "}
                 </span>

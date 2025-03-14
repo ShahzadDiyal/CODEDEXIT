@@ -38,7 +38,7 @@ const News = () => {
                   <Link href="contact-us" className="bttn bttn--stroke-outline bttn-md bttn-pill fw-md">
                     <span className="bttn__arrow">Contact Us</span>
                   </Link>
-                  <Link href="contact-us" className="bttn bttn--stroke-outline bttn-md bttn-pill fw-md">
+                  <Link href="blog" className="bttn bttn--stroke-outline bttn-md bttn-pill fw-md">
                     <span className="bttn__arrow">Read More</span>
                   </Link>
                 </div>
@@ -86,30 +86,36 @@ const News = () => {
 
 const newsArticles = [
   {
-    title: "From Bricks to Clicks: FinTech Driving Bank Branch Transformation",
+    title: "AI-Powered Solutions: Enhancing Business Efficiency",
     link: "/home",
     image: "/images/blog-post-1.png"
   },
   {
-    title: "Digital P2G Initiatives: 5 Best Practices for Financial Inclusion",
+    title: "Cloud Computing: The Backbone of Modern Business Operations",
     link: "/",
     image: "/images/blog-post-2.png"
   },
   {
-    title: "Best Banking System & Software Solution",
+    title: "Custom Software Development: Tailored Solutions for Every Business",
     link: "/",
     image: "/images/blog-post-3.png"
   },
   {
-    title: "Best Microfinance Banking System & Software Solution",
+    title: "How SaaS Products are Revolutionizing Business Processes",
     link: "/",
     image: "/images/blog-post-4.png"
   },
   {
-    title: "What Does Responsible Online and Digital Credit Look Like?",
+    title: "The Future of IT Services: Trends to Watch in 2025",
     link: "/",
     image: "/images/blog-post-5.png"
+  },
+  {
+    title: "The Future of IT Services: Trends to Watch in 2025",
+    link: "/",
+    image: "/images/blog-post-6.png"
   }
 ];
+
 
 export default News;
