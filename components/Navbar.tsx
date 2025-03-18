@@ -117,18 +117,7 @@ const Navbar = ({ scrollToSection, sections,rtlurl }) => {
                       Services
                     </a>
                   </li>
-                  <li>
-                    <a
-                      href="#about"
-                      className="primary-menu__link"
-                      onClick={(e) => {
-                        e.preventDefault();
-                        scrollToSection(sections.aboutRef);
-                      }}
-                    >
-                      About
-                    </a>
-                  </li>
+                  
                   <li>
                     <a
                       href="#team"
@@ -151,18 +140,6 @@ const Navbar = ({ scrollToSection, sections,rtlurl }) => {
                       }}
                     >
                       News
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="#career"
-                      className="primary-menu__link"
-                      onClick={(e) => {
-                        e.preventDefault();
-                        scrollToSection(sections.careerRef);
-                      }}
-                    >
-                      Career
                     </a>
                   </li>
                   <li>

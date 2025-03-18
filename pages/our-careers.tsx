@@ -102,7 +102,7 @@ const Our_Careers = () => {
                 </p>
                 <hr />
                 <h3 className="text-center clr-base m-3 p-3"><u>Our Expertise</u></h3>
-               
+
                 <div className="row">
                   <div className="col-md-6 col-xl-6 col-lg-6 align-self-center">
                     <h4 className="clr-base">SaaS Solutions</h4>
@@ -211,57 +211,88 @@ const Our_Careers = () => {
                   </div>
                 </div>
                 <hr />
-                <h3 className="text-center clr-base m-3 p-3"><u>Industries We Serve</u></h3>
+                <h3 className="text-center clr-base m-3 p-3"><u>Available Jobs</u></h3>
                 <p className="mb-5 text-center mt-2" style={{ justifySelf: "center", width: "70%" }}>
                   {" "}
-                  We provide custom software, cloud solutions, AI, and automation to optimize
-                  operations, efficiency, and digital transformation across various industries.{" "}
+                  Join our innovative software company! Exciting job opportunities
+                  available for developers, designers, and IT professionals. Apply now and grow!{" "}
                 </p>
                 <div className="row g-3 g-xxl-4 justify-content-center">
                   <div className="col-md-6 col-lg-4">
                     <div className="service-card service-card--1">
                       <div className="icon-box icon-box--md circle flex-shrink-0" style={{ backgroundColor: "rgb(255 206 0)" }}>
-                        <img src="/images/healthcare.png" alt="image" />
+                        <img src="/images/people.png" alt="image" />
                       </div>
                       <div className="flex-grow-1">
-                        <h5 className="mb-2 clr-base">Healthcare </h5>
+                        <h5 className="mb-2 clr-base">Software Developer </h5>
                         <p className="mb-5">
                           {" "}
-                          We develop custom healthcare software, cloud-based patient management systems, and telehealth platforms with HIPAA compliance, ensuring secure data storage,
-                          seamless doctor-patient interactions for enhanced efficiency.{" "}
+                          Join our team to build cutting-edge cloud solutions, AI-driven applications,
+                          and scalable full-stack systems, fostering innovation and career growth.{" "}
                         </p>
+                        <Link
+                          href="/Jobs-pages/job-1"
+                          className="t-link t-link--base fw-md">
+                          {" "}
+                          More{" "}
+                          <span className="material-symbols-outlined mat-icon fw-200">
+                            {" "}
+                            trending_flat{" "}
+                          </span>
+                        </Link>
                       </div>
+
                     </div>
+
                   </div>
                   <div className="col-md-6 col-lg-4">
                     <div className="service-card service-card--1">
                       <div className="icon-box icon-box--md circle flex-shrink-0" style={{ backgroundColor: "rgb(197 147 213)" }}>
-                        <img src="/images/money.png" alt="image" />
+                        <img src="/images/people.png" alt="image" />
                       </div>
                       <div className="flex-grow-1">
-                        <h5 className="mb-2 clr-base">Finance </h5>
+                        <h5 className="mb-2 clr-base">NextJS Engineer </h5>
                         <p className="mb-5">
                           {" "}
-                          Our custom fintech applications offer secure cloud-based transactions, AI-driven fraud detection, and blockchain integration, ensuring safe banking,
-                          investment, and financial management through web and mobile platforms.{" "}
+                          Seeking for a talented and motivated NextJS Engineer to join our dynamic team. As a key member of our
+                          development group. {" "}
                         </p>
-
+                        <Link
+                          href="/pos-features/sale-purchase-history"
+                          className="t-link t-link--base fw-md">
+                          {" "}
+                          More{" "}
+                          <span className="material-symbols-outlined mat-icon fw-200">
+                            {" "}
+                            trending_flat{" "}
+                          </span>
+                        </Link>
                       </div>
                     </div>
                   </div>
                   <div className="col-md-6 col-lg-4">
                     <div className="service-card service-card--1">
                       <div className="icon-box icon-box--md circle flex-shrink-0" style={{ backgroundColor: "rgb(0 68 255)" }}>
-                        <img src="/images/retailer.png" alt="image" />
+                        <img src="/images/people.png" alt="image" />
                       </div>
                       <div className="flex-grow-1">
-                        <h5 className="mb-2 clr-base">Retail & E-commerce </h5>
+                        <h5 className="mb-2 clr-base">Python Developer</h5>
                         <p className="mb-5">
                           {" "}
-                          We build custom e-commerce websites, POS systems, and AI-powered recommendation engines, integrating secure payment gateways,
-                          cloud solutions, and automation for seamless retail and online shopping experiences.{" "}
+                          We’re hiring Python developers to create high-quality
+                          code samples on a flexible, remote contract (5-20 hrs/week),As a key member of our
+                          development group.{" "}
                         </p>
-
+                        <Link
+                          href="/pos-features/sale-purchase-history"
+                          className="t-link t-link--base fw-md">
+                          {" "}
+                          More{" "}
+                          <span className="material-symbols-outlined mat-icon fw-200">
+                            {" "}
+                            trending_flat{" "}
+                          </span>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -270,31 +301,75 @@ const Our_Careers = () => {
                   <div className="col-md-6 col-lg-4">
                     <div className="service-card service-card--1">
                       <div className="icon-box icon-box--md circle flex-shrink-0" style={{ backgroundColor: "rgb(59 188 104)" }}>
-                        <img src="/images/claw.png" alt="image" />
+                        <img src="/images/people.png" alt="image" />
                       </div>
                       <div className="flex-grow-1">
-                        <h5 className="mb-2 clr-base">Manufacturing – ERP & Automation  </h5>
+                        <h5 className="mb-2 clr-base">Associate Cloud Software Engineer</h5>
                         <p className="mb-5">
                           {" "}
-                          Our custom ERP and automation software optimizes production, supply chain, and inventory management, leveraging cloud technology, AI, and IoT to provide
-                          real-time data insights, improved efficiency, and seamless business operations.{" "}
+                          This transformation together with Lenovo’s world-changing innovation is building a
+                          more inclusive, trustworthy, and smarter future for everyone, everywhere.{" "}
                         </p>
+                        <Link
+                          href="/pos-features/sale-purchase-history"
+                          className="t-link t-link--base fw-md">
+                          {" "}
+                          More{" "}
+                          <span className="material-symbols-outlined mat-icon fw-200">
+                            {" "}
+                            trending_flat{" "}
+                          </span>
+                        </Link>
                       </div>
                     </div>
                   </div>
                   <div className="col-md-6 col-lg-4">
                     <div className="service-card service-card--1">
                       <div className="icon-box icon-box--md circle flex-shrink-0" style={{ backgroundColor: "rgb(206 0 140)" }}>
-                        <img src="/images/lms.png" alt="image" />
+                        <img src="/images/people.png" alt="image" />
                       </div>
                       <div className="flex-grow-1">
-                        <h5 className="mb-2 clr-base">Education – Cloud-Enabled LMS  </h5>
+                        <h5 className="mb-2 clr-base">Software Development Intern </h5>
                         <p className="mb-5">
                           {" "}
-                          We create custom Learning Management Systems (LMS), interactive e-learning platforms, and AI-powered applications, providing web and mobile-based
-                          solutions for personalized learning and seamless education management.{" "}
+                          Are you a passionate Computer Science or Software
+                          Engineering graduate student eager to dive into real-world development? {" "}
                         </p>
-
+                        <Link
+                          href="/pos-features/sale-purchase-history"
+                          className="t-link t-link--base fw-md">
+                          {" "}
+                          More{" "}
+                          <span className="material-symbols-outlined mat-icon fw-200">
+                            {" "}
+                            trending_flat{" "}
+                          </span>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-6 col-lg-4">
+                    <div className="service-card service-card--1">
+                      <div className="icon-box icon-box--md circle flex-shrink-0" style={{ backgroundColor: "rgb(206 0 140)" }}>
+                        <img src="/images/people.png" alt="image" />
+                      </div>
+                      <div className="flex-grow-1">
+                        <h5 className="mb-2 clr-base">Junior Full Stack Developer</h5>
+                        <p className="mb-5">
+                          {" "}
+                          Assist in the development and maintenance of web applications.
+                          Work closely with senior developers to understand project requirements and coding standards.{" "}
+                        </p>
+                        <Link
+                          href="/pos-features/sale-purchase-history"
+                          className="t-link t-link--base fw-md">
+                          {" "}
+                          More{" "}
+                          <span className="material-symbols-outlined mat-icon fw-200">
+                            {" "}
+                            trending_flat{" "}
+                          </span>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -304,10 +379,10 @@ const Our_Careers = () => {
           </div>
         </div>
       </div>
-      <Technologies />
+      {/* <Technologies /> */}
       {/* <!-- About Section End --> */}
       {/* <!-- Gallery  --> */}
-      <div className="container-fluid p-0">
+      {/* <div className="container-fluid p-0">
         <div className="row g-0">
           <div className="col-12">
             <Swiper
@@ -386,87 +461,9 @@ const Our_Careers = () => {
             </Swiper>
           </div>
         </div>
-      </div>
-      {/* <!-- Gallery End --> */}
-      {/* <!-- Numbers  --> */}
-      <section className="section">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-6">
-              <div className="section__gap-bottom pb-lg-0 position-sticky top-0">
-                <span className="d-block h5 lh-1 fw-semibold clr-base">
-                  {" "}
-                  Top engineers, dedicated your success{" "}
-                </span>
-                <h2 className="mt-2 mb-4"> Numbers speak louder than words </h2>
-                <p>
-                  {" "}
-                  Here are a few numbers that speak to Coded Exit ltd's power, ease,
-                  and speed.{" "}
-                </p>
-              </div>
-            </div>
-            <div className="col-lg-6">
-              <div className="row g-4">
-                <div className="col-sm-6">
-                  <div className="py-4 border-top">
-                    <p className="mb-2 clr-heading md-text"> Developers: </p>
-                    <h2 className="fw-normal clr-base"> 3.5k </h2>
-                  </div>
-                </div>
-                <div className="col-sm-6">
-                  <div className="py-4 border-top">
-                    <p className="mb-2 clr-heading md-text">
-                      {" "}
-                      Senior-level engineers:{" "}
-                    </p>
-                    <h2 className="fw-normal clr-base"> 70% </h2>
-                  </div>
-                </div>
-                <div className="col-sm-6">
-                  <div className="py-4 border-top">
-                    <p className="mb-2 clr-heading md-text">
-                      {" "}
-                      Clients served to date:{" "}
-                    </p>
-                    <h2 className="fw-normal clr-base"> 500+ </h2>
-                  </div>
-                </div>
-                <div className="col-sm-6">
-                  <div className="py-4 border-top">
-                    <p className="mb-2 clr-heading md-text">
-                      {" "}
-                      Years in business:{" "}
-                    </p>
-                    <h2 className="fw-normal clr-base"> 20 </h2>
-                  </div>
-                </div>
-                <div className="col-sm-6">
-                  <div className="py-4 border-top">
-                    <p className="mb-2 clr-heading md-text">
-                      {" "}
-                      Clients by referral:{" "}
-                    </p>
-                    <h2 className="fw-normal clr-base"> 70% </h2>
-                  </div>
-                </div>
-                <div className="col-sm-6">
-                  <div className="py-4 border-top">
-                    <p className="mb-2 clr-heading md-text">
-                      {" "}
-                      Average engagement:{" "}
-                    </p>
-                    <h2 className="fw-normal clr-base"> 36 </h2>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* <!-- Numbers End --> */}
-      {/* <!-- Year Review  --> */}
-      <div className="section p-xl-0 bg-base-800 position-relative">
+      </div> */}
+
+      {/* <div className="section p-xl-0 bg-base-800 position-relative">
         <div className="section__gap-bottom year-review__head">
           <div className="container">
             <div className="row justify-content-center">
@@ -916,362 +913,9 @@ const Our_Careers = () => {
             </div>
           </div>
         </div>
-      </div>
-      {/* <!-- Year Review End --> */}
-      {/* <!-- Value Share  --> */}
-      <section className="section">
-        <div className="section__gap-bottom">
-          <div className="container">
-            <div className="row">
-              <div className="col-md-10 col-lg-8 col-xl-6">
-                <span className="d-block h5 lh-1 fw-semibold clr-base">
-                  {" "}
-                  The Values we Share{" "}
-                </span>
-                <h2 className="mt-2 mb-4">
-                  {" "}
-                  The Values that drive everything we do{" "}
-                </h2>
-                <p className="t-short-para">
-                  {" "}
-                  Strong values that bring great people together{" "}
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="container">
-          <div className="row">
-            <div className="col-12">
-              <div className="value-slider-container">
-                <div className="value-slider__step">
-                  <div className="swiper-pagination"></div>
-                </div>
-                <Swiper
-                  dir="ltr"
-                  slidesPerView={1}
-                  autoplay={false}
-                  speed={1000}
-                  pagination={{
-                    el: ".value-slider-container .swiper-pagination",
-                    clickable: true,
-                    renderBullet: function (index, className) {
-                      return '<span class="' + className + '">' + (valueSliderStep[index]) + "</span>";
-                    }
-                  }}
-                  navigation={{
-                    nextEl: ".value-slider-container .swiper-button-next",
-                    prevEl: ".value-slider-container .swiper-button-prev"
-                  }}
-                  effect="fade"
-                  fadeEffect={{
-                    crossFade: false
-                  }}
-                  onInit={(swiper) => {
-                    const bullets = swiper.pagination.bullets;
-                    const valueFraction = document.querySelector('.value-slider__fraction');
-                    if (valueFraction) {
-                      valueFraction.innerHTML = `1 / ${bullets.length}`;
-                    }
-                  }}
-                  onSlideChange={(swiper) => {
-                    const bullets = swiper.pagination.bullets;
-                    const activeIndex = document.querySelector('.swiper-pagination-bullet-active .clr-base');
-                    const finalIndex = activeIndex ? Number(activeIndex.textContent).toString() : '';
-                    const valueFraction = document.querySelector('.value-slider__fraction');
-                    if (valueFraction) {
-                      valueFraction.innerHTML = `${finalIndex} / ${bullets.length}`;
-                    }
-                  }}
-                  modules={[Navigation, EffectFade, Pagination]}
-                  className="value-slider"
-                >
+      </div> */}
 
-                  {/* <!-- Slides --> */}
-                  <SwiperSlide>
-                    <div className="value-slider__slide section--sm section--bottom">
-                      <div className="row g-4 justify-content-xl-between align-items-lg-center">
-                        <div className="col-lg-6 col-xl-7">
-                          <div className="section__gap-bottom pb-lg-0">
-                            <img
-                              src="/images/value-slide-1.png"
-                              alt="image"
-                              className="value-slider__img"
-                            />
-                          </div>
-                        </div>
-                        <div className="col-lg-6 col-xl-4">
-                          <h3 className="mb-5 clr-light"> People </h3>
-                          <p className="clr-light">
-                            {" "}
-                            They’re the greatest asset that The Software House
-                            is built on. We work with them and for them,
-                            making sure they feel fulfilled, appreciated, and
-                            satisfied.{" "}
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <div className="value-slider__slide section--sm section--bottom">
-                      <div className="row g-4 justify-content-xl-between align-items-lg-center">
-                        <div className="col-lg-6 col-xl-7">
-                          <div className="section__gap-bottom pb-lg-0">
-                            <img
-                              src="/images/value-slide-2.png"
-                              alt="image"
-                              className="value-slider__img"
-                            />
-                          </div>
-                        </div>
-                        <div className="col-lg-6 col-xl-4">
-                          <h3 className="mb-5 clr-light"> Openness </h3>
-                          <p className="clr-light">
-                            {" "}
-                            We welcome new ideas and challenges that await us.
-                            Keeping a broad perspective on the future, we spot
-                            potential and real problems ahead of time, with
-                            which we deal promptly. The openness to one
-                            another drives our client and colleague relations.{" "}
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <div className="value-slider__slide section--sm section--bottom">
-                      <div className="row g-4 justify-content-xl-between align-items-lg-center">
-                        <div className="col-lg-6 col-xl-7">
-                          <div className="section__gap-bottom pb-lg-0">
-                            <img
-                              src="/images/value-slide-3.png"
-                              alt="image"
-                              className="value-slider__img"
-                            />
-                          </div>
-                        </div>
-                        <div className="col-lg-6 col-xl-4">
-                          <h3 className="mb-5 clr-light"> Fair play </h3>
-                          <p className="clr-light">
-                            {" "}
-                            We strive to make decisions that are fair to all
-                            sides. Our employees get adequate praise for their
-                            efforts and compensation for their skills.
-                            Similarly, our clients see prices that are
-                            adequate to our involvement and work quality.{" "}
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <div className="value-slider__slide section--sm section--bottom">
-                      <div className="row g-4 justify-content-xl-between align-items-lg-center">
-                        <div className="col-lg-6 col-xl-7">
-                          <div className="section__gap-bottom pb-lg-0">
-                            <img
-                              src="/images/value-slide-4.png"
-                              alt="image"
-                              className="value-slider__img"
-                            />
-                          </div>
-                        </div>
-                        <div className="col-lg-6 col-xl-4">
-                          <h3 className="mb-5 clr-light"> Fulfilment </h3>
-                          <p className="clr-light">
-                            {" "}
-                            Being fulfilled by our work keeps us energized. We
-                            create first-class software that’s fast,
-                            efficient, and ready to scale because we want us
-                            and our clients to be proud of our work.{" "}
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <div className="value-slider__slide section--sm section--bottom">
-                      <div className="row g-4 justify-content-xl-between align-items-lg-center">
-                        <div className="col-lg-6 col-xl-7">
-                          <div className="section__gap-bottom pb-lg-0">
-                            <img
-                              src="/images/value-slide-1.png"
-                              alt="image"
-                              className="value-slider__img"
-                            />
-                          </div>
-                        </div>
-                        <div className="col-lg-6 col-xl-4">
-                          <h3 className="mb-5 clr-light"> Responsibility </h3>
-                          <p className="clr-light">
-                            {" "}
-                            To ensure of our clients’ success, we bring in
-                            knowledge, technology skills, and high engagement
-                            to each project. Our communication remains open
-                            for all partners regardless of their continent,
-                            culture, or time zone.{" "}
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <div className="value-slider__slide section--sm section--bottom">
-                      <div className="row g-4 justify-content-xl-between align-items-lg-center">
-                        <div className="col-lg-6 col-xl-7">
-                          <div className="section__gap-bottom pb-lg-0">
-                            <img
-                              src="/images/value-slide-2.png"
-                              alt="image"
-                              className="value-slider__img"
-                            />
-                          </div>
-                        </div>
-                        <div className="col-lg-6 col-xl-4">
-                          <h3 className="mb-5 clr-light"> Growth </h3>
-                          <p className="clr-light">
-                            {" "}
-                            We aim high, always learning, to understand every
-                            novelty from the world of technology. We support
-                            our employees’ learning and practicing so that
-                            they can deliver top-class solutions in ambitious
-                            projects.{" "}
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </SwiperSlide>
 
-                </Swiper>
-                <div className="value-slider__control">
-                  <div className="value-slider__fraction"></div>
-                  <div className="value-slider__btn swiper-button-prev"></div>
-                  <div className="value-slider__btn swiper-button-next"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* <!-- Value Share End --> */}
-      {/* <!-- Video Section  --> */}
-      <Videosection />
-      {/* <!-- Video Section End --> */}
-      {/* <!-- Team Member  --> */}
-      <Team />
-      {/* <!-- Team Member End --> */}
-      {/* <!-- Feedback Section  --> */}
-      <Feedback_2 />
-      {/* <!-- Feedback Section End --> */}
-      {/* <!-- Brand Section  --> */}
-      <div className="section--sm section--bottom">
-        <div className="section__gap-bottom">
-          <div className="container">
-            <div className="row justify-content-center">
-              <div className="col-md-10 col-lg-8 col-xl-7">
-                <span className="d-block h5 lh-1 fw-semibold clr-base text-center">
-                  {" "}
-                  Our Customers{" "}
-                </span>
-                <h2 className="mt-5 text-center">
-                  {" "}
-                  Worldwide Our 6000+ Satisfied Client{" "}
-                </h2>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="container">
-          <div className="row g-6 align-items-center">
-            <div className="col-6 col-sm-4 col-md-3 col-xl-2">
-              <img
-                src="/images/client-1.png"
-                alt="image"
-                className="img-fluid"
-              />
-            </div>
-            <div className="col-6 col-sm-4 col-md-3 col-xl-2">
-              <img
-                src="/images/client-2.png"
-                alt="image"
-                className="img-fluid"
-              />
-            </div>
-            <div className="col-6 col-sm-4 col-md-3 col-xl-2">
-              <img
-                src="/images/client-3.png"
-                alt="image"
-                className="img-fluid"
-              />
-            </div>
-            <div className="col-6 col-sm-4 col-md-3 col-xl-2">
-              <img
-                src="/images/client-4.png"
-                alt="image"
-                className="img-fluid"
-              />
-            </div>
-            <div className="col-6 col-sm-4 col-md-3 col-xl-2">
-              <img
-                src="/images/client-5.png"
-                alt="image"
-                className="img-fluid"
-              />
-            </div>
-            <div className="col-6 col-sm-4 col-md-3 col-xl-2">
-              <img
-                src="/images/client-6.png"
-                alt="image"
-                className="img-fluid"
-              />
-            </div>
-            <div className="col-6 col-sm-4 col-md-3 col-xl-2">
-              <img
-                src="/images/client-7.png"
-                alt="image"
-                className="img-fluid"
-              />
-            </div>
-            <div className="col-6 col-sm-4 col-md-3 col-xl-2">
-              <img
-                src="/images/client-8.png"
-                alt="image"
-                className="img-fluid"
-              />
-            </div>
-            <div className="col-6 col-sm-4 col-md-3 col-xl-2">
-              <img
-                src="/images/client-9.png"
-                alt="image"
-                className="img-fluid"
-              />
-            </div>
-            <div className="col-6 col-sm-4 col-md-3 col-xl-2">
-              <img
-                src="/images/client-10.png"
-                alt="image"
-                className="img-fluid"
-              />
-            </div>
-            <div className="col-6 col-sm-4 col-md-3 col-xl-2">
-              <img
-                src="/images/client-11.png"
-                alt="image"
-                className="img-fluid"
-              />
-            </div>
-            <div className="col-6 col-sm-4 col-md-3 col-xl-2">
-              <img
-                src="/images/client-12.png"
-                alt="image"
-                className="img-fluid"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* Footer */}
       <Footer />
     </>
   );

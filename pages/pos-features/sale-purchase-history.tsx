@@ -101,7 +101,7 @@ const Sale_Purchase_History_Module = () => {
             </div>
             <div className="col-md-6">
               <img
-                src="/images/expense-management.png"
+                src="/images/history-module.png"
                 alt="image"
                 className="img-fluid flex-shrink-0"
                 style={{border:"1px solid", borderRadius:"5px"}}

@@ -102,9 +102,9 @@ const Letstalk = () => {
               </div>
               <div className="col-md-6">
                 <input
-                  type="number"
+                  type="password"
                   className="form-control contact-form-1__input rounded-pill"
-                  placeholder="Enter your Number*"
+                  placeholder="Enter your Password*"
                   required
                 />
               </div>

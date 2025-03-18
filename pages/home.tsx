@@ -11,7 +11,7 @@ import Service from "@/components/Service";
 import Team from "@/components/Team";
 import Testimonial from "@/components/Testimonial";
 import News from "@/components/News";
-import Career from "@/components/Career";
+import CoreValue from "@/components/CoreValue";
 
 const HomePage = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -19,10 +19,9 @@ const HomePage = () => {
   const heroRef = useRef(null);
   const productRef = useRef(null);
   const serviceRef = useRef(null);
-  const aboutRef = useRef(null);
+ 
   const teamRef = useRef(null);
   const newsRef = useRef(null);
-  const careerRef = useRef(null);
   const testimonialRef = useRef(null);
   const contactRef = useRef(null);
 
@@ -54,18 +53,17 @@ const HomePage = () => {
       </div>
 
       <Navbar scrollToSection={(ref) => ref.current?.scrollIntoView({ behavior: "smooth" })} sections={{
-        heroRef, productRef, serviceRef, aboutRef, teamRef, newsRef, careerRef, testimonialRef, contactRef
+        heroRef, productRef, serviceRef, teamRef, newsRef, testimonialRef, contactRef
       }} rtlurl/>
 
       <section ref={heroRef}><Hero /></section>
       <section ref={productRef}><Products /></section>
       <hr />
+      <section><CoreValue /></section>
+      <hr />
       <section ref={serviceRef}><Service /></section>
-      <section ref={aboutRef}><About /></section>
       <section ref={teamRef}><Team /></section>
       <section ref={newsRef}><News /></section>
-      <hr />
-      <section ref={careerRef}><Career /></section>
       <hr />
       <section ref={testimonialRef}><Testimonial /></section>
       <Footer />
