@@ -6,7 +6,7 @@ import { useRouter } from "next/router";
 import ApplyNowModal from "@/components/ApplyNowModal";
 
 const Job_1 = () => {
-    const [isOpen, setIsOpen] = useState(false);
+    const [isModalOpen, setIsModalOpen] = useState(false);
     const router = useRouter();
     const [activeLink, setActiveLink] = useState("");
 
@@ -127,14 +127,13 @@ const Job_1 = () => {
                                         <div className="group group-row flex-wrap justify-content-center align-items-center">
                                             <button
                                               
-                                                className="bttn bttn--stroke-outline bttn-md bttn-pill fw-md flex-shrink-0 align-items-center">
+                                                className="bttn bttn-md bttn-pill fw-md flex-shrink-0 align-items-center">
                                                 <span className="bttn__arrow"
-                                                    onClick={() => setIsOpen(true)}
+                                                    onClick={() => setIsModalOpen(true)}
                                                 > Apply Now</span>
                                             </button>
-                                            {isOpen && (
-                                                <ApplyNowModal />
-                                            )}
+                                            {/* set state and pass the props */}
+                                                <ApplyNowModal isOpen={isModalOpen} onClose={()=>setIsModalOpen(false)}/>
                                         </div>
                                     </div>
                                 </div>
