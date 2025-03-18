@@ -37,41 +37,22 @@ const AllPosFeatures = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-6">
-              <h3 className="clr-light mb-3"> Point Of Sale</h3>
+              <h3 className="clr-light mb-3">Point Of Sale</h3>
               <ul className="list list-row flex-wrap breadcrumb-list">
                 <li>
-                  <Link
-                    href="home"
-                    className="d-inline-block t-link clr-light :clr-accent">
-                    {" "}
-                    Home{" "}
+                  <Link href="/" className="d-inline-block t-link clr-light :clr-accent">
+                    Home
                   </Link>
                 </li>
                 <li>
-                  <Link
-                    href="/ourProducts"
-                    className="d-inline-block t-link clr-light :clr-accent">
-                    {" "}
-                    Our Products{" "}
+                  <Link href="/ourProducts" className="d-inline-block t-link clr-light :clr-accent">
+                    Our Products
                   </Link>
                 </li>
-                <li className="">
-                  <Link
-                    href="/all-Pos-Features"
-                    className="d-inline-block t-link clr-light :clr-accent">
-                    {" "}
-                    Features Of POS{" "}
+                <li>
+                  <Link href="/all-Pos-Features" className="d-inline-block t-link clr-light :clr-accent">
+                    Features Of POS
                   </Link>
-                </li>
-                <li className="d-none">
-                  <Link
-                    href="#"
-                    className="d-inline-block t-link clr-light :clr-accent"></Link>
-                </li>
-                <li className="d-none">
-                  <Link
-                    href="#"
-                    className="d-inline-block t-link clr-light :clr-accent"></Link>
                 </li>
               </ul>
             </div>
@@ -133,7 +114,7 @@ const AllPosFeatures = () => {
                   and productivity, ensuring seamless business management and data-driven growth at a glance. {" "}
                 </p>
                 <Link
-                  href="/pos-features/dashboard"
+                  href="/dashboard"
                   className="t-link t-link--base fw-md">
                   {" "}
                   More{" "}
@@ -166,7 +147,7 @@ const AllPosFeatures = () => {
                   and an intuitive interface, this module ensures a seamless sales experience.{" "}
                 </p>
                 <Link
-                  href="/pos-features/make-sale"
+                  href="/make-sale"
                   className="t-link t-link--base fw-md">
                   {" "}
                   More{" "}
@@ -199,7 +180,7 @@ const AllPosFeatures = () => {
                   and ensures efficient order management with real-time data insights.{" "}
                 </p>
                 <Link
-                  href="/pos-features/purchase-orders"
+                  href="/purchase-orders"
                   className="t-link t-link--base fw-md">
                   {" "}
                   More{" "}
@@ -232,7 +213,7 @@ const AllPosFeatures = () => {
                   Its modern interface boosts productivity, accuracy, and decision-making in inventory management.{" "}
                 </p>
                 <Link
-                  href="/pos-features/master-category"
+                  href="/master-category"
                   className="t-link t-link--base fw-md">
                   {" "}
                   More{" "}
@@ -265,7 +246,7 @@ const AllPosFeatures = () => {
                   {" "}
                 </p>
                 <Link
-                  href="/pos-features/all-stock"
+                  href="/all-stock"
                   className="t-link t-link--base fw-md">
                   {" "}
                   More{" "}
@@ -299,7 +280,7 @@ const AllPosFeatures = () => {
                   {" "}
                 </p>
                 <Link
-                  href="/pos-features/expense-management"
+                  href="/expense-management"
                   className="t-link t-link--base fw-md">
                   {" "}
                   More{" "}
@@ -333,7 +314,7 @@ const AllPosFeatures = () => {
                   {" "}
                 </p>
                 <Link
-                  href="/pos-features/sale-purchase-history"
+                  href="/sale-purchase-history"
                   className="t-link t-link--base fw-md">
                   {" "}
                   More{" "}
@@ -367,7 +348,7 @@ const AllPosFeatures = () => {
                   {" "}
                 </p>
                 <Link
-                  href="/pos-features/claims"
+                  href="/claims"
                   className="t-link t-link--base fw-md">
                   {" "}
                   More{" "}
@@ -400,7 +381,7 @@ const AllPosFeatures = () => {
                   {" "}
                 </p>
                 <Link
-                  href="/pos-features/accounting"
+                  href="/accounting"
                   className="t-link t-link--base fw-md">
                   {" "}
                   More{" "}
@@ -434,7 +415,7 @@ const AllPosFeatures = () => {
                   {" "}
                 </p>
                 <Link
-                  href="/pos-features/item-placement"
+                  href="/item-placement"
                   className="t-link t-link--base fw-md">
                   {" "}
                   More{" "}
@@ -468,7 +449,7 @@ const AllPosFeatures = () => {
                   {" "}
                 </p>
                 <Link
-                  href="/pos-features/damage-lost"
+                  href="/damage-lost"
                   className="t-link t-link--base fw-md">
                   {" "}
                   More{" "}
@@ -502,7 +483,7 @@ const AllPosFeatures = () => {
                   {" "}
                 </p>
                 <Link
-                  href="/pos-features/return-orders"
+                  href="/return-orders"
                   className="t-link t-link--base fw-md">
                   {" "}
                   More{" "}
@@ -535,7 +516,7 @@ const AllPosFeatures = () => {
                   {" "}
                 </p>
                 <Link
-                  href="/pos-features/payable-recieveable"
+                  href="/payable-recieveable"
                   className="t-link t-link--base fw-md">
                   {" "}
                   More{" "}
@@ -569,7 +550,7 @@ const AllPosFeatures = () => {
                   {" "}
                 </p>
                 <Link
-                  href="/pos-features/settings"
+                  href="/settings"
                   className="t-link t-link--base fw-md">
                   {" "}
                   More{" "}
@@ -603,7 +584,7 @@ const AllPosFeatures = () => {
                   {" "}
                 </p>
                 <Link
-                  href="/pos-features/report-module"
+                  href="/report-module"
                   className="t-link t-link--base fw-md">
                   {" "}
                   More{" "}
@@ -637,7 +618,7 @@ const AllPosFeatures = () => {
                   {" "}
                 </p>
                 <Link
-                  href="/pos-features/admin-module"
+                  href="/admin-module"
                   className="t-link t-link--base fw-md">
                   {" "}
                   More{" "}

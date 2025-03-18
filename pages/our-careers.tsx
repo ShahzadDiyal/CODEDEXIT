@@ -40,7 +40,7 @@ const Our_Careers = () => {
               <ul className="list list-row flex-wrap breadcrumb-list">
                 <li>
                   <Link
-                    href="home"
+                    href="/"
                     className="d-inline-block t-link clr-light :clr-accent">
                     {" "}
                     Home{" "}
@@ -231,7 +231,7 @@ const Our_Careers = () => {
                           and scalable full-stack systems, fostering innovation and career growth.{" "}
                         </p>
                         <Link
-                          href="/Jobs-pages/job-1"
+                          href="/career-job-1/"
                           className="t-link t-link--base fw-md">
                           {" "}
                           More{" "}

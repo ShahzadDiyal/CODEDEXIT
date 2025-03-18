@@ -1,4 +1,4 @@
-import Navbar from "@/components/Navbar";
+import Navbar from "@/components/NavbarTwo";
 import Footer from "@/components/Footer";
 import Link from "next/link";
 import { useEffect, useState } from 'react';
@@ -7,31 +7,13 @@ import ApplyNowModal from "@/components/ApplyNowModal";
 
 const Job_1 = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
-    const router = useRouter();
-    const [activeLink, setActiveLink] = useState("");
-
-    // Detect initial hash on page load
-    useEffect(() => {
-        if (typeof window !== "undefined") {
-            setActiveLink(window.location.hash || "#terms");
-        }
-    }, []);
-
-    // Update active link when clicking a menu item
-    const handleSetActive = (id) => {
-        if (activeLink !== id) {
-            setActiveLink(id);
-            router.replace(`/terms-condition${id}`, undefined, { shallow: true });
-        }
-    };
 
     useEffect(() => {
         document.documentElement.setAttribute("dir", "ltr");
     }, []);
     return (
         <>
-            {/* Navbar Section */}
-            <Navbar rtlurl="/rtl/terms-condition" scrollToSection={undefined} sections={undefined} />
+            <Navbar rtlurl={undefined} />
             {/* Banner section */}
             <section className="banner-section section--sm">
                 <div className="container">
@@ -126,14 +108,14 @@ const Job_1 = () => {
                                     <div className="col-md-10 col-xl-8">
                                         <div className="group group-row flex-wrap justify-content-center align-items-center">
                                             <button
-                                              
+
                                                 className="bttn bttn-md bttn-pill fw-md flex-shrink-0 align-items-center">
                                                 <span className="bttn__arrow"
                                                     onClick={() => setIsModalOpen(true)}
                                                 > Apply Now</span>
                                             </button>
                                             {/* set state and pass the props */}
-                                                <ApplyNowModal isOpen={isModalOpen} onClose={()=>setIsModalOpen(false)}/>
+                                            <ApplyNowModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
                                         </div>
                                     </div>
                                 </div>

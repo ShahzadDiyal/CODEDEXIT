@@ -1,4 +1,4 @@
-import Navbar from "@/components/Navbar";
+import Navbar from "@/components/NavbarTwo";
 import Footer from "@/components/Footer";
 import Link from "next/link";
 import { useEffect, useState } from 'react';
@@ -29,7 +29,7 @@ const terms_condition = () => {
   return (
     <>
       {/* Navbar Section */}
-      <Navbar rtlurl="/rtl/terms-condition" scrollToSection={undefined} sections={undefined} />
+      <Navbar rtlurl="/rtl/terms-condition"  />
       {/* Banner section */}
       <section className="banner-section section--sm">
         <div className="container">
