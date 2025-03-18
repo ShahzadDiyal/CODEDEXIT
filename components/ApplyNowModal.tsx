@@ -5,7 +5,7 @@ const ApplyNowModal = ({ isOpen, onClose }) => {
 
 
     return (
-        <Modal show={isOpen} onHide={onClose} centered dialogClassName='custom-modal' >
+        <Modal show={isOpen} onHide={onClose} centered dialogClassName="custom-modal">
             <Modal.Header closeButton style={{ backgroundColor: "#7c41fb" }}>
                 <Modal.Title>Apply Now!</Modal.Title>
             </Modal.Header>
