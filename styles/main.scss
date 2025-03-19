@@ -438,14 +438,13 @@ $utilities: map-merge(
 
 
   .custom-modal {
-    width: 800px !important; /* Set fixed width */
-    max-width: 900px !important; /* Prevent Bootstrap from overriding */
+    width: auto !important;
+    max-width: 900px !important; 
 }
 
 .custom-modal .modal-content {
-    max-height: 90vh; /* Prevents excessive height */
-    overflow-y: auto; /* Enables vertical scrolling */
-    // padding: 20px; /* Adds spacing inside modal */
+    max-height: 90vh;
+    overflow-y: auto;
 }
 
 

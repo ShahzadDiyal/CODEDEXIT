@@ -29,6 +29,14 @@ const Job_1 = () => {
                                         Home{" "}
                                     </Link>
                                 </li>
+                                <li>
+                                    <Link
+                                        href="/our-careers/"
+                                        className="d-inline-block t-link clr-light :clr-accent">
+                                        {" "}
+                                        Our Career{" "}
+                                    </Link>
+                                </li>
                                 <li className="">
                                     <Link
                                         href="#"
@@ -52,7 +60,25 @@ const Job_1 = () => {
                 <div className="container">
                     <div className="row g-6 justify-content-md-between">
                         <div className="col-md-12 col-xl-12" data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" tabIndex={0}>
-                            <h3 className="mb-5" id="terms">Software Developer</h3>
+                            <div className="row">
+                                <div className="col-md-6">
+                                    <h3 className="clr-light mb-3"> Software Developer </h3>
+                                </div>
+                                <div className="col-md-6">
+                                    <div className="group group-row flex-wrap justify-content-end align-items-center">
+                                        <button
+                                            className="bttn bttn-md bttn-pill fw-md flex-shrink-0 align-items-center">
+                                            <span className="bttn__arrow"
+                                                onClick={() => setIsModalOpen(true)}
+                                            > Apply Now</span>
+                                        </button>
+                                        {/* set state and pass the props */}
+                                        <ApplyNowModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
+                                    </div>
+                                </div>
+
+
+                            </div>
                             <p className="mb-10">
                                 {" "}
                                 Our goal is to help every recent graduate worldwide find a job that aligns with their ambitions:

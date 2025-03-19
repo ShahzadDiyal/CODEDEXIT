@@ -9,7 +9,7 @@ const Footer = () => {
           <div className="col-12">
             <div className="footer-2__content section--sm">
               <div className="row g-4">
-                <div className="col-sm-6 col-md-3 col-xl-2">
+                <div className="col-sm-6 col-md-3 col-xl-3">
                   <h5 className="clr-light mb-5"> IT Services </h5>
                   <ul className="list list-xsm">
                     <li>
@@ -31,7 +31,7 @@ const Footer = () => {
 
                   </ul>
                 </div>
-                <div className="col-sm-6 col-md-3 col-xl-2">
+                <div className="col-sm-6 col-md-3 col-xl-3">
                   <h5 className="clr-light mb-5"> Quick Link </h5>
                   <ul className="list list-xs">
                     <li>
@@ -60,7 +60,7 @@ const Footer = () => {
                     </li>
                   </ul>
                 </div>
-                <div className="col-sm-6 col-md-3 col-xl-2">
+                <div className="col-sm-6 col-md-3 col-xl-3">
                   <h5 className="clr-light mb-5"> Support </h5>
                   <ul className="list list-xs">
                     <li>
@@ -92,7 +92,7 @@ const Footer = () => {
                   </ul>
                 </div>
 
-                <div className="col-sm-6 col-md-4 col-xxl-2">
+                <div className="col-sm-6 col-md-4 col-xl-3">
                   <h5 className="clr-light mb-5"> Contact us </h5>
                   <ul className="list list-xsm">
                     <li>
@@ -158,47 +158,6 @@ const Footer = () => {
                           </span>
                         </span>
                       </div>
-                    </li>
-                  </ul>
-                </div>
-                <div className="col-sm-6 col-md-4 col-xl-3 col-xxl-2">
-                  <h5 className="clr-light mb-5"> Gallery </h5>
-                  <ul className="list list-row flex-wrap list-xsm">
-                    <li>
-                      <Link href="#" className="t-link">
-                        <img
-                          src="/images/gallery-1.png"
-                          alt="image"
-                          className="img-fluid"
-                        />
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="#" className="t-link">
-                        <img
-                          src="/images/gallery-2.png"
-                          alt="image"
-                          className="img-fluid"
-                        />
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="#" className="t-link">
-                        <img
-                          src="/images/gallery-3.png"
-                          alt="image"
-                          className="img-fluid"
-                        />
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="#" className="t-link">
-                        <img
-                          src="/images/gallery-4.png"
-                          alt="image"
-                          className="img-fluid"
-                        />
-                      </Link>
                     </li>
                   </ul>
                 </div>

@@ -258,7 +258,7 @@ const Our_Careers = () => {
                           development group. {" "}
                         </p>
                         <Link
-                          href="/pos-features/sale-purchase-history"
+                          href="/career-job-2"
                           className="t-link t-link--base fw-md">
                           {" "}
                           More{" "}
@@ -284,7 +284,7 @@ const Our_Careers = () => {
                           development group.{" "}
                         </p>
                         <Link
-                          href="/pos-features/sale-purchase-history"
+                          href="/career-job-3"
                           className="t-link t-link--base fw-md">
                           {" "}
                           More{" "}
@@ -311,7 +311,7 @@ const Our_Careers = () => {
                           more inclusive, trustworthy, and smarter future for everyone, everywhere.{" "}
                         </p>
                         <Link
-                          href="/pos-features/sale-purchase-history"
+                          href="/career-job-4"
                           className="t-link t-link--base fw-md">
                           {" "}
                           More{" "}
@@ -336,7 +336,7 @@ const Our_Careers = () => {
                           Engineering graduate student eager to dive into real-world development? {" "}
                         </p>
                         <Link
-                          href="/pos-features/sale-purchase-history"
+                          href="/career-job-5"
                           className="t-link t-link--base fw-md">
                           {" "}
                           More{" "}
@@ -361,7 +361,7 @@ const Our_Careers = () => {
                           Work closely with senior developers to understand project requirements and coding standards.{" "}
                         </p>
                         <Link
-                          href="/pos-features/sale-purchase-history"
+                          href="/career-job-6"
                           className="t-link t-link--base fw-md">
                           {" "}
                           More{" "}

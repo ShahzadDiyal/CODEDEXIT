@@ -57,6 +57,17 @@ const ApplyNowModal = ({ isOpen, onClose }) => {
                     </div>
                 </div>
                 <div>
+                    <label htmlFor="" className='text-dark mt-3'>Select the Job You want to apply for!</label>
+                    <select name="" className='form-select text-gray pt-3' id="">
+                        <option value="">Software Engineer</option>
+                        <option value="">Nextjs Engineer</option>
+                        <option value="">Python Developer</option>
+                        <option value="">Associate Cloud Software Engineer</option>
+                        <option value="">Software Development Intern</option>
+                        <option value="">Junior Full Stack Developer</option>
+                    </select>
+                </div>
+                <div>
                     <label htmlFor="" className='text-dark mt-3'>Expected Salary in ($)</label>
                     <input type="number" className='form-control p-2' placeholder='Enter your Expected salary' />
                 </div>
