@@ -59,28 +59,65 @@ const OurPosProducts = () => (
             <SwiperSlide>
               <div className="row" style={{ border: "1px solid", borderRadius: "10px" }}>
                 <div className="col-md-6 col-lg-4">
-                  <div className="news-card">
+                  <Link href="#" passHref legacyBehavior>
                     <a target="_blank" rel="noopener noreferrer" className="news-card__link">
-                      <div className="news-card__image" style={{ position: "relative" }}>
-                        <img
-                          src="/images/link-shortner.png"
-                          style={{ height: "100%", display: "block" }}
-                        />
-                        <div
-                          className="news-card__overlay"
-                          style={{
-                            position: "fixed",
-                            bottom: "0",
-                            width: "100%",
-                            background: "rgba(0, 0, 0, 0.6)",
-                            padding: "10px",
-                            textAlign: "center"
-                          }}
-                        >
-                          <h4 className="news-card__title text-white m-0">Link Shortner</h4>
+                      <div className="news-card">
+                        <div className="news-card__image" style={{ position: "relative" }}>
+                          <img
+                            src="/images/worqua.png"
+                            style={{ height: "100%", display: "block" }}
+                            alt="Work Order"
+                          />
+                          <div
+                            className="news-card__overlay"
+                            style={{
+                              position: "fixed",
+                              bottom: "0",
+                              width: "100%",
+                              background: "rgba(0, 0, 0, 0.6)",
+                              padding: "10px",
+                              textAlign: "center",
+                            }}
+                          >
+                            <h4 className="news-card__title text-white m-0">Work Order</h4>
+                          </div>
                         </div>
                       </div>
                     </a>
+                  </Link>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="row" style={{ border: "1px solid", borderRadius: "10px" }}>
+                <div className="col-md-6 col-lg-4">
+                  <div >
+                    <div className="news-card">
+                      <div className="news-card__image" style={{ position: "relative" }}>
+                        <Link rel="noopener noreferrer" className="news-card__link" href="all-Pos-Features">
+                          <span>
+                            <img
+                              src="/images/pos-prod-removebg.png"
+                              style={{ height: "100%", display: "block" }}
+                            />
+                            <div
+                              className="news-card__overlay"
+                              style={{
+                                position: "fixed",
+                                bottom: "0",
+                                width: "100%",
+                                background: "rgba(0, 0, 0, 0.6)",
+                                padding: "10px",
+                                textAlign: "center"
+                              }}
+                            >
+                              <h4 className="news-card__title text-white m-0">Point of Sale</h4>
+                            </div>
+                          </span>
+                        </Link>
+                      </div>
+                    </div>
+
                   </div>
                 </div>
               </div>
@@ -88,13 +125,14 @@ const OurPosProducts = () => (
             <SwiperSlide>
               <div className="row" style={{ border: "1px solid", borderRadius: "10px" }}>
                 <div className="col-md-6 col-lg-4">
-                  <Link href="all-Pos-Features">
-                    <div className="news-card">
-                      <a target="_blank" rel="noopener noreferrer" className="news-card__link">
+                  <Link href="#" passHref legacyBehavior>
+                    <a target="_blank" rel="noopener noreferrer" className="news-card__link">
+                      <div className="news-card">
                         <div className="news-card__image" style={{ position: "relative" }}>
                           <img
-                            src="/images/pos-prod-removebg.png"
+                            src="/images/link-shortner.png"
                             style={{ height: "100%", display: "block" }}
+                            alt="Link Shortener"
                           />
                           <div
                             className="news-card__overlay"
@@ -104,51 +142,18 @@ const OurPosProducts = () => (
                               width: "100%",
                               background: "rgba(0, 0, 0, 0.6)",
                               padding: "10px",
-                              textAlign: "center"
+                              textAlign: "center",
                             }}
                           >
-                            <h4 className="news-card__title text-white m-0">Point of Sale</h4>
+                            <h4 className="news-card__title text-white m-0">Link Shortener</h4>
                           </div>
                         </div>
-                      </a>
-                    </div>
+                      </div>
+                    </a>
                   </Link>
                 </div>
               </div>
             </SwiperSlide>
-            <SwiperSlide>
-              <div className="row" style={{ border: "1px solid", borderRadius: "10px" }}>
-                <div className="col-md-6 col-lg-4">
-                  <Link href="">
-                    <div className="news-card">
-                      <a target="_blank" rel="noopener noreferrer" className="news-card__link">
-                        <div className="news-card__image" style={{ position: "relative" }}>
-                          <img
-                            src="/images/worqua.png"
-                            style={{ height: "100%", display: "block" }}
-                          />
-                          <div
-                            className="news-card__overlay"
-                            style={{
-                              position: "fixed",
-                              bottom: "0",
-                              width: "100%",
-                              background: "rgba(0, 0, 0, 0.6)",
-                              padding: "10px",
-                              textAlign: "center"
-                            }}
-                          >
-                            <h4 className="news-card__title text-white m-0">Work Order</h4>
-                          </div>
-                        </div>
-                      </a>
-                    </div>
-                  </Link>
-                </div>
-              </div>
-            </SwiperSlide>
-
-
           </Swiper>
         </div>
       </div>

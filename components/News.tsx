@@ -18,14 +18,14 @@ const News = () => {
           {newsArticles.map((article, index) => (
             <div key={index} className="col-md-6 col-lg-4">
               <div className="news-card">
-                <a target="_blank" rel="noopener noreferrer" className="news-card__link">
+                <Link target="_blank" rel="noopener noreferrer" className="news-card__link" href={""}>
                   <div className="news-card__image">
                     <Image src={article.image} alt={article.title} layout="fill" objectFit="cover" />
                     <div className="news-card__overlay">
                       <h4 className="news-card__title text-white">{" "} {article.title}{" "} </h4>
                     </div>
                   </div>
-                </a>
+                </Link>
               </div>
             </div>
           ))}
