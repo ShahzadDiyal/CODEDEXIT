@@ -82,9 +82,14 @@ const Navbar = ({ scrollToSection, sections, rtlurl, onMenuClick }) => {
 
                 <ul className="list primary-menu__list">
                   <li>
-                    <a href="/" className="primary-menu__link" >
+                    <Link href="/home" className="primary-menu__link" >
                       Home
-                    </a>
+                    </Link>
+                  </li>
+                  <li>  
+                    <Link href="/our-careers" className="primary-menu__link" >
+                      Career
+                    </Link>
                   </li>
                   <li>
                     <a href="#" className="primary-menu__link" onClick={() => onMenuClick("about", sections.aboutRef)}>

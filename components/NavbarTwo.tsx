@@ -89,6 +89,11 @@ const NavbarTwo = ({ rtlurl }) => {
                       Home
                     </Link>
                   </li>
+                  <li>  
+                    <Link href="/our-careers" className="primary-menu__link" >
+                      Career
+                    </Link>
+                  </li>
                   <li>
                     <Link
                       href="/ourProducts"
@@ -122,8 +127,6 @@ const NavbarTwo = ({ rtlurl }) => {
                       Blog
                     </Link>
                   </li>
-
-
                   <Link
                     href="/contact-us/"
                    className="primary-menu__link">

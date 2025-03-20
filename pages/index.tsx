@@ -81,9 +81,6 @@ const HomePage = () => {
           <section ><CoreValue /></section>
           <hr />
           <section ref={productRef}><Products /></section>
-          <hr />
-          {/* <section ref={aboutRef}><About /></section>
-          <hr /> */}
           <section ref={contactRef}><Technologies /></section>
           <hr />
         </>
@@ -108,7 +105,7 @@ const HomePage = () => {
         <section className="mt-3" ref={contactRef}><Technologies /></section>
        
       }
-      <hr />
+    
       <Footer />
     </>
   );

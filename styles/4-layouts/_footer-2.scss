@@ -5,7 +5,7 @@
 
     &::before {
         display: none;
-        content: url(/images/footer-2-bg.png);
+        // content: url(/images/footer-2-bg.png);
         position: absolute;
         inset-inline-start: 0;
         inset-block-start: 50%;
@@ -19,7 +19,7 @@
 
     &::after {
         display: none;
-        content: url(/images/footer-2-bg.png);
+        // content: url(/images/footer-2-bg.png);
         position: absolute;
         inset-inline-end: 0;
         inset-block-start: 50%;
