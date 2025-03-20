@@ -23,6 +23,7 @@ const HomePage = () => {
   const newsRef = useRef(null);
   const getStarted = useRef(null);
   const contactRef = useRef(null);
+  const aboutRef = useRef(null);
 
   useEffect(() => {
     document.documentElement.setAttribute("dir", "ltr");
@@ -39,9 +40,18 @@ const HomePage = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
-  const handleMenuClick = (section) => {
-    setActiveSection(section);
-  }
+
+  const handleMenuClick = (section, ref) => {
+    if (activeSection !== section) {
+      setActiveSection(section); // Set the active section first
+  
+      // Wait for the state to update before scrolling
+      requestAnimationFrame(() => {
+        ref?.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+    }
+  };
+  
 
   return (
     <>
@@ -56,23 +66,25 @@ const HomePage = () => {
       </div>
 
       <Navbar onMenuClick={handleMenuClick} scrollToSection={(ref) => ref.current?.scrollIntoView({ behavior: "smooth" })} sections={{
-        heroRef, productRef, serviceRef, newsRef, getStarted, contactRef
+        heroRef, productRef, serviceRef, newsRef, getStarted, contactRef,aboutRef
       }} rtlurl />
 
       {/* alway showing on the main page */}
       <section ref={heroRef}><Hero /></section>
-
+      <section className="d-none" ref={aboutRef}><About /></section>
       {activeSection === null && (
         <>
           <section ref={newsRef}><News /></section>
           <hr />
           <section ref={serviceRef}><Service /></section>
           <hr />
-          <section><CoreValue /></section>
+          <section ><CoreValue /></section>
           <hr />
           <section ref={productRef}><Products /></section>
           <hr />
-          <section ref={getStarted}><Technologies /></section>
+          {/* <section ref={aboutRef}><About /></section>
+          <hr /> */}
+          <section ref={contactRef}><Technologies /></section>
           <hr />
         </>
       )}
@@ -89,20 +101,20 @@ const HomePage = () => {
       {activeSection === "technologies" &&
         <section ref={getStarted}><Technologies /></section>
       }
-      {activeSection === "contact" &&
-        <section ref={contactRef}><Consult /></section>
+      {activeSection === "about" &&
+        <section ref={aboutRef}><About /></section>
       }
-
+      {activeSection === "contact" &&
+        <section className="mt-3" ref={contactRef}><Technologies /></section>
+       
+      }
+      <hr />
       <Footer />
     </>
   );
 };
 
 export default HomePage;
-
-
-
-
 
 
 
