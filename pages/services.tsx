@@ -207,10 +207,8 @@ const service = () => {
         </div>
       </div>
     </div>
-      {/* <!-- Service Section  --> */}
-
-      {/* <!-- Support Section  --> */}
-      <GetStartedToday />
+ 
+      {/* <GetStartedToday /> */}
     
       <Footer />
     </>

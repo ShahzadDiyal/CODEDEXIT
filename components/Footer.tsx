@@ -165,7 +165,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div>  
       <div className="footer-2__bottom">
         <div className="container">
           <div className="row g-4 align-items-center">

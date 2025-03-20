@@ -126,8 +126,8 @@ const NavbarTwo = ({ rtlurl }) => {
 
                   <Link
                     href="/contact-us/"
-                    className="bttn bttn--stroke-outline bttn-md bttn-pill fw-md flex-shrink-0 align-items-center">
-                    Contact Us
+                   className="primary-menu__link">
+                    Contact us
                   </Link>
                   <li>
                     <button className="dark-mode-toggle" onClick={() => setTheme(inactiveTheme)}>
