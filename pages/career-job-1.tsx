@@ -62,12 +62,13 @@ const Job_1 = () => {
                         <div className="col-md-12 col-xl-12" data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" tabIndex={0}>
                             <div className="row">
                                 <div className="col-md-6">
-                                    <h3 className="clr-light mb-3"> Software Developer </h3>
+                                    <h3 className="clr-base mb-3"> Software Developer </h3>
                                 </div>
                                 <div className="col-md-6">
                                     <div className="group group-row flex-wrap justify-content-end align-items-center">
                                         <button
-                                            className="bttn bttn-md bttn-pill fw-md flex-shrink-0 align-items-center">
+                                            style={{ border: "1px solid" }}
+                                            className="bttn bttn-md bttn-pill fw-md  align-items-center">
                                             <span className="bttn__arrow"
                                                 onClick={() => setIsModalOpen(true)}
                                             > Apply Now</span>
@@ -76,9 +77,8 @@ const Job_1 = () => {
                                         <ApplyNowModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
                                     </div>
                                 </div>
-
-
                             </div>
+                            <hr />
                             <p className="mb-10">
                                 {" "}
                                 Our goal is to help every recent graduate worldwide find a job that aligns with their ambitions:

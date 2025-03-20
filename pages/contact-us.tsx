@@ -374,9 +374,7 @@ const contact_us = () => {
           </div>
         </div>
       </div>
-      {/* Testimonail */}
-      <Testimonial />
-      {/* Footer */}
+     
       <Footer />
     </>
   );

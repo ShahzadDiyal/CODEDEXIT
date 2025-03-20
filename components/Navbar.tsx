@@ -3,7 +3,7 @@ import { useTheme } from "next-themes";
 import Link from "next/link";
 import { useState, useEffect } from "react";
 
-const Navbar = ({ scrollToSection, sections,rtlurl }) => {
+const Navbar = ({ scrollToSection, sections, rtlurl, onMenuClick }) => {
   const [mounted, setMounted] = useState(false);
   const { theme, setTheme } = useTheme();
   const inactiveTheme = theme === "light" ? "dark" : "light";
@@ -24,7 +24,7 @@ const Navbar = ({ scrollToSection, sections,rtlurl }) => {
     <>
       <Mobilemenu />
 
-      <header className="header header--2  sticky-navbar">
+      <header className="header header--2 sticky-navbar">
         <div className="container">
           <div className="row">
             <div className="col-12">
@@ -34,20 +34,20 @@ const Navbar = ({ scrollToSection, sections,rtlurl }) => {
                   <div className="row">
                     <div className="col-12">
                       <div className="mobile-header__content">
-                        <a href="#" className="logo">
+                        <Link href="/" className="logo">
                           <img
                             src="/images/UZI-systems-Logo1.png"
-                            alt="Coded Exit Ltd."
+                            alt="UZI Systems"
                             className="logo__img logo__dark"
                             style={{ width: "260px", height: "100px", marginTop: "-30px" }}
                           />
                           <img
                             src="/images/UZI-systems-Logo2.png"
-                            alt="Coded Exit Ltd."
+                            alt="UZI Systems"
                             className="logo__img logo__light"
                             style={{ width: "260px", height: "100px", marginTop: "-30px" }}
                           />
-                        </a>
+                        </Link>
                         <button
                           onClick={openMobileMenu}
                           className="bttn bttn--sqr bttn--sqr-sm bttn--light bttn--rounded mobile-menu__toggler"
@@ -65,101 +65,53 @@ const Navbar = ({ scrollToSection, sections,rtlurl }) => {
 
               {/* Primary Menu */}
               <nav className="primary-menu align-items-center">
-                <a href="#" className="logo">
+                <Link href="/" className="logo">
                   <img
                     src="/images/UZI-systems-Logo1.png"
-                    alt="Coded Exit Ltd."
+                    alt="UZI Systems"
                     className="logo__img logo__dark"
                     style={{ width: "260px", height: "100px", marginTop: "-30px" }}
                   />
                   <img
                     src="/images/UZI-systems-Logo2.png"
-                    alt="Coded Exit Ltd."
+                    alt="UZI Systems"
                     className="logo__img logo__light"
                     style={{ width: "260px", height: "100px", marginTop: "-30px" }}
                   />
-                </a>
+                </Link>
 
                 <ul className="list primary-menu__list">
                   <li>
-                    <a
-                      href="#hero"
-                      className="primary-menu__link"
-                      onClick={(e) => {
-                        e.preventDefault();
-                        scrollToSection(sections.heroRef);
-                      }}
-                    >
+                    <a href="/" className="primary-menu__link" >
                       Home
                     </a>
                   </li>
                   <li>
-                    <a
-                      href="#products"
-                      className="primary-menu__link"
-                      onClick={(e) => {
-                        e.preventDefault();
-                        scrollToSection(sections.productRef);
-                      }}
-                    >
-                      Products
+                    <a href="#" className="primary-menu__link" onClick={() => onMenuClick("about", sections.aboutRef)}>
+                      About
                     </a>
                   </li>
                   <li>
-                    <a
-                      href="#services"
-                      className="primary-menu__link"
-                      onClick={(e) => {
-                        e.preventDefault();
-                        scrollToSection(sections.serviceRef);
-                      }}
-                    >
+                    <a href="#" className="primary-menu__link" onClick={() => onMenuClick("service", sections.serviceRef)}>
                       Services
                     </a>
                   </li>
-                  
                   <li>
-                    <a
-                      href="#team"
-                      className="primary-menu__link"
-                      onClick={(e) => {
-                        e.preventDefault();
-                        scrollToSection(sections.teamRef);
-                      }}
-                    >
-                      Team
+                    <a href="#" className="primary-menu__link" onClick={() => onMenuClick("products", sections.productRef)}>
+                      Products
                     </a>
                   </li>
+
                   <li>
-                    <a
-                      href="#news"
-                      className="primary-menu__link"
-                      onClick={(e) => {
-                        e.preventDefault();
-                        scrollToSection(sections.newsRef);
-                      }}
-                    >
+                    <a href="#" className="primary-menu__link" onClick={() => onMenuClick("news", sections.newsRef)}>
                       News
                     </a>
                   </li>
                   <li>
-                    <a
-                      href="#testimonial"
-                      className="primary-menu__link"
-                      onClick={(e) => {
-                        e.preventDefault();
-                        scrollToSection(sections.testimonialRef);
-                      }}
-                    >
-                      Testimonials
+                    <a href="#" className="primary-menu__link" onClick={() => onMenuClick("contact", sections.contactRef)}>
+                      Contact
                     </a>
                   </li>
-                  {/* <Link
-                    href="contact-us"
-              
-                    className="bttn bttn--stroke-outline bttn-md bttn-pill fw-md flex-shrink-0 align-items-center">
-                          Contact Us
-                  </Link> */}
                   <li>
                     <button className="dark-mode-toggle" onClick={() => setTheme(inactiveTheme)}>
                       {theme !== "light" ? (
@@ -175,6 +127,7 @@ const Navbar = ({ scrollToSection, sections,rtlurl }) => {
                   </li>
                 </ul>
               </nav>
+              {/* Primary Menu End */}
             </div>
           </div>
         </div>

@@ -483,7 +483,7 @@ const Make_Sale_Module = () => {
      
      
      {/* MODULE END */}
-      <div className="section bg-base-800">
+      {/* <div className="section bg-base-800">
         <div className="section__gap-bottom">
           <div className="container">
             <div className="row justify-content-center">
@@ -669,128 +669,8 @@ const Make_Sale_Module = () => {
             </div>
           </div>
         </div>
-      </div>
-
-      {/* <div className="section pb-0 service-section-2">
-        <div className="section__gap-bottom">
-          <div className="container">
-            <div className="row justify-content-center">
-              <div className="col-md-10 col-xl-9">
-                <span className="d-block h5 lh-1 fw-semibold clr-base text-center">
-                  {" "}
-                  Professional Field Services Management{" "}
-                </span>
-                <h2 className="mt-5 mb-5 text-center">
-                  {" "}
-                  A team of field service experts optimizing operations, workforce efficiency, and customer satisfaction.{" "}
-                </h2>
-                <p className="text-center mx-auto max-text-70">
-                  {" "}
-                  We specialize in field service management solutions, leveraging the best technologies to streamline operations, enhance efficiency,
-                  and support your journey from planning to execution and ongoing maintenance.{" "}
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="container-xl">
-          <div className="row g-6">
-            <div className="col-md-4">
-              <div className="help-card help-card--hover-base text-center bg--white border-0 t-shadow">
-                <img
-                  src="/images/icon-78.png"
-                  alt="image"
-                  className="img-fluid"
-                />
-                <h5 className="mt-8 mb-5">
-                  {" "}
-                  B2B, B2C, Internal Platforms Development Services{" "}
-                </h5>
-                <p className="mb-8">
-                  {" "}
-                  Web development services - build with us any B2B/B2C/internal
-                  platform and let your business scale.{" "}
-                </p>
-                <Link
-                  href="field-service-management"
-                  className="t-link t-link--base fw-md">
-                  {" "}
-                  More{" "}
-                  <span className="material-symbols-outlined mat-icon fw-200">
-                    {" "}
-                    trending_flat{" "}
-                  </span>
-                </Link>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="help-card help-card--hover-base text-center bg--white border-0 t-shadow">
-                <img
-                  src="/images/icon-79.png"
-                  alt="image"
-                  className="img-fluid"
-                />
-                <h5 className="mt-8 mb-5">
-                  {" "}
-                  Backend Development - JavaScript, PHP{" "}
-                </h5>
-                <p className="mb-8">
-                  {" "}
-                  Build your backend as REST API with JavaScript (Node.js,
-                  Express) or PHP (Symfony, Laravel).{" "}
-                </p>
-                <Link
-                  href="field-service-management"
-                  className="t-link t-link--base fw-md">
-                  {" "}
-                  More{" "}
-                  <span className="material-symbols-outlined mat-icon fw-200">
-                    {" "}
-                    trending_flat{" "}
-                  </span>
-                </Link>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="help-card help-card--hover-base text-center bg--white border-0 t-shadow">
-                <img
-                  src="/images/icon-80.png"
-                  alt="image"
-                  className="img-fluid"
-                />
-                <h5 className="mt-8 mb-5">
-                  {" "}
-                  Frontend Development - React, Vue.js{" "}
-                </h5>
-                <p className="mb-8">
-                  {" "}
-                  Stunning user experience. Build frontend of your application
-                  with trusted and loved by millions technologies - React and
-                  Vue.js..{" "}
-                </p>
-                <Link
-                  href="field-service-management"
-                  className="t-link t-link--base fw-md">
-                  {" "}
-                  More{" "}
-                  <span className="material-symbols-outlined mat-icon fw-200">
-                    {" "}
-                    trending_flat{" "}
-                  </span>
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
       </div> */}
 
-      {/* <!-- Testimonial --> */}
-      <Feedback_3 />
-      {/* <!-- Team Core Value --> */}
-      <CoreValue />
-      {/* <!-- Let's Talk --> */}
-      <Letstalk />
-      {/* Footer */}
       <Footer />
     </>
   );

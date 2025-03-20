@@ -298,7 +298,7 @@ const Report_Module = () => {
         </div>
       </div>
 
-      <div className="section bg-base-800">
+      {/* <div className="section bg-base-800">
         <div className="section__gap-bottom">
           <div className="container">
             <div className="row justify-content-center">
@@ -484,15 +484,9 @@ const Report_Module = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
-      {/* <!-- Testimonial --> */}
-      <Feedback_3 />
-      {/* <!-- Team Core Value --> */}
-      <CoreValue />
-      {/* <!-- Let's Talk --> */}
-      <Letstalk />
-      {/* Footer */}
+     
       <Footer />
     </>
   );

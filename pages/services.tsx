@@ -5,6 +5,7 @@ import Navbar from "@/components/NavbarTwo";
 import { useEffect, useRef, useState } from 'react';
 import Footer from "@/components/Footer";
 import Testimonail from "@/components/Testimonial";
+import GetStartedToday from "@/components/GetStartedToday";
 
 const service = () => {
   const [scrolled, setScrolled] = useState(false)
@@ -105,16 +106,7 @@ const service = () => {
                   {" "}
                   Custom software development delivering scalable, secure, and high-performance solutions to enhance efficiency, automate processes, and drive growth with innovative, user-friendly, and future-ready technology.{" "}
                 </p>
-                {/* <Link
-                  href="field-service-management"
-                  className="t-link t-link--base fw-md">
-                  {" "}
-                  More{" "}
-                  <span className="material-symbols-outlined mat-icon fw-200">
-                    {" "}
-                    trending_flat{" "}
-                  </span>
-                </Link> */}
+              
               </div>
             </div>
           </div>
@@ -129,16 +121,7 @@ const service = () => {
                   {" "}
                   Web development services creating responsive, secure, and dynamic websites to enhance user experience, boost engagement, and establish a strong online presence with cutting-edge technology, seamless performance, and scalable solutions.{" "}
                 </p>
-                {/* <Link
-                  href="cloud-solutions-service"
-                  className="t-link t-link--base fw-md">
-                  {" "}
-                  More{" "}
-                  <span className="material-symbols-outlined mat-icon fw-200">
-                    {" "}
-                    trending_flat{" "}
-                  </span>
-                </Link> */}
+              
               </div>
             </div>
           </div>
@@ -153,16 +136,7 @@ const service = () => {
                   {" "}
                   Mobile app development services creating intuitive, feature-rich, and high-performance apps for iOS and Android, ensuring seamless user experience, scalability, and innovation to drive engagement and business growth.{" "}
                 </p>
-                {/* <Link
-                  href="artificial-intelligence-service"
-                  className="t-link t-link--base fw-md">
-                  {" "}
-                  More{" "}
-                  <span className="material-symbols-outlined mat-icon fw-200">
-                    {" "}
-                    trending_flat{" "}
-                  </span>
-                </Link> */}
+               
               </div>
             </div>
           </div>
@@ -178,16 +152,7 @@ const service = () => {
                   Scalable, secure, and high-performance cloud computing services designed to enhance business operations, improve data accessibility, ensure reliability, and drive efficiency with seamless integration and advanced infrastructure management. 
                   {" "}
                 </p>
-                {/* <Link
-                  href="artificial-intelligence-service"
-                  className="t-link t-link--base fw-md">
-                  {" "}
-                  More{" "}
-                  <span className="material-symbols-outlined mat-icon fw-200">
-                    {" "}
-                    trending_flat{" "}
-                  </span>
-                </Link> */}
+            
               </div>
             </div>
           </div>
@@ -202,16 +167,7 @@ const service = () => {
                   {" "}
                   AI & Machine Learning Solutions – Harness the power of smart automation and data-driven insights to optimize operations, improve decision-making, enhance efficiency, and drive innovation for scalable and intelligent business growth. {" "}
                 </p>
-                {/* <Link
-                  href="artificial-intelligence-service"
-                  className="t-link t-link--base fw-md">
-                  {" "}
-                  More{" "}
-                  <span className="material-symbols-outlined mat-icon fw-200">
-                    {" "}
-                    trending_flat{" "}
-                  </span>
-                </Link> */}
+               
               </div>
             </div>
           </div>
@@ -226,16 +182,7 @@ const service = () => {
                   {" "}
                   Providing expert guidance, technical assistance, and strategic solutions to optimize your IT infrastructure, enhance security, improve efficiency, and ensure seamless business operations with cutting-edge technology and proactive support.{" "}
                 </p>
-                {/* <Link
-                  href="artificial-intelligence-service"
-                  className="t-link t-link--base fw-md">
-                  {" "}
-                  More{" "}
-                  <span className="material-symbols-outlined mat-icon fw-200">
-                    {" "}
-                    trending_flat{" "}
-                  </span>
-                </Link> */}
+               
               </div>
             </div>
           </div>
@@ -247,12 +194,7 @@ const service = () => {
           <div className="row justify-content-center">
             <div className="col-md-10 col-xl-8">
               <div className="group group-row flex-wrap justify-content-center align-items-center">
-                {/* <Link
-                  href="services"
-                  className="bttn bttn--base bttn-md bttn-pill fw-md flex-shrink-0">
-                  {" "}
-                  More Services{" "}
-                </Link> */}
+             
                 <Link
                   href="contact-us"
                   className="bttn bttn--stroke-outline bttn-md bttn-pill fw-md flex-shrink-0 align-items-center">
@@ -268,12 +210,8 @@ const service = () => {
       {/* <!-- Service Section  --> */}
 
       {/* <!-- Support Section  --> */}
-      <Technologies />
-      {/* <!-- Pricing Section --> */}
-      {/* <Pricing /> */}
-      {/* <!-- Testimonials  --> */}
-      <Testimonail />
-      {/* Footer */}
+      <GetStartedToday />
+    
       <Footer />
     </>
   );

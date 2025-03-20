@@ -1,10 +1,9 @@
 import Link from "next/link";
-import Technologies from "@/components/Technologies";
-// import Service from "@/components/Service";
 import Navbar from "@/components/NavbarTwo";
 import { useEffect, useRef, useState } from 'react';
 import Footer from "@/components/Footer";
 import Testimonail from "@/components/Testimonial";
+import GetStartedToday from "@/components/GetStartedToday";
 
 const AllPosFeatures = () => {
   const [scrolled, setScrolled] = useState(false)
@@ -189,15 +188,8 @@ const AllPosFeatures = () => {
           </div>  
         </div>
       </section>
-      {/* <!-- Service Section  --> */}
 
-      {/* <!-- Support Section  --> */}
-      <Technologies />
-      {/* <!-- Pricing Section --> */}
-      {/* <Pricing /> */}
-      {/* <!-- Testimonials  --> */}
-      <Testimonail />
-      {/* Footer */}
+      {/* <GetStartedToday /> */}
       <Footer />
     </>
   );

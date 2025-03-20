@@ -5,6 +5,7 @@ import Navbar from "@/components/NavbarTwo";
 import { useEffect, useRef, useState } from 'react';
 import Footer from "@/components/Footer";
 import Testimonail from "@/components/Testimonial";
+import GetStartedToday from "@/components/GetStartedToday";
 
 const AllPosFeatures = () => {
   const [scrolled, setScrolled] = useState(false)
@@ -693,8 +694,7 @@ const AllPosFeatures = () => {
         </div>
       </section>
 
-      <Technologies />
-      <Testimonail />
+      <GetStartedToday />
       <Footer />
     </>
   );
